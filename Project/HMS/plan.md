@@ -4,7 +4,11 @@
 - 链上用户角色的配置与管理
 - 链上节点的配置与管理
 - 链码管理
-## 技术xuan
+## 技术选型
+- 前端
+	- vue
+	- element-ui
+- 后端
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODkxNDU3NzhdfQ==
+eyJoaXN0b3J5IjpbLTYxMjcyMDk0MF19
 -->
