@@ -19,11 +19,11 @@
 -   Space Complexity:  $O(n)$
 
 ### `Approach 3`
-扫描数组，当扫描到下标为$i$的数字$a_i$时，设$a_i=m$，如果$a_i=i$则扫描下一个；如果不是，判断$a_i$是否与$a_m$相等，相等则输出￥
+扫描数组，当扫描到下标为$i$的数字$a_i$时，设$a_i=m$，如果$a_i=i$则扫描下一个；如果$a_i、a_m$，判断$a_i$是否与$a_m$相等。如果$a_i=a_m$，那么$a_i$就是要找的数；如果$a_i=a_m$
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(1)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDg3OTM3NiwxMjg4OTAyNjg0XX0=
+eyJoaXN0b3J5IjpbLTIwMzE4Mzc5MDcsMTI4ODkwMjY4NF19
 -->
