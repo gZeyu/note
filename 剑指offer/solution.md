@@ -29,19 +29,19 @@
 ***
 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
 
-### `Approach 1`
+### `Approach 2`
 对每一行分别进行二分查找
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(nlogn)$
 
-### `Approach 2`
+### `Approach 3`
 从数组右上角出发，若$A_{ij}=Target$，则查找结束；如果$A_{ij} < Target$，剔除数组中$A_{ij}$所在的行；如果$A_{ij} > Target$，剔除数组中$A_{ij}$所在的列；不断上诉过程以缩小查找范围
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ1NTcwLDE1NTAwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbMjY4NDg4NjY4LDE1NTAwNDYwMThdfQ==
 -->
