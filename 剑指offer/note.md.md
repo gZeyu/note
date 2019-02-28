@@ -5,8 +5,10 @@
 ### `Approach 1`
 排序后扫描
 
-What it is a perfect complete tree, it is 2^(h+1) - 1; when the last level has only one element, we have 2^h.
+**Complexity Analysis**
 
+-   Time Complexity: 
+-   Space Complexity:  4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTU5MTk3NV19
+eyJoaXN0b3J5IjpbMjExMDA3MzQ3NF19
 -->
