@@ -19,12 +19,12 @@
 -   Space Complexity:  $O(n)$
 - 
 ### `Approach 3`
-扫描数组，将数字$m$与下标
+扫描数组，jiancha
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(1)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwNTQyNjczLDEyODg5MDI2ODRdfQ==
+eyJoaXN0b3J5IjpbLTk3ODkwNDg5MSwxMjg4OTAyNjg0XX0=
 -->
