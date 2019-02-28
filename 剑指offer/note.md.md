@@ -17,6 +17,14 @@
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(n)$
+- 
+### `Approach 3`
+扫描数组，将数字
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(n)$
+-   Space Complexity:  $O(1)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODkwMjY4NF19
+eyJoaXN0b3J5IjpbLTYzMjg4NDM1MCwxMjg4OTAyNjg0XX0=
 -->
