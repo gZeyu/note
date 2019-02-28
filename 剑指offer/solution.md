@@ -37,11 +37,11 @@
 -   Time Complexity: $O(nlogn)$
 
 ### `Approach 2`
-从矩阵
+从矩阵右上角出发，若$A_{ij}=Target$，则查找结束；如果$A_{ij}Target$
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTc1NTUyMCwxNTUwMDQ2MDE4XX0=
+eyJoaXN0b3J5IjpbMTYxNjMzNDY2NywxNTUwMDQ2MDE4XX0=
 -->
