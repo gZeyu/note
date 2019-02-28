@@ -17,14 +17,14 @@
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(n)$
-- 
+
 ### `Approach 3`
-扫描数组，当扫描到下标为$i$的数字$a_i$时，如果$a_i=i$或$a_i \ne a_$
+扫描数组，当扫描到下标为$i$的数字$a_i$时，设$a_i=m$，如果$a_i=i$则扫描下一个
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(1)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwOTAwMDc0LDEyODg5MDI2ODRdfQ==
+eyJoaXN0b3J5IjpbLTQzNDU3NTQ3MCwxMjg4OTAyNjg0XX0=
 -->
