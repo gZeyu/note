@@ -19,12 +19,12 @@
 -   Space Complexity:  $O(n)$
 - 
 ### `Approach 3`
-扫描数组，当扫描到下标为$i$的数字m时，如果$m=i$则继续扫描；如果不是，则
+扫描数组，当扫描到下标为$i$的数字$a_i$时，如果$a_i=i$或$a_i \ne a_$
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(1)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE5MzkyNywxMjg4OTAyNjg0XX0=
+eyJoaXN0b3J5IjpbNzAwOTAwMDc0LDEyODg5MDI2ODRdfQ==
 -->
