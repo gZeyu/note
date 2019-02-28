@@ -37,11 +37,11 @@
 -   Time Complexity: $O(nlogn)$
 
 ### `Approach 2`
-从数组右上角出发，若$A_{ij}=Target$，则查找结束；如果$A_{ij} < Target$，剔除数组中$A_{ij}$所在的行；如果$A_{ij} > Target$，剔除数组中$A_{ij}$所在的列；
+从数组右上角出发，若$A_{ij}=Target$，则查找结束；如果$A_{ij} < Target$，剔除数组中$A_{ij}$所在的行；如果$A_{ij} > Target$，剔除数组中$A_{ij}$所在的列；不断上诉过程以缩小查找范围
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYzMzk3NDQsMTU1MDA0NjAxOF19
+eyJoaXN0b3J5IjpbLTEwNzQ1NTcwLDE1NTAwNDYwMThdfQ==
 -->
