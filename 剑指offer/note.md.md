@@ -19,16 +19,17 @@
 -   Space Complexity:  $O(n)$
 
 ### `Approach 3`
-扫描数组，当扫描到下标为$i$的数字$a_i$时，设$a_i=m$，如果$a_i=i$则扫描下一个；如果$a_i \ne i$，判断$a_i$是否与$a_m$相等。如果$a_i=a_m$，那么$a_i$就是要找的数；如果$a_i \ne a_m$则1交换$a_i$与$a_m$，继续扫描下一个
+扫描数组，当扫描到下标为$i$的数字$A_i$时，设$A_i=m$，如果$A_i=i$则扫描下一个；如果$A_i \ne i$，判断$A_i$是否与$A_m$相等。如果$A_i=a_m$，那么$A_i$就是要找的数；如果$A_i \ne A_m$则1交换$A_i$与$A_m$，继续扫描下一个
 **Pseudocode**
 ```
 duplicate(a,n)
-for i = 0
+for i = 0 to n-1
+
 ```
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(1)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2ODgxMzk1LDEyODg5MDI2ODRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDYxNzI2MDIsMTI4ODkwMjY4NF19
 -->
