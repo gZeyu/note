@@ -51,17 +51,17 @@
 ***
 请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
 ### `Approach 1`
-先将字符串复制到缓存，然后根据缓存边写回原字符串内存边替换空格
+假如允许申请新的内存，先将字符串复制到缓存，然后根据缓存边写回原字符串内存边替换空格
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 ### `Approach 2`
-先将字符串复制到缓存，然后根据缓存边写回原字符串内存边替换空格
+替换一次空格就往后移动一次字符串
 
 **Complexity Analysis**
 
--   Time Complexity: $O(n)$
+-   Time Complexity: $O(n^2)$
 
 ### `Approach 3`
 先统计字符串中的空格，计算出替换后的字符串结束符'\0'的位置，然后从后向前地替换掉空格
@@ -70,6 +70,6 @@
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTM4NzYxMSwtMjk4NjAyNTg3LDE1NT
-AwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbNDUzMjE5OTE4LC0yOTg2MDI1ODcsMTU1MD
+A0NjAxOF19
 -->
