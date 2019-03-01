@@ -69,7 +69,29 @@
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
+### 4.  从尾到头打印链表
+***
+输入一个链表，按链表值从尾到头的顺序返回一个ArrayList
+### `Approach 1`
+遍历链表，通过修改节点的指针翻转链表，然后再输出（**会修改链表结构**）
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(n)$
+### `Approach 2`
+遍历链表，将节点压入堆栈后输出（**需要额外的数据结构与内存空间**）
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(n)$
+
+### `Approach 3`
+先遍历链表，获取链表长度，然后申请对应长度的数组，再遍历链表，从后向前
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDcyODk1NCwtMjk4NjAyNTg3LDE1NT
-AwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbMjIzMjg5NjQ2LDIxMzQ3Mjg5NTQsLTI5OD
+YwMjU4NywxNTUwMDQ2MDE4XX0=
 -->
