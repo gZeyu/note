@@ -86,12 +86,12 @@
 -   Time Complexity: $O(n)$
 
 ### `Approach 3`
-先遍历链表，获取链表长度，然后申请对应长度的数组，再遍历链表，从后向前
+先遍历链表，获取链表长度。然后申请对应长度的数组，再遍历链表，从后向前将节点值写入数组（**需要额外的数据结构与内存空间**）
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMjg5NjQ2LDIxMzQ3Mjg5NTQsLTI5OD
-YwMjU4NywxNTUwMDQ2MDE4XX0=
+eyJoaXN0b3J5IjpbMTY4NTAwMTQ2NiwyMTM0NzI4OTU0LC0yOT
+g2MDI1ODcsMTU1MDA0NjAxOF19
 -->
