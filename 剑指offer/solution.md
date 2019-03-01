@@ -64,12 +64,12 @@
 -   Time Complexity: $O(n)$
 
 ### `Approach 3`
-先统计字符串中的空格，计算出替换后的字符串$\0$
+先统计字符串中的空格，计算出替换后的字符串结束符'\0'的位置，然后从后向前地替换掉空格
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MTA3OCwtMjk4NjAyNTg3LDE1NTAwND
-YwMThdfQ==
+eyJoaXN0b3J5IjpbMTcyNTM4NzYxMSwtMjk4NjAyNTg3LDE1NT
+AwNDYwMThdfQ==
 -->
