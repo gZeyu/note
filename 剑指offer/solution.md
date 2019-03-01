@@ -51,25 +51,25 @@
 ***
 请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
 ### `Approach 1`
-先将字符串复制到
+先将字符串复制到缓存，然后根据缓存边写回原字符串内存边替换空格
 
 **Complexity Analysis**
 
--   Time Complexity: $O(n^2)$
+-   Time Complexity: $O(n)$
 ### `Approach 2`
-对每一行分别进行二分查找
+先将字符串复制到缓存，然后根据缓存边写回原字符串内存边替换空格
 
 **Complexity Analysis**
 
--   Time Complexity: $O(nlogn)$
+-   Time Complexity: $O(n)$
 
 ### `Approach 3`
-从数组右上角出发，若$A_{ij}=Target$，则查找结束；如果$A_{ij} < Target$，剔除数组中$A_{ij}$所在的行；如果$A_{ij} > Target$，剔除数组中$A_{ij}$所在的列；不断上诉过程以缩小查找范围
+先统计字符串中的空格，计算出替换后的字符串zui
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3Mjc5Mzc5LC0yOTg2MDI1ODcsMTU1MD
+eyJoaXN0b3J5IjpbLTUzMTkyNTkyLC0yOTg2MDI1ODcsMTU1MD
 A0NjAxOF19
 -->
