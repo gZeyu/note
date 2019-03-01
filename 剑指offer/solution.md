@@ -64,12 +64,12 @@
 -   Time Complexity: $O(n)$
 
 ### `Approach 3`
-先统计字符串中的空格，计算出替换后的字符串zui
+先统计字符串中的空格，计算出替换后的字符串$\0$
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTkyNTkyLC0yOTg2MDI1ODcsMTU1MD
-A0NjAxOF19
+eyJoaXN0b3J5IjpbNTk5MTA3OCwtMjk4NjAyNTg3LDE1NTAwND
+YwMThdfQ==
 -->
