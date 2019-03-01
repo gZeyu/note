@@ -47,6 +47,29 @@
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
+### 3.  替换空格
+***
+请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
+### `Approach 1`
+
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(n^2)$
+### `Approach 2`
+对每一行分别进行二分查找
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(nlogn)$
+
+### `Approach 3`
+从数组右上角出发，若$A_{ij}=Target$，则查找结束；如果$A_{ij} < Target$，剔除数组中$A_{ij}$所在的行；如果$A_{ij} > Target$，剔除数组中$A_{ij}$所在的列；不断上诉过程以缩小查找范围
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODYwMjU4NywxNTUwMDQ2MDE4XX0=
+eyJoaXN0b3J5IjpbMTA3NjcyOTIzMywtMjk4NjAyNTg3LDE1NT
+AwNDYwMThdfQ==
 -->
