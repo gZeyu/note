@@ -49,7 +49,7 @@
 -   Time Complexity: $O(n)$
 ### 3.  替换空格
 ***
-请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
+请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy.
 ### `Approach 1`
 假如允许申请新的内存，先将字符串复制到缓存，然后根据缓存边写回原字符串内存边替换空格
 
@@ -70,6 +70,6 @@
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMjE5OTE4LC0yOTg2MDI1ODcsMTU1MD
+eyJoaXN0b3J5IjpbNzMyMDA4MzE0LC0yOTg2MDI1ODcsMTU1MD
 A0NjAxOF19
 -->
