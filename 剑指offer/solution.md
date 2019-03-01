@@ -51,7 +51,7 @@
 ***
 请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
 ### `Approach 1`
-
+若允许
 
 **Complexity Analysis**
 
@@ -70,6 +70,6 @@
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjcyOTIzMywtMjk4NjAyNTg3LDE1NT
-AwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbLTE4MTQ2MDQ5MDEsLTI5ODYwMjU4NywxNT
+UwMDQ2MDE4XX0=
 -->
