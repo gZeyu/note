@@ -98,11 +98,12 @@
 - 前序遍历序列中，第一个数字总是树的根节点，接下来是左子树的节点组成的序列，最后是右边是右子树的节点组成的序列
 - 中序遍历序列中，树的根节点的左边是左子树的节点组成的序列，右边是右子树的节点组成的序列
 
+根据以上两点，我们可以递归地重建二叉树
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY2MDExNzUsMTY4NTAwMTQ2NiwyMT
+eyJoaXN0b3J5IjpbLTE0NDM4NTMxMzIsMTY4NTAwMTQ2NiwyMT
 M0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAxOF19
 -->
