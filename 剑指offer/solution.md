@@ -97,13 +97,14 @@
 ### `Approach 1`
 - 前序遍历序列中，第一个数字总是树的根节点，接下来是左子树的节点组成的序列，最后是右边是右子树的节点组成的序列
 - 中序遍历序列中，树的根节点的左边是左子树的节点组成的序列，右边是右子树的节点组成的序列
+- 前序遍历序列与中序遍历序列长度一样
 
-根据以上两点，可以先从前序遍历序列获取根节点的值，扫描中序遍历序列获取根节点的位置，从而jisuan
+根据以上两点，可以先从前序遍历序列获取根节点的值，然后扫描中序遍历序列获取根节点的位置，计算左右子树的节点数量，从而得到左右子树的前序遍历序列和
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY5MTI5MDMsMTY4NTAwMTQ2NiwyMT
+eyJoaXN0b3J5IjpbLTE5MDAxMjg2NTYsMTY4NTAwMTQ2NiwyMT
 M0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAxOF19
 -->
