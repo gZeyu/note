@@ -91,7 +91,7 @@
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$  
-### 5.  从尾到头打印链表
+### 5.  重建二叉树
 ***
 输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回。
 ### `Approach 1`
@@ -102,6 +102,6 @@
 -   Time Complexity: $O(n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Mzg3MTE2LDE2ODUwMDE0NjYsMjEzND
-cyODk1NCwtMjk4NjAyNTg3LDE1NTAwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbLTE3NzY5NDYyMTYsMTY4NTAwMTQ2NiwyMT
+M0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAxOF19
 -->
