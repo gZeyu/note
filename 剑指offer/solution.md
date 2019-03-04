@@ -99,12 +99,12 @@
 - 中序遍历序列中，树的根节点的左边是左子树的节点组成的序列，右边是右子树的节点组成的序列
 - 前序遍历序列与中序遍历序列长度一样
 
-根据以上两点，可以先从前序遍历序列获取根节点的值，然后扫描中序遍历序列获取根节点的位置，计算左右子树的节点数量，从而得到左右子树的前序遍历序列和中序遍历序列
+可以先从前序遍历序列获取根节点的值，然后扫描中序遍历序列获取根节点的位置，计算左右子树的节点数量，从而得到左右子树的前序遍历序列和中序遍历序列
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk0OTI0NjcsMTY4NTAwMTQ2NiwyMT
-M0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAxOF19
+eyJoaXN0b3J5IjpbODg0MzAyMTI0LDE2ODUwMDE0NjYsMjEzND
+cyODk1NCwtMjk4NjAyNTg3LDE1NTAwNDYwMThdfQ==
 -->
