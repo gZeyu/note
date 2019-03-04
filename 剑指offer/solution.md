@@ -98,12 +98,12 @@
 - 前序遍历序列中，第一个数字总是树的根节点，接下来是左子树的节点组成的序列，最后是右边是右子树的节点组成的序列
 - 中序遍历序列中，树的根节点的左边是左子树的节点组成的序列，右边是右子树的节点组成的序列
 
-根据以上两点，可以先从
+根据以上两点，可以先从前序遍历序列获取根节点的值，扫描中序遍历序列获取根节点的位置，从而jisuan
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDkwMzIzMiwxNjg1MDAxNDY2LDIxMz
-Q3Mjg5NTQsLTI5ODYwMjU4NywxNTUwMDQ2MDE4XX0=
+eyJoaXN0b3J5IjpbLTIwMzY5MTI5MDMsMTY4NTAwMTQ2NiwyMT
+M0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAxOF19
 -->
