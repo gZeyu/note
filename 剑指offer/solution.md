@@ -116,10 +116,10 @@
 ### `Approach 2`
 
 **Complexity Analysis**
-
+当需要往队列尾部插入元素a时，直接插入stack1；当需要往队列头部删除元素时，若satck2为空，则先将stack1的元素逐个弹出，同时逐个压入stack2，直至stack1为空，此时，stack2的栈顶为需要删除的元素。若satck2不为空，则直接弹出stack2栈顶元素。
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjY5MjA1MSwxNTY4MzEzMDU4LDY0NT
-I5MjAxMSwxNjg1MDAxNDY2LDIxMzQ3Mjg5NTQsLTI5ODYwMjU4
-NywxNTUwMDQ2MDE4XX0=
+eyJoaXN0b3J5IjpbLTk5OTY0MzQ1MCwxNDkyNjkyMDUxLDE1Nj
+gzMTMwNTgsNjQ1MjkyMDExLDE2ODUwMDE0NjYsMjEzNDcyODk1
+NCwtMjk4NjAyNTg3LDE1NTAwNDYwMThdfQ==
 -->
