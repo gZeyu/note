@@ -129,9 +129,25 @@
 **Complexity Analysis**
 当需要往队列尾部插入元素a时，直接插入stack1；当需要往队列头部删除元素时，若satck2为空，则先将stack1的元素逐个弹出，同时逐个压入stack2，直至stack1为空，此时，stack2的栈顶为需要删除的元素。若satck2不为空，则直接弹出stack2栈顶元素。
 -   Time Complexity: $O(n)$
+### 10.  斐波那契数列
+***
+大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项（从0开始，第0项为0）。n<=39
+### `Approach 1`
+递归
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(2^n)$
+
+### `Approach 2`
+
+**Complexity Analysis**
+动态规划
+-   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3Nzk5ODcyLC0xMDA3NTkwODc3LDExMz
-kwNzgzNCwzMDI4MzI3MTQsLTk5OTY0MzQ1MCwxNDkyNjkyMDUx
-LDE1NjgzMTMwNTgsNjQ1MjkyMDExLDE2ODUwMDE0NjYsMjEzND
-cyODk1NCwtMjk4NjAyNTg3LDE1NTAwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbLTUwOTEyMDMzMyw2NDc3OTk4NzIsLTEwMD
+c1OTA4NzcsMTEzOTA3ODM0LDMwMjgzMjcxNCwtOTk5NjQzNDUw
+LDE0OTI2OTIwNTEsMTU2ODMxMzA1OCw2NDUyOTIwMTEsMTY4NT
+AwMTQ2NiwyMTM0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAx
+OF19
 -->
