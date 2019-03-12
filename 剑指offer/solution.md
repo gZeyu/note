@@ -108,6 +108,9 @@
 - 若该节点有右子树，那么下一个节点为它的右子树的最左子节点
 - 若该节点无右子树且该节点为其父节点的左子节点，那么下一个节点为它的父节点
 - 若该节点无右子树且该节点为其父节点的右子节点，那么顺着该节点往上遍历父节点，直到找到一个节点i，节点i是它的父节点的左子节点，则节点i的父节点为下一个节点；若直到树的根节点都没有找到符合条件的节点，则说明下一个节点不存在
+
+>  第二点与第三点可以合并
+>  
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
@@ -127,8 +130,8 @@
 当需要往队列尾部插入元素a时，直接插入stack1；当需要往队列头部删除元素时，若satck2为空，则先将stack1的元素逐个弹出，同时逐个压入stack2，直至stack1为空，此时，stack2的栈顶为需要删除的元素。若satck2不为空，则直接弹出stack2栈顶元素。
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc1OTA4NzcsMTEzOTA3ODM0LDMwMj
-gzMjcxNCwtOTk5NjQzNDUwLDE0OTI2OTIwNTEsMTU2ODMxMzA1
-OCw2NDUyOTIwMTEsMTY4NTAwMTQ2NiwyMTM0NzI4OTU0LC0yOT
-g2MDI1ODcsMTU1MDA0NjAxOF19
+eyJoaXN0b3J5IjpbLTkzNjk0NTU2MiwtMTAwNzU5MDg3NywxMT
+M5MDc4MzQsMzAyODMyNzE0LC05OTk2NDM0NTAsMTQ5MjY5MjA1
+MSwxNTY4MzEzMDU4LDY0NTI5MjAxMSwxNjg1MDAxNDY2LDIxMz
+Q3Mjg5NTQsLTI5ODYwMjU4NywxNTUwMDQ2MDE4XX0=
 -->
