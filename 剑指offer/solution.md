@@ -107,6 +107,7 @@
 ***
 用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
 ### `Approach 1`
+使用stack1作为在队列尾部插入节点，
 
 **Complexity Analysis**
 
@@ -118,7 +119,7 @@
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzM2NzQ5NywxNTY4MzEzMDU4LDY0NT
-I5MjAxMSwxNjg1MDAxNDY2LDIxMzQ3Mjg5NTQsLTI5ODYwMjU4
-NywxNTUwMDQ2MDE4XX0=
+eyJoaXN0b3J5IjpbLTE1NDY5ODMxNTMsMTU2ODMxMzA1OCw2ND
+UyOTIwMTEsMTY4NTAwMTQ2NiwyMTM0NzI4OTU0LC0yOTg2MDI1
+ODcsMTU1MDA0NjAxOF19
 -->
