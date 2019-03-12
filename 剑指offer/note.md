@@ -15,7 +15,10 @@
 - action
 - result
 #### 问题
+- 遇到的问题、如何解决
+- 学到什么
+- 如何解决团队冲突
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzcxMTE4OSw0NDQ0MTU0LC0xNjI0Nz
+eyJoaXN0b3J5IjpbLTkwMzAwMTcwMCw0NDQ0MTU0LC0xNjI0Nz
 A4NzY4LDE4ODg1MDEwMzldfQ==
 -->
