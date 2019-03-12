@@ -107,7 +107,7 @@
 ***
 用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
 ### `Approach 1`
-当需要往队列尾部插入元素a时，直接插入stack1；当需要往队列头部删除元素时，先将stack1的元素逐个弹出，同时逐个压入stack2，直至stack1为空，此时，stack2的栈顶为需要删除的元素，将stack2栈顶元素弹出删除，然后将
+当需要往队列尾部插入元素a时，直接插入stack1；当需要往队列头部删除元素时，先将stack1的元素逐个弹出，同时逐个压入stack2，直至stack1为空，此时，stack2的栈顶为需要删除的元素，将stack2栈顶元素弹出删除，然后将stack2的元素逐个弹出，同事逐个压入stack1，直至stack2为空。
 
 **Complexity Analysis**
 
@@ -119,7 +119,7 @@
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDY0OTMwMiwxNTY4MzEzMDU4LDY0NT
+eyJoaXN0b3J5IjpbMTQ5MjY5MjA1MSwxNTY4MzEzMDU4LDY0NT
 I5MjAxMSwxNjg1MDAxNDY2LDIxMzQ3Mjg5NTQsLTI5ODYwMjU4
 NywxNTUwMDQ2MDE4XX0=
 -->
