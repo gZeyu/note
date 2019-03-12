@@ -6,6 +6,7 @@
 - 求最优解 $\Rightarrow$动态规划 $\Rightarrow$递归或者dp数组加循环
 - 子问题存在特殊选择 $\Rightarrow$贪婪算法
 - 位运算
+- 面试时没要求，尽可能用递归
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODUwMTAzOV19
+eyJoaXN0b3J5IjpbLTE2MjQ3MDg3NjgsMTg4ODUwMTAzOV19
 -->
