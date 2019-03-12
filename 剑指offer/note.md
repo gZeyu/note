@@ -7,6 +7,14 @@
 - 子问题存在特殊选择 $\Rightarrow$贪婪算法
 - 位运算
 - 面试时没要求，尽可能用递归
+
+### 介绍项目
+- situation
+- task
+- action
+- result
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ3MDg3NjgsMTg4ODUwMTAzOV19
+eyJoaXN0b3J5IjpbNDQ0NDE1NCwtMTYyNDcwODc2OCwxODg4NT
+AxMDM5XX0=
 -->
