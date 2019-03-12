@@ -1,4 +1,4 @@
-### 1.  数组中重复的数字
+### 3.  数组中重复的数字
 ***
 **在一个长度为n的数组里的所有数字都在0到n-1的范围内**。 数组中某些数字是重复的，但不知道有几个数字是重复的。也不知道每个数字重复几次。**请找出数组中任意一个重复的数字**。 例如，如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的输出是第一个重复的数字
 
@@ -25,7 +25,7 @@
 
 -   Time Complexity: $O(n)$
 -   Space Complexity:  $O(1)$
-### 2.  二维数组中的查找
+### 4.  二维数组中的查找
 ***
 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
 ### `Approach 1`
@@ -47,7 +47,7 @@
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
-### 3.  替换空格
+### 5.  替换空格
 ***
 请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy.
 ### `Approach 1`
@@ -69,7 +69,7 @@
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
-### 4.  从尾到头打印链表
+### 6.  从尾到头打印链表
 ***
 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList
 ### `Approach 1`
@@ -91,7 +91,7 @@
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$  
-### 5.  重建二叉树
+### 7.  重建二叉树
 ***
 输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回。
 ### `Approach 1`
@@ -103,8 +103,16 @@
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
+### 8.  用两个栈实现队列
+***
+用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
+### `Approach 1`
 
+**Complexity Analysis**
+
+-   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MjkyMDExLDE2ODUwMDE0NjYsMjEzND
-cyODk1NCwtMjk4NjAyNTg3LDE1NTAwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbMTU2ODMxMzA1OCw2NDUyOTIwMTEsMTY4NT
+AwMTQ2NiwyMTM0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAx
+OF19
 -->
