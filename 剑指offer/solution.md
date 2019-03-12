@@ -112,13 +112,13 @@
 
 -   Time Complexity: $O(n)$
 
-### `Approach 1`
+### `Approach 2`
 
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjI4NjUzNiwxNTY4MzEzMDU4LDY0NT
+eyJoaXN0b3J5IjpbMTU3NzM2NzQ5NywxNTY4MzEzMDU4LDY0NT
 I5MjAxMSwxNjg1MDAxNDY2LDIxMzQ3Mjg5NTQsLTI5ODYwMjU4
 NywxNTUwMDQ2MDE4XX0=
 -->
