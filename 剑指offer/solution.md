@@ -105,11 +105,9 @@
 ***
 给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。
 ### `Approach 1`
-- 前序遍历序列中，第一个数字总是树的根节点，接下来是左子树的节点组成的序列，最后是右边是右子树的节点组成的序列
-- 中序遍历序列中，树的根节点的左边是左子树的节点组成的序列，右边是右子树的节点组成的序列
-- 前序遍历序列与中序遍历序列长度一样
-
-可以先从前序遍历序列获取根节点的值，然后扫描中序遍历序列获取根节点的位置，计算左右子树的节点数量，从而得到左右子树的前序遍历序列和中序遍历序列。故可以使用递归的方法重建二叉树。
+- 若该节点有右子树，那么下一个节点为它的右子树的最左子节点
+- 若该节点无右子树且该节点为其父节点的左子节点，那么下一个节点为它的父节点
+- 若该节点无右子树且该节点为其父节点的右子节点，那么顺着该节点往上遍历父节点，直到找到一个节点i，节点i是它的父节点的左子节点，j
 **Complexity Analysis**
 
 -   Time Complexity: $O(n)$
@@ -129,7 +127,8 @@
 当需要往队列尾部插入元素a时，直接插入stack1；当需要往队列头部删除元素时，若satck2为空，则先将stack1的元素逐个弹出，同时逐个压入stack2，直至stack1为空，此时，stack2的栈顶为需要删除的元素。若satck2不为空，则直接弹出stack2栈顶元素。
 -   Time Complexity: $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyODMyNzE0LC05OTk2NDM0NTAsMTQ5Mj
-Y5MjA1MSwxNTY4MzEzMDU4LDY0NTI5MjAxMSwxNjg1MDAxNDY2
-LDIxMzQ3Mjg5NTQsLTI5ODYwMjU4NywxNTUwMDQ2MDE4XX0=
+eyJoaXN0b3J5IjpbLTE0NTIxOTk5NjcsMzAyODMyNzE0LC05OT
+k2NDM0NTAsMTQ5MjY5MjA1MSwxNTY4MzEzMDU4LDY0NTI5MjAx
+MSwxNjg1MDAxNDY2LDIxMzQ3Mjg5NTQsLTI5ODYwMjU4NywxNT
+UwMDQ2MDE4XX0=
 -->
