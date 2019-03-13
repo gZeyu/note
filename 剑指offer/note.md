@@ -18,7 +18,8 @@
 - 遇到的问题、如何解决
 - 学到什么
 - 如何解决团队冲突
+- 防止溢出 **mid =left+(right-left)/2**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzAwMTcwMCw0NDQ0MTU0LC0xNjI0Nz
-A4NzY4LDE4ODg1MDEwMzldfQ==
+eyJoaXN0b3J5IjpbLTg0Mzg2NzExMCwtOTAzMDAxNzAwLDQ0ND
+QxNTQsLTE2MjQ3MDg3NjgsMTg4ODUwMTAzOV19
 -->
