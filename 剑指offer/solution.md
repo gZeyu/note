@@ -148,13 +148,13 @@
 ***
 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。 输入一个非减排序的数组的一个旋转，输出旋转数组的最小元素。 例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。 NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 ### `Approach 1`
-用两个指针分别指向前一个递增数组的第一个元素和
+用两个指针分别指向前一个递增数组的第一个元素和后一个递增数组的最后一个元素，使用二分查找不断缩小寻找范围，直到指针
 **Complexity Analysis**
 
 -   Time Complexity: $O(2^n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc1MjA1NTEsLTUwOTEyMDMzMyw2ND
+eyJoaXN0b3J5IjpbLTIxMDA3NzgzNTEsLTUwOTEyMDMzMyw2ND
 c3OTk4NzIsLTEwMDc1OTA4NzcsMTEzOTA3ODM0LDMwMjgzMjcx
 NCwtOTk5NjQzNDUwLDE0OTI2OTIwNTEsMTU2ODMxMzA1OCw2ND
 UyOTIwMTEsMTY4NTAwMTQ2NiwyMTM0NzI4OTU0LC0yOTg2MDI1
