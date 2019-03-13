@@ -19,12 +19,12 @@
 - 学到什么
 - 如何解决团队冲突
 - 防止溢出 **mid =left+(right-left)/2**
--   向上取整处罚  
+-   向上取整除法 
 ```
     int ans = (N - 1) / M + 1;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDAzMTk3NCwtODQzODY3MTEwLC05MD
+eyJoaXN0b3J5IjpbLTcxNjA2MzAwMywtODQzODY3MTEwLC05MD
 MwMDE3MDAsNDQ0NDE1NCwtMTYyNDcwODc2OCwxODg4NTAxMDM5
 XX0=
 -->
