@@ -20,11 +20,11 @@
 - 如何解决团队冲突
 - 防止溢出 **mid =left+(right-left)/2**
 -   向上取整处罚  
-
-    int ans = (N-1)/M +1;
-
+```
+    int ans = (N - 1)/M + 1;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODU1ODc4LC04NDM4NjcxMTAsLTkwMz
-AwMTcwMCw0NDQ0MTU0LC0xNjI0NzA4NzY4LDE4ODg1MDEwMzld
-fQ==
+eyJoaXN0b3J5IjpbMTk3MjE4NjU5NiwtODQzODY3MTEwLC05MD
+MwMDE3MDAsNDQ0NDE1NCwtMTYyNDcwODc2OCwxODg4NTAxMDM5
+XX0=
 -->
