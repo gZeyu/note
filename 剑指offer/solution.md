@@ -151,12 +151,12 @@
 用两个指针分别指向前一个递增数组的第一个元素和后一个递增数组的最后一个元素，使用二分查找不断缩小寻找范围，直到两个指针所指元素相临。此时第二个指针指向的是目标元素。
 **Complexity Analysis**
 
--   Time Complexity: $O(log(n))$
+-   Time Complexity: $O(logn)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMzk1Njc2LC0xMDg3NzU4ODIxLC01MD
-kxMjAzMzMsNjQ3Nzk5ODcyLC0xMDA3NTkwODc3LDExMzkwNzgz
-NCwzMDI4MzI3MTQsLTk5OTY0MzQ1MCwxNDkyNjkyMDUxLDE1Nj
-gzMTMwNTgsNjQ1MjkyMDExLDE2ODUwMDE0NjYsMjEzNDcyODk1
-NCwtMjk4NjAyNTg3LDE1NTAwNDYwMThdfQ==
+eyJoaXN0b3J5IjpbMTk4NDk3MzU1MywtMTA4Nzc1ODgyMSwtNT
+A5MTIwMzMzLDY0Nzc5OTg3MiwtMTAwNzU5MDg3NywxMTM5MDc4
+MzQsMzAyODMyNzE0LC05OTk2NDM0NTAsMTQ5MjY5MjA1MSwxNT
+Y4MzEzMDU4LDY0NTI5MjAxMSwxNjg1MDAxNDY2LDIxMzQ3Mjg5
+NTQsLTI5ODYwMjU4NywxNTUwMDQ2MDE4XX0=
 -->
