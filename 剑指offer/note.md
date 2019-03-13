@@ -21,10 +21,10 @@
 - 防止溢出 **mid =left+(right-left)/2**
 -   向上取整处罚  
 ```
-    int ans = (N - 1)/M + 1;
+    int ans = (N - 1) / M + 1;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjE4NjU5NiwtODQzODY3MTEwLC05MD
+eyJoaXN0b3J5IjpbMTc2NDAzMTk3NCwtODQzODY3MTEwLC05MD
 MwMDE3MDAsNDQ0NDE1NCwtMTYyNDcwODc2OCwxODg4NTAxMDM5
 XX0=
 -->
