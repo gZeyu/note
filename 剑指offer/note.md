@@ -19,7 +19,13 @@
 - 学到什么
 - 如何解决团队冲突
 - 防止溢出 **mid =left+(right-left)/2**
+- 这里我们用<>表示向上取整,[]表示向下取整，那么怎么来表示这个值呢？
+
+我们可以证明：
+
+<N/M>=[(N-1)/M]+1 (0<M<=N,M,N∈Z)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Mzg2NzExMCwtOTAzMDAxNzAwLDQ0ND
-QxNTQsLTE2MjQ3MDg3NjgsMTg4ODUwMTAzOV19
+eyJoaXN0b3J5IjpbMjMzOTM0OTY0LC04NDM4NjcxMTAsLTkwMz
+AwMTcwMCw0NDQ0MTU0LC0xNjI0NzA4NzY4LDE4ODg1MDEwMzld
+fQ==
 -->
