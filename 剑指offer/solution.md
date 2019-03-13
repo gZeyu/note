@@ -144,10 +144,20 @@
 **Complexity Analysis**
 动态规划
 -   Time Complexity: $O(n)$
+### 11.旋转数组的最小数字
+***
+把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。 输入一个非减排序的数组的一个旋转，输出旋转数组的最小元素。 例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。 NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
+### `Approach 1`
+递归
+
+**Complexity Analysis**
+
+-   Time Complexity: $O(2^n)$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTEyMDMzMyw2NDc3OTk4NzIsLTEwMD
-c1OTA4NzcsMTEzOTA3ODM0LDMwMjgzMjcxNCwtOTk5NjQzNDUw
-LDE0OTI2OTIwNTEsMTU2ODMxMzA1OCw2NDUyOTIwMTEsMTY4NT
-AwMTQ2NiwyMTM0NzI4OTU0LC0yOTg2MDI1ODcsMTU1MDA0NjAx
-OF19
+eyJoaXN0b3J5IjpbLTI3ODgxNjgzOSwtNTA5MTIwMzMzLDY0Nz
+c5OTg3MiwtMTAwNzU5MDg3NywxMTM5MDc4MzQsMzAyODMyNzE0
+LC05OTk2NDM0NTAsMTQ5MjY5MjA1MSwxNTY4MzEzMDU4LDY0NT
+I5MjAxMSwxNjg1MDAxNDY2LDIxMzQ3Mjg5NTQsLTI5ODYwMjU4
+NywxNTUwMDQ2MDE4XX0=
 -->
