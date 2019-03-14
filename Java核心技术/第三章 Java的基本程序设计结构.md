@@ -56,10 +56,10 @@ object.method(parameters)
 |--|--|--|
 | int | 4 | -2147483648~2147483647 |
 | short | 2 | -32768~32717 |
-| long | 8 | -2^ ~ 2^63-1 |
+| long | 8 | -2^63 ~ 2^63-1 |
 | byte | 1 | -128~127 |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTQxNzczLC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
 -->
