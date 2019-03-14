@@ -94,8 +94,19 @@ object.method(parameters)
 ## 3.4 变量
 - 变量名必须是一个以字母开头并由字母或数字构成的序列，字母为任何表示字母的 **Unicode** 字符
 - 使用 **Character** 类的 **isJavaldentifierStart** 和 **isJavaldentifierPart** 方法判断 **Unicode** 字符是否属于 **Java** 中的 “ 字母 ” 
+- 不要在代码中使用 **$**，会与 **Java** 编译器或其他工具冲突
+### 3.4.1 变量初始化
+- 提倡逐一声明每一个变量
+- 变量声明尽可能靠近变量第一次使用的地方
+- **Java** 不区分变量的声明与定义
+### 3.4.2 常量
+- 常量名习惯上大写
+- **const** 是 **Java** 的关键字，但目前并没有被使用
+## 3.5 运算符
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNj
-U0MTU5MjEwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2
-ODA2MiwtODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTIwMzQxMTE4NTcsLTE0ODYyNTExOSwtMT
+kwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3MjE4ODk1LC05OTMy
+MjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MDA4LC0xMjUxNTQyOT
+A4XX0=
 -->
