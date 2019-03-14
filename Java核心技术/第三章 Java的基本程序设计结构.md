@@ -144,11 +144,12 @@ a += (b += c);
 ### 3.6.2 拼接
 - 当将一个字符串与一个非字符串的值进行拼接，后者被转换成字符串
 ### 3.6.3 不可变字符串
-- **String** 类对象被cheng
+- **String** 类对象被称为不可变字符串
+- 不可变字符串的优点：编译器可以让字符串共享
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMzIzOTkzLC0yMDg5NDcxMjk0LC0xMz
-g2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQxMTE4NTcsLTE0ODYy
-NTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3MjE4OD
-k1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MDA4LC0x
-MjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbMTkyODk0NjA0MSwtMjA4OTQ3MTI5NCwtMT
+M4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0MTExODU3LC0xNDg2
+MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMTE4NzIxOD
+g5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOCwt
+MTI1MTU0MjkwOF19
 -->
