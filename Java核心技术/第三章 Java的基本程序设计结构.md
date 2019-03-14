@@ -54,9 +54,9 @@ object.method(parameters)
 ### 3.3.1 整型
 | 类型 | 字节数 | 取值范围 | 默认值 |
 |--|--|--|--|
-| **int** | 4 | -2147483648~2147483647(超过20亿) | **0** |
+| **int** | 4 | -2^31 ~ 2^31-1，- 2 147 483 648 - 2 147 483 647(超过20亿) | **0** |
 | **short** | 2 | -32768~32717 | **0** |
-| **long** | 8 | -2^63 ~ 2^63-1，- 9 223 372 036 854 775 B08 - 9 223 372 036 854 775 807 | **0** |
+| **long** | 8 | -2^63 ~ 2^63-1，- 9 223 372 036 854 775 808 - 9 223 372 036 854 775 807 | **0** |
 | **byte** | 1 | -128~127 | **0L** |
 - 长整型数值有个后缀**L**或**l**(如**40000000000L**)
 - 十六进制有个前缀**0x**或**0X**(如**0xabcd**)
@@ -70,6 +70,6 @@ object.method(parameters)
 | **float** | 4 | 3.402 823 47 E +38 F ( 有效位数为 6 ~ 7 位 ) | **0** |
 | **double** | 8 | -32768~32717 | **0** |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzNzU0NTUzLDE4NTE2NjgwNjIsLTg2Mj
-M4OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbMTE5NjY0NTc2MywxODUxNjY4MDYyLC04Nj
+IzODkwMDgsLTEyNTE1NDI5MDhdfQ==
 -->
