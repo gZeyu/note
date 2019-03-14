@@ -184,10 +184,10 @@ int cp = greeting.codePointAt(index);
 ### 3.8.2 条件语句
 ### 3.8.3  循环
 ### 3.8.4 确定循环
-
+### 3.8.5 多重选择： **switch** 语句
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NDA4MjM4LC00NDI5Njk2MzMsLTE2Nz
+eyJoaXN0b3J5IjpbMjc1NzczNzEyLC00NDI5Njk2MzMsLTE2Nz
 Y3NTA2MDAsNzE5NjA1ODU2LC0xNjQ3MjkwODM3LC0xODM4NTc0
 NjcxLDE5Mjg5NDYwNDEsLTIwODk0NzEyOTQsLTEzODYzMjUyMz
 csMjEwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0x
