@@ -122,12 +122,13 @@ x += 3.5;
 x = (int)(x + 3.5)
 ```
 ### 3.5.5 自增与自减运算符
-- 
+- 自增与自减运算符的操作数不能是数值，故**4++** 不是合法的语句
 ### 3.5.6 关系和 **boolean** 运算符
+
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTc1NzAyNCwyMTA1MTIwMzU5LC0yMD
+eyJoaXN0b3J5IjpbMjAzNDkyMzY1NiwyMTA1MTIwMzU5LC0yMD
 M0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1
 OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNj
 IsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
