@@ -16,7 +16,7 @@
 	- 类名大写
 	- 驼峰命名法
 - 源代码文件名必须与公共类名一致，且以**.java**作为扩展名
-
+- **java**大小写敏感
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwNTkwMDA0XX0=
+eyJoaXN0b3J5IjpbLTI4MTY5NTYyOF19
 -->
