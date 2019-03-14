@@ -19,14 +19,16 @@
 - **Java**大小写敏感
 - **Java**虚拟机默认从指定类的**main**方法开始执行
 - 类的源文件必须包含**main**方法
-- main方法
-```
+``` java
 public class ClassName {
-	public
+	public static void main(String[] args) {
+		program statements
+	}
 }
 ```
+- main方法
 	- **Java SE 1.4**及以后**main**方法必须是**public**
 	- 必须是静态
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDI0OTY2MzRdfQ==
+eyJoaXN0b3J5IjpbLTE5OTQ1Mzg2MzBdfQ==
 -->
