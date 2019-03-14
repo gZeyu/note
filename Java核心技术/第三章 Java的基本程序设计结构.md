@@ -155,6 +155,7 @@ if (str != null && str.length() != 0) // 正确
 if (str.length() != 0 && str != null) // str为null时会出现错误
 ```
 ### 3.6.6 码点与代码单元
+- 大多数常用 **Unicode** 字符使用一个代码单元表示，辅助字符使用一对代码单元表示
 ``` java
 String greeting = "Hello ";  
 int n = greeting.length(); // 获取代码单元长度  
@@ -164,7 +165,7 @@ int index = greeting.offsetByCodePoints(0, i);  // 获取第i个码点
 int cp = greeting.codePointAt(index);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAwMzg5MDcsMTkyODk0NjA0MSwtMj
+eyJoaXN0b3J5IjpbLTExNDczMDUzMTEsMTkyODk0NjA0MSwtMj
 A4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0
 MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OT
 IxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIs
