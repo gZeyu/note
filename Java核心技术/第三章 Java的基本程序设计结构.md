@@ -20,6 +20,7 @@
 - **Java**虚拟机默认从指定类的**main**方法开始执行
 - 类的源文件必须包含**main**方法
 - **Java SE 1.4**及以后**main**方法必须是**public**
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODA4NDM3OV19
+eyJoaXN0b3J5IjpbMTg2NTY0Mzg3Ml19
 -->
