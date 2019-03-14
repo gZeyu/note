@@ -166,8 +166,10 @@ char c = greeting.charAt(i); // 获取第i个代码单元
 int index = greeting.offsetByCodePoints(0, i);  // 获取第i个码点  
 int cp = greeting.codePointAt(index);
 ```
+### 3.6.7 **String API**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzA0ODA3OSwtMTgzODU3NDY3MSwxOT
+eyJoaXN0b3J5IjpbMTEyOTk5ODQ3MSwtMTgzODU3NDY3MSwxOT
 I4OTQ2MDQxLC0yMDg5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUx
 MjAzNTksLTIwMzQxMTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mz
 c4NSwtNjU0MTU5MjEwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcs
