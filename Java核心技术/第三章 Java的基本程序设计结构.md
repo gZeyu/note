@@ -103,10 +103,10 @@ object.method(parameters)
 - 常量名习惯上大写
 - **const** 是 **Java** 的关键字，但目前并没有被使用
 ## 3.5 运算符
-- 整数被
+- 整数被0除会得到异常；浮点数被0除会得到无穷大或 **NaN**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTAxMTkyNzQsLTIwMzQxMTE4NTcsLT
-E0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3
-MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MD
-A4LC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTEyNDg4OTE4LC0yMDM0MTExODU3LC0xND
+g2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMTE4NzIx
+ODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOC
+wtMTI1MTU0MjkwOF19
 -->
