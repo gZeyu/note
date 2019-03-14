@@ -76,9 +76,9 @@ object.method(parameters)
 	- 负无穷大：用一个负数除以0将得到一个负无穷大，通过Double或Float的NEGATIVE_INFINITY表示、
 	- 非数：0.0除以0.0或对一个负数开放将得到一个非数，通过Double或Float的NaN表示
 - 所有非数值都被**Java**认为不相等，判断非数值可以使用**Double.isNaN 或 Float.isNaN**方法
-
+### 3.3.3 char 类型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzQzODk0NSwtMTE4NzIxODg5NSwtOT
-kzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOCwtMTI1MTU0
-MjkwOF19
+eyJoaXN0b3J5IjpbNjE3MjA1NDAzLC0xMTg3MjE4ODk1LC05OT
+MyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MDA4LC0xMjUxNTQy
+OTA4XX0=
 -->
