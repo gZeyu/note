@@ -149,15 +149,15 @@ a += (b += c);
 ### 3.6.4 检测字符串是否相等
 - 不要使用 **==** 运算符检测字符串是否相等
 ### 3.6.5 空串与 **Null** 串
-- 检查一个字符串既不是空串也不是 **Null**
+- 检查一个字符串既不是空串也不是 **null**
 ``` java
 if (str != null && str.length() != 0) // 正确
 if (str.length() != 0 && str != null) // str为null时会出现错误
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3Mjg0NDUyLDE5Mjg5NDYwNDEsLTIwOD
-k0NzEyOTQsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAzNDEx
-MTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMT
-AsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04
-NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbMTk0NDkxNzk1NiwxOTI4OTQ2MDQxLC0yMD
+g5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQx
+MTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5Mj
+EwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2Miwt
+ODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
 -->
