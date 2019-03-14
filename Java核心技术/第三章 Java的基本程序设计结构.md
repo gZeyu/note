@@ -88,9 +88,9 @@ object.method(parameters)
 // Look inside c:/users
 ```
 ### 3.3.4 Unicode 和 char 类型
-
+- 强烈建议不要在程序中
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzU1OTA0MCwtNjU0MTU5MjEwLC0xMT
+eyJoaXN0b3J5IjpbMTczNDQ3MjA1NCwtNjU0MTU5MjEwLC0xMT
 g3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5
 MDA4LC0xMjUxNTQyOTA4XX0=
 -->
