@@ -141,11 +141,12 @@ a += (b += c);
 - **Java** 字符串就是 **Unicode** 字符序列
 - **Java** 没有内置的字符串类型，而是在标准 **Java** 类库中提供了一个预定义类 **String**
 ### 3.6.1 子串
-
+### 3.6.2 拼接
+当将一个字符串与一个非字符串的值进行pinji
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODk0NzEyOTQsLTEzODYzMjUyMzcsMj
-EwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2
-NzgzNzg1LC02NTQxNTkyMTAsLTExODcyMTg4OTUsLTk5MzIyOT
-AxNywxODUxNjY4MDYyLC04NjIzODkwMDgsLTEyNTE1NDI5MDhd
-fQ==
+eyJoaXN0b3J5IjpbMTUxNjQ3Mjk1MSwtMjA4OTQ3MTI5NCwtMT
+M4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0MTExODU3LC0xNDg2
+MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMTE4NzIxOD
+g5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOCwt
+MTI1MTU0MjkwOF19
 -->
