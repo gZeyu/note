@@ -185,11 +185,11 @@ int cp = greeting.codePointAt(index);
 ### 3.8.3  循环
 ### 3.8.4 确定循环
 ### 3.8.5 多重选择： **switch** 语句
-- **-Xlint:fallthrough**这个编译选项可以检查代码中的 **switch** 语句是否缺少 **break** 
+- **-Xlint:fallthrough**这个编译选项可以检查代码中的 **switch** 分之是否缺少 **break** 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzOTcxMTE4LC00NDI5Njk2MzMsLTE2Nz
+eyJoaXN0b3J5IjpbOTQwMjExODY3LC00NDI5Njk2MzMsLTE2Nz
 Y3NTA2MDAsNzE5NjA1ODU2LC0xNjQ3MjkwODM3LC0xODM4NTc0
 NjcxLDE5Mjg5NDYwNDEsLTIwODk0NzEyOTQsLTEzODYzMjUyMz
 csMjEwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0x
