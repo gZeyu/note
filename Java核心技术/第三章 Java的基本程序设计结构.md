@@ -124,12 +124,12 @@ x = (int)(x + 3.5)
 ### 3.5.5 自增与自减运算符
 - 自增与自减运算符的操作数不能是数值，故**4++** 不是合法的语句
 ### 3.5.6 关系和 **boolean** 运算符
-
-- 
+- 短路
+### 3.5.7 位运算符
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDkyMzY1NiwyMTA1MTIwMzU5LC0yMD
-M0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1
-OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNj
-IsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTEyMzI5NTU2MjIsMjEwNTEyMDM1OSwtMj
+AzNDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQx
+NTkyMTAsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MD
+YyLC04NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
 -->
