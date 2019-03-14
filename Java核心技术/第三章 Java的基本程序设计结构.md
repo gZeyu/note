@@ -110,10 +110,12 @@ object.method(parameters)
 ### 3.5.2 数值类型之间的转换
 - **int** 和 **long** 转换为 **float** 和 **double** 可能有精度损失
 ### 3.5.3 强制类型转换
-- 
+- 想达到布尔类型转数值类型的效果，可以使用条件表达式：
+``` java
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTEyMDM1OSwtMjAzNDExMTg1NywtMT
-Q4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMTAsLTExODcy
-MTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04NjIzODkwMD
-gsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbLTg3MTc3Mjg5OCwyMTA1MTIwMzU5LC0yMD
+M0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1
+OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNj
+IsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
 -->
