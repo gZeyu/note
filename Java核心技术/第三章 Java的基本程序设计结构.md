@@ -188,14 +188,16 @@ int cp = greeting.codePointAt(index);
 - **-Xlint:fallthrough**这个编译选项可以检查代码中的 **switch** 分之是否缺少 **break** 
 - **case** 标签可以是：
 	- 类型为 **char** 、**byte**、**short**或者**int**的常量表达式
+	- 枚举常量
+	- 从 **Java SE 7** 起， 还可以是字符串字面量
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI2NTEzNzksOTQwMjExODY3LC00ND
-I5Njk2MzMsLTE2NzY3NTA2MDAsNzE5NjA1ODU2LC0xNjQ3Mjkw
-ODM3LC0xODM4NTc0NjcxLDE5Mjg5NDYwNDEsLTIwODk0NzEyOT
-QsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAzNDExMTg1Nywt
-MTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMTAsLTExOD
-cyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04NjIzODkw
-MDgsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbNzgzNjM3ODc0LDk0MDIxMTg2NywtNDQyOT
+Y5NjMzLC0xNjc2NzUwNjAwLDcxOTYwNTg1NiwtMTY0NzI5MDgz
+NywtMTgzODU3NDY3MSwxOTI4OTQ2MDQxLC0yMDg5NDcxMjk0LC
+0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQxMTE4NTcsLTE0
+ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3Mj
+E4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MDA4
+LC0xMjUxNTQyOTA4XX0=
 -->
