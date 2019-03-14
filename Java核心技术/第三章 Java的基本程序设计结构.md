@@ -45,7 +45,8 @@ object.method(parameters)
   * /
 ```
 - /**/注释不能嵌套
+## 3.3 数据类型
+- 一共8种基本类型(**primitive type**)，4种zhengxing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI0Nzc0NDgsLTEyNTE1NDI5MDhdfQ
-==
+eyJoaXN0b3J5IjpbMjAyNDM2Njc2MCwtMTI1MTU0MjkwOF19
 -->
