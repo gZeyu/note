@@ -80,13 +80,15 @@ object.method(parameters)
 - **Unicode**转义序列会在解析代码之前被处理
 ``` java
 /* 下面两个字符串等价 */
- "\u0022+\u0022"
+ "\u0022+\u0022" 
  ""+""
 /* \u00A0会被替换成换行符，从而导致语法错误 */
 // \u00A0 is a new line
+/* /u后面未跟着4个十六进制数 */
+// Look inside c:/users
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzM2MzA5LC02NTQxNTkyMTAsLTExOD
-cyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04NjIzODkw
-MDgsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbMTQ5NDg4NzY3MiwtNjU0MTU5MjEwLC0xMT
+g3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5
+MDA4LC0xMjUxNTQyOTA4XX0=
 -->
