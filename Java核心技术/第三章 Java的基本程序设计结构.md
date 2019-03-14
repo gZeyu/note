@@ -157,17 +157,17 @@ if (str.length() != 0 && str != null) // str为null时会出现错误
 ### 3.6.6 码点与代码单元
 ``` java
 String greeting = "Hello " ;  
-int n = greeting.length() ; // is 5 .  
-int cpCount = greeting.codePointCount ( 0 , greeting.length() ) ;  
-char first = greeting.charAt(0) ; // first is ' H '  
-char last = greeting.charAt (4) ; // last is ’ o ’  
-int index = greeting . offsetByCodePoints ( 0 , i ) ;  
-int cp = greeting . codePointAt ( index ) ;
+int n = greeting.length(); // 获取代码单元
+int cpCount = greeting.codePointCount(0, greeting.length());  
+char first = greeting.charAt(0);  
+char last = greeting.charAt(4);  
+int index = greeting.offsetByCodePoints(0, i);  
+int cp = greeting.codePointAt(index);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU2MDI5MDAsMTkyODk0NjA0MSwtMj
-A4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0
-MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OT
-IxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIs
-LTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbMTA2MDc5MzYxMSwxOTI4OTQ2MDQxLC0yMD
+g5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQx
+MTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5Mj
+EwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2Miwt
+ODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
 -->
