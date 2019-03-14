@@ -104,9 +104,12 @@ object.method(parameters)
 - **const** 是 **Java** 的关键字，但目前并没有被使用
 ## 3.5 运算符
 - 整数被0除会得到异常；浮点数被0除会得到无穷大或 **NaN**
+- 使用 **strictfp** 关键字标记的方法必须使用严格的浮点计算。
+### 3.5.1 数学h
+- 常量名习惯上大写
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDg4OTE4LC0yMDM0MTExODU3LC0xND
-g2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMTE4NzIx
-ODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOC
-wtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTE2MDQ1MzgwODksLTIwMzQxMTE4NTcsLT
+E0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3
+MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MD
+A4LC0xMjUxNTQyOTA4XX0=
 -->
