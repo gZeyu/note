@@ -46,7 +46,11 @@ object.method(parameters)
 ```
 - /**/注释不能嵌套
 ## 3.3 数据类型
-- 一共8种基本类型(**primitive type**)，4种zhengxing
+- 一共8种基本类型(**primitive type**)
+- 4种整型
+- 2种浮点类型
+- 1种用于表示Unicode编码的字符类型char
+- 1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDM2Njc2MCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbMTc5NDc3MjkwMSwtMTI1MTU0MjkwOF19
 -->
