@@ -34,8 +34,14 @@ public class ClassName {
 ``` java
 object.method(parameters)
 ```
-- 
+- 三种标记注释，第三种可以用来
+``` java
+// program statements
+/* program statements */
+//**
+  * program statements
+  * /
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njk3ODE3NzYsLTEyNTE1NDI5MDhdfQ
-==
+eyJoaXN0b3J5IjpbMTY1OTM4MDQxMywtMTI1MTU0MjkwOF19
 -->
