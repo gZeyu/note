@@ -77,9 +77,10 @@ object.method(parameters)
 	- 非数：0.0除以0.0或对一个负数开放将得到一个非数，通过Double或Float的NaN表示
 - 所有非数值都被**Java**认为不相等，判断非数值可以使用**Double.isNaN 或 Float.isNaN**方法
 ### 3.3.3 char 类型
-- 
+- **Unicode**转义序列会在解析代码之前被处理
+	- **"\**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDE1OTIxMCwtMTE4NzIxODg5NSwtOT
-kzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOCwtMTI1MTU0
-MjkwOF19
+eyJoaXN0b3J5IjpbLTg2OTg1NDYyMSwtNjU0MTU5MjEwLC0xMT
+g3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5
+MDA4LC0xMjUxNTQyOTA4XX0=
 -->
