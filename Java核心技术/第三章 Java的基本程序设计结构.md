@@ -156,18 +156,17 @@ if (str.length() != 0 && str != null) // str为null时会出现错误
 ```
 ### 3.6.6 码点与代码单元
 ``` java
-String greeting = "Hello " ;  
-int n = greeting.length(); // 获取代码单元长度
-int cpCount = greeting.codePointCount(0, greeting.length()); // 获取码点数量
-char first = greeting.charAt(0);  
-char last = greeting.charAt(4);  
-int index = greeting.offsetByCodePoints(0, i);  
+String greeting = "Hello ";  
+int n = greeting.length(); // 获取代码单元长度  
+int cpCount = greeting.codePointCount(0, greeting.length()); // 获取码点数量  
+char c = greeting.charAt(i); // 获取第i个代码单元  
+int index = greeting.offsetByCodePoints(0, i);  // 获取第i个码点  
 int cp = greeting.codePointAt(index);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODY1NDY4MCwxOTI4OTQ2MDQxLC0yMD
-g5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQx
-MTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5Mj
-EwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2Miwt
-ODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTE1OTAwMzg5MDcsMTkyODk0NjA0MSwtMj
+A4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0
+MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OT
+IxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIs
+LTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
 -->
