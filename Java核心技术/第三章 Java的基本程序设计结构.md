@@ -54,14 +54,14 @@ object.method(parameters)
 ### 3.3.1 整型
 | 类型 | 字节数 | 取值范围 | 默认值 |
 |--|--|--|--|
-| int | 4 | -2147483648~2147483647(超过20亿) | 0 |
-| short | 2 | -32768~32717 | 0 |
-| long | 8 | -2^63 ~ 2^63-1 | 0 |
-| byte | 1 | -128~127 | 0L |
-- 长整型
+| **int** | 4 | -2147483648~2147483647(超过20亿) | 0 |
+| **short** | 2 | -32768~32717 | 0 |
+| **long** | 8 | -2^63 ~ 2^63-1 | 0 |
+| **byte** | 1 | -128~127 | 0L |
+- 长整型数值有个后缀L或l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzcxOTc0MywtODYyMzg5MDA4LC0xMj
-UxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTExOTMxMTk3OTgsLTg2MjM4OTAwOCwtMT
+I1MTU0MjkwOF19
 -->
