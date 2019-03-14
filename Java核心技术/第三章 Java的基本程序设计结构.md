@@ -107,10 +107,11 @@ object.method(parameters)
 - 使用 **strictfp** 关键字标记的方法必须使用严格的浮点计算。
 ### 3.5.1 数学函数与常量
 - **StrictMath** 类可以确保在所有平台上得到相同的计算结果，**Math** 类不能
-- 
+### 3.5.2 数值类型之间的转换
+- **int** 和 **long** 转换为 **float** 和 **double** 会
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyNzUzNjczLC0yMDM0MTExODU3LC0xND
-g2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMTE4NzIx
-ODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOC
-wtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTg0NDQzOTg0NywtMjAzNDExMTg1NywtMT
+Q4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMTAsLTExODcy
+MTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04NjIzODkwMD
+gsLTEyNTE1NDI5MDhdfQ==
 -->
