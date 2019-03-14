@@ -173,12 +173,12 @@ int cp = greeting.codePointAt(index);
 - 使用 **StringBuilder** 类提高字符串拼接效率
 ## 3.7 输入输出
 ### 3.7.1 读取输入
-- **Scanner** 类不适用于从控制台读取密码，**Console** 类shiyong
+- 由于输入是可见的，故**Scanner** 类不适用于从控制台读取密码，**Console** 类适用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM5NTk5NDYsLTE2NDcyOTA4MzcsLT
-E4Mzg1NzQ2NzEsMTkyODk0NjA0MSwtMjA4OTQ3MTI5NCwtMTM4
-NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0MTExODU3LC0xNDg2Mj
-UxMTksLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMTE4NzIxODg5
-NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOCwtMT
-I1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbNzE5NjA1ODU2LC0xNjQ3MjkwODM3LC0xOD
+M4NTc0NjcxLDE5Mjg5NDYwNDEsLTIwODk0NzEyOTQsLTEzODYz
+MjUyMzcsMjEwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MT
+E5LC0xOTA2NzgzNzg1LC02NTQxNTkyMTAsLTExODcyMTg4OTUs
+LTk5MzIyOTAxNywxODUxNjY4MDYyLC04NjIzODkwMDgsLTEyNT
+E1NDI5MDhdfQ==
 -->
