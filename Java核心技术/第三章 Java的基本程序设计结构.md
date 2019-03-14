@@ -152,12 +152,12 @@ a += (b += c);
 - 检查一个字符串既不是空串也不是 **Null**
 ``` java
 if (str != null && str.length() != 0) // 正确
-if (str.length() != 0 && str != null) // 错误
+if (str.length() != 0 && str != null) // str为null时会出现错误
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgxMzcxMjYsMTkyODk0NjA0MSwtMj
-A4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0
-MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OT
-IxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIs
-LTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbODI3Mjg0NDUyLDE5Mjg5NDYwNDEsLTIwOD
+k0NzEyOTQsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAzNDEx
+MTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMT
+AsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04
+NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
 -->
