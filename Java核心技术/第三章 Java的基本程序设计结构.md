@@ -88,9 +88,11 @@ object.method(parameters)
 // Look inside c:/users
 ```
 ### 3.3.4 Unicode 和 char 类型
-- 强烈建议不要在程序中
+- 强烈建议不要在程序中使用**char**类型
+### 3.3.5 **boolean 类型**
+- 整型值与布尔值不能进行相互转换
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDQ3MjA1NCwtNjU0MTU5MjEwLC0xMT
-g3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5
-MDA4LC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMT
+E4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4
+OTAwOCwtMTI1MTU0MjkwOF19
 -->
