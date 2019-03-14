@@ -69,7 +69,8 @@ object.method(parameters)
 |--|--|--|--|
 | **float** | 4 | ±3.402 823 47 E +38 F (有效位数为6 ~ 7位) | **0** |
 | **double** | 8 | ± 1.797 693 134 862 315 70 E + 308(有效位数为15位) | **0** |
+- **float**数值有个后缀**F**或**f**(如**40000000000L**)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzIyOTAxNywxODUxNjY4MDYyLC04Nj
-IzODkwMDgsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE1ODUxMDY2OTgsLTk5MzIyOTAxNywxOD
+UxNjY4MDYyLC04NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
 -->
