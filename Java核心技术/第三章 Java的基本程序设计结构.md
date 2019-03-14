@@ -157,15 +157,15 @@ if (str.length() != 0 && str != null) // str为null时会出现错误
 ### 3.6.6 码点与代码单元
 ``` java
 String greeting = "Hello " ;  
-int n = greeting.length(); // 获取代码单元
-int cpCount = greeting.codePointCount(0, greeting.length());  
+int n = greeting.length(); // 获取代码单元长度
+int cpCount = greeting.codePointCount(0, greeting.length()); // 获取码点数量
 char first = greeting.charAt(0);  
 char last = greeting.charAt(4);  
 int index = greeting.offsetByCodePoints(0, i);  
 int cp = greeting.codePointAt(index);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDc5MzYxMSwxOTI4OTQ2MDQxLC0yMD
+eyJoaXN0b3J5IjpbLTI0ODY1NDY4MCwxOTI4OTQ2MDQxLC0yMD
 g5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQx
 MTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5Mj
 EwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2Miwt
