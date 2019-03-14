@@ -87,9 +87,10 @@ object.method(parameters)
 /* 3. /u后面未跟着4个十六进制数 */
 // Look inside c:/users
 ```
+### 3.3.4 Unicode 和 char 类型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE0OTQ2NTgsLTY1NDE1OTIxMCwtMT
-E4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4
-OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTU0NzU1OTA0MCwtNjU0MTU5MjEwLC0xMT
+g3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5
+MDA4LC0xMjUxNTQyOTA4XX0=
 -->
