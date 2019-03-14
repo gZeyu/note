@@ -192,9 +192,10 @@ int cp = greeting.codePointAt(index);
 	- 从 **Java SE 7** 起， 还可以是字符串字面量
 ### 3.8.6 中断控制流程语句
 - **Java** 提供带标签的 **break** 语句
+- **break** 只能跳出语句块，不能跳入语句块
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDYwNTc2NSw5NDAyMTE4NjcsLTQ0Mj
+eyJoaXN0b3J5IjpbMTM5NTg1ODQwNSw5NDAyMTE4NjcsLTQ0Mj
 k2OTYzMywtMTY3Njc1MDYwMCw3MTk2MDU4NTYsLTE2NDcyOTA4
 MzcsLTE4Mzg1NzQ2NzEsMTkyODk0NjA0MSwtMjA4OTQ3MTI5NC
 wtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0MTExODU3LC0x
