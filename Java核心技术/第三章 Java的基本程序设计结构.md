@@ -195,14 +195,15 @@ int cp = greeting.codePointAt(index);
 - **break** 只能跳出语句块，不能跳入语句块
 - **Java** 还提供带标签的 **continue** 语句
 ## 3.9 大数值
-- **java.math** 提供 ** BigInteger** 和 **BigDecimal** 类
+- **java.math** 提供 ** BigInteger** 和 **BigDecimal** 类，以处理任意精度的整数运算和浮点数运算
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIxNzI1OTgsMTM5NTg1ODQwNSw5ND
-AyMTE4NjcsLTQ0Mjk2OTYzMywtMTY3Njc1MDYwMCw3MTk2MDU4
-NTYsLTE2NDcyOTA4MzcsLTE4Mzg1NzQ2NzEsMTkyODk0NjA0MS
-wtMjA4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0y
-MDM0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1ND
-E1OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2Njgw
-NjIsLTg2MjM4OTAwOF19
+eyJoaXN0b3J5IjpbMTI2ODE4NzM3NywxMzk1ODU4NDA1LDk0MD
+IxMTg2NywtNDQyOTY5NjMzLC0xNjc2NzUwNjAwLDcxOTYwNTg1
+NiwtMTY0NzI5MDgzNywtMTgzODU3NDY3MSwxOTI4OTQ2MDQxLC
+0yMDg5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIw
+MzQxMTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MT
+U5MjEwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2
+MiwtODYyMzg5MDA4XX0=
 -->
