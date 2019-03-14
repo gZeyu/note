@@ -34,7 +34,9 @@ public class ClassName {
 ``` java
 object.method(parameters)
 ```
-- 三种标记注释，第三种可以用来
+## 3.2 注释
+- 注释不会编译到可执行文件中
+- 三种标记注释，第三种可以用来自动生成文档
 ``` java
 // program statements
 /* program statements */
@@ -42,6 +44,8 @@ object.method(parameters)
   * program statements
   * /
 ```
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTM4MDQxMywtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTExNDMxNDgyOTksLTEyNTE1NDI5MDhdfQ
+==
 -->
