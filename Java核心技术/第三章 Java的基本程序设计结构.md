@@ -103,10 +103,10 @@ object.method(parameters)
 - 常量名习惯上大写
 - **const** 是 **Java** 的关键字，但目前并没有被使用
 ## 3.5 运算符
-- 
+- 整数被
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQxMTE4NTcsLTE0ODYyNTExOSwtMT
-kwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3MjE4ODk1LC05OTMy
-MjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MDA4LC0xMjUxNTQyOT
-A4XX0=
+eyJoaXN0b3J5IjpbLTE3NTAxMTkyNzQsLTIwMzQxMTE4NTcsLT
+E0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3
+MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MD
+A4LC0xMjUxNTQyOTA4XX0=
 -->
