@@ -47,10 +47,13 @@ object.method(parameters)
 - /**/注释不能嵌套
 ## 3.3 数据类型
 - 一共8种基本类型(**primitive type**)
-- 4种整型
-- 2种浮点类型
-- 1种用于表示**Unicode**编码的字符类型**char**
-- 1种表示布尔值的**boolean**类型
+	- 4种整型
+	- 2种浮点类型
+	- 1种用于表示**Unicode**编码的字符类型**char**
+	- 1种表示布尔值的**boolean**类型
+### 3.3.1 整型
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTM4NTEsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbLTcyODg3NTMwLC0xMjUxNTQyOTA4XX0=
 -->
