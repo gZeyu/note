@@ -44,7 +44,7 @@ object.method(parameters)
   * program statements
   * /
 ```
-- **/**/**注释不能嵌套
+- ** \\\*\*\\ **注释不能嵌套
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjI2NTU5MiwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbNzkzMjQ2MTA0LC0xMjUxNTQyOTA4XX0=
 -->
