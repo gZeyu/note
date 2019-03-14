@@ -129,9 +129,14 @@ x = (int)(x + 3.5)
 - **>>>** 会使用0填充高位，而 **>>** 使用符号位填充高位
 - 不存在 **<<<**
 ### 3.5.8 括号与优先级
-
+- 注意右结合运算符
+``` java
+// 两者等价
+a += b += c;
+a += (b += c);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQzMjU2OTAsMjEwNTEyMDM1OSwtMj
+eyJoaXN0b3J5IjpbLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMj
 AzNDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQx
 NTkyMTAsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MD
 YyLC04NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
