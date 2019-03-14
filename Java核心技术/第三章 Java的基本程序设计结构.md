@@ -151,12 +151,13 @@ a += (b += c);
 ### 3.6.5 空串与 **Null** 串
 - 检查一个字符串既不是空串也不是 **Null**
 ``` java
-if (str != null && str.length() != 0)
+if (str != null && str.length() != 0) // 正确
+if (str.length() != 0 && str != null) // 错误
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjcyODI4MSwxOTI4OTQ2MDQxLC0yMD
-g5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQx
-MTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5Mj
-EwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2Miwt
-ODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTE1MzgxMzcxMjYsMTkyODk0NjA0MSwtMj
+A4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0
+MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OT
+IxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIs
+LTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
 -->
