@@ -17,6 +17,8 @@
 	- 驼峰命名法
 - 源代码文件名必须与公共类名一致，且以**.java**作为扩展名
 - **Java**大小写敏感
+- **Java**虚拟机默认从指定类的**main**方法开始执行
+- 类的源文件必须包含**main**方法
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTMxMzk3Ml19
+eyJoaXN0b3J5IjpbLTE4NDU0NTg1NDFdfQ==
 -->
