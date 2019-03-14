@@ -185,15 +185,15 @@ int cp = greeting.codePointAt(index);
 ### 3.8.3  循环
 ### 3.8.4 确定循环
 ### 3.8.5 多重选择： **switch** 语句
-- **-Xlint:fallthrough**这个编译选项可以检查 **switch** 语句shif缺少 **break** 
+- **-Xlint:fallthrough**这个编译选项可以检查代码中的 **switch** 语句是否缺少 **break** 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAwNzI3NiwtNDQyOTY5NjMzLC0xNj
-c2NzUwNjAwLDcxOTYwNTg1NiwtMTY0NzI5MDgzNywtMTgzODU3
-NDY3MSwxOTI4OTQ2MDQxLC0yMDg5NDcxMjk0LC0xMzg2MzI1Mj
-M3LDIxMDUxMjAzNTksLTIwMzQxMTE4NTcsLTE0ODYyNTExOSwt
-MTkwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3MjE4ODk1LC05OT
-MyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MDA4LC0xMjUxNTQy
-OTA4XX0=
+eyJoaXN0b3J5IjpbNjQzOTcxMTE4LC00NDI5Njk2MzMsLTE2Nz
+Y3NTA2MDAsNzE5NjA1ODU2LC0xNjQ3MjkwODM3LC0xODM4NTc0
+NjcxLDE5Mjg5NDYwNDEsLTIwODk0NzEyOTQsLTEzODYzMjUyMz
+csMjEwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0x
+OTA2NzgzNzg1LC02NTQxNTkyMTAsLTExODcyMTg4OTUsLTk5Mz
+IyOTAxNywxODUxNjY4MDYyLC04NjIzODkwMDgsLTEyNTE1NDI5
+MDhdfQ==
 -->
