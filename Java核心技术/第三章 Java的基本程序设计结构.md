@@ -203,9 +203,12 @@ int cp = greeting.codePointAt(index);
 	- **boolean** 数组，所有元素被初始化为 **false**
 	- 对象数组，所有元素被初始化为 **null**
 ### 3.10.1 **for each** 循环
-
+- 语句格式
+``` java
+for (variable:collection) statement
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMTQwNTc5LDEzOTU4NTg0MDUsOTQwMj
+eyJoaXN0b3J5IjpbODMyNjQ0MzUwLDEzOTU4NTg0MDUsOTQwMj
 ExODY3LC00NDI5Njk2MzMsLTE2NzY3NTA2MDAsNzE5NjA1ODU2
 LC0xNjQ3MjkwODM3LC0xODM4NTc0NjcxLDE5Mjg5NDYwNDEsLT
 IwODk0NzEyOTQsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAz
