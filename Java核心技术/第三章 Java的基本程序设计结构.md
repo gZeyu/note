@@ -68,8 +68,8 @@ object.method(parameters)
 | 类型 | 字节数 | 取值范围 | 默认值 |
 |--|--|--|--|
 | **float** | 4 | ±3.402 823 47 E +38 F (有效位数为6 ~ 7位) | **0** |
-| **double** | 8 | ± 1.797 693 134 862 315 70 E + 308( 有效位数为15位) | **0** |
+| **double** | 8 | ± 1.797 693 134 862 315 70 E + 308(有效位数为15位) | **0** |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTExMDczOSwxODUxNjY4MDYyLC04Nj
+eyJoaXN0b3J5IjpbLTk5MzIyOTAxNywxODUxNjY4MDYyLC04Nj
 IzODkwMDgsLTEyNTE1NDI5MDhdfQ==
 -->
