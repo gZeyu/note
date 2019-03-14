@@ -54,12 +54,12 @@ object.method(parameters)
 ### 3.3.1 整型
 | 类型 | 字节数 | 取值范围 |
 |--|--|--|
-| int | 4 |  |
-| short | 2 |  |
-| long | 8 |  |
-| byte | 1 | -128 ~ 127 |
+| int | 4 | -2147483648~2147483647 |
+| short | 2 | -32768~32717 |
+| long | 8 | -2^ ~ 2^63-1 |
+| byte | 1 | -128~127 |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyNzU5NjA4LC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbMTE4MTQxNzczLC0xMjUxNTQyOTA4XX0=
 -->
