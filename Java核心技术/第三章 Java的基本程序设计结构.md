@@ -91,8 +91,10 @@ object.method(parameters)
 - 强烈建议不要在程序中使用**char**类型
 ### 3.3.5 **boolean 类型**
 - 整型值与布尔值不能进行相互转换
+## 3.4 变量
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY3ODM3ODUsLTY1NDE1OTIxMCwtMT
-E4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4
-OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTEzNTk2Nzk2NDksLTE5MDY3ODM3ODUsLT
+Y1NDE1OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2
+NjgwNjIsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
 -->
