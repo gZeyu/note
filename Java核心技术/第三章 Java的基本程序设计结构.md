@@ -28,8 +28,8 @@ public class ClassName {
 ```
 - main方法
 	- **Java SE 1.4**及以后**main**方法必须是**public**
-	- 必须是静态(static)
-	- 无返回值。如果main方法正常退出，那么java应用程序退出代码为0
+	- 必须是静态(**static**)
+	- 无返回值。如果**main**方法正常退出，那么**Java**应用程序退出代码为0。可调用**System.exit**终止程序返回其他代码
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3OTcwNTI3XX0=
+eyJoaXN0b3J5IjpbLTEyNTE1NDI5MDhdfQ==
 -->
