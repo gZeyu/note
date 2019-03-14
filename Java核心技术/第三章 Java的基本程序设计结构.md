@@ -201,9 +201,10 @@ int cp = greeting.codePointAt(index);
 - 创建数组时，数组元素都被初始化为该类型默认值
 	- 数字数组，所有元素被初始化为0
 	- **boolean** 数组，所有元素被初始化为 **false**
+	- 对象数组，所有元素被初始化为 **null**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTg3NzE2NywxMzk1ODU4NDA1LDk0MD
+eyJoaXN0b3J5IjpbMjEzNTQwMzY3NiwxMzk1ODU4NDA1LDk0MD
 IxMTg2NywtNDQyOTY5NjMzLC0xNjc2NzUwNjAwLDcxOTYwNTg1
 NiwtMTY0NzI5MDgzNywtMTgzODU3NDY3MSwxOTI4OTQ2MDQxLC
 0yMDg5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIw
