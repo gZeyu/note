@@ -61,8 +61,9 @@ object.method(parameters)
 - 长整型数值有个后缀**L**或**l**(如**40000000000L**)
 - 十六进制有个前缀**0x**或**0X**(如**0xabcd**)
 - 八进制有个前缀**0**(如**010**)
+- Java7开始，二进制有个前缀**0b**或**0B**(如**ob1001**)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjEzMTIwMSwtODYyMzg5MDA4LC0xMj
+eyJoaXN0b3J5IjpbMTIxNTQ0MDk2MSwtODYyMzg5MDA4LC0xMj
 UxNTQyOTA4XX0=
 -->
