@@ -156,20 +156,18 @@ if (str.length() != 0 && str != null) // str为null时会出现错误
 ```
 ### 3.6.6 码点与代码单元
 ``` java
-String greeting = "Hello " ;
-int n = greeting.length ; // is 5 .
-int cpCount = greeting codePointCount ( 0 , greeting lengthQ ) ;
-char first = greeting charAt（O ) ; // first is ' H '
-char last = greeting charAt (4) ; // last is ’ o ’
-.
-要想得到第 i 个码点 , 应该使用下列语句
-int index = greeting . offsetByCodePoints ( 0 , i ) ;
+String greeting = "Hello " ;  
+int n = greeting.length() ; // is 5 .  
+int cpCount = greeting.codePointCount ( 0 , greeting.length() ) ;  
+char first = greeting.charAt(0) ; // first is ' H '  
+char last = greeting.charAt (4) ; // last is ’ o ’  
+int index = greeting . offsetByCodePoints ( 0 , i ) ;  
 int cp = greeting . codePointAt ( index ) ;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTA3ODU0LDE5Mjg5NDYwNDEsLTIwOD
-k0NzEyOTQsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAzNDEx
-MTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMT
-AsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04
-NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE5OTU2MDI5MDAsMTkyODk0NjA0MSwtMj
+A4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0
+MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OT
+IxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIs
+LTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
 -->
