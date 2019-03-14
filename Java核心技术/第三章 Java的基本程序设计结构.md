@@ -139,9 +139,11 @@ a += (b += c);
 - 枚举类型的变量只能存储这个类型声明给定的枚举值或 **null** 值
 ## 3.6 字符串
 - **Java** 字符串就是 **Unicode** 字符序列
-- **strong text**
+- **Java** 没有内置的字符串类型，而是在标准 **Java** 类库中提供了一个预定义类 **String**
+### 3.6.1 子串
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjE4NTUxNTAsLTEzODYzMjUyMzcsMj
+eyJoaXN0b3J5IjpbLTIwODk0NzEyOTQsLTEzODYzMjUyMzcsMj
 EwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2
 NzgzNzg1LC02NTQxNTkyMTAsLTExODcyMTg4OTUsLTk5MzIyOT
 AxNywxODUxNjY4MDYyLC04NjIzODkwMDgsLTEyNTE1NDI5MDhd
