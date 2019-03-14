@@ -175,9 +175,10 @@ int cp = greeting.codePointAt(index);
 ### 3.7.1 读取输入
 - 由于输入是可见的，故**Scanner** 类不适用于从控制台读取密码，**Console** 类适用
 ### 3.7.2 格式化输出
-
+- 可以使用 **s** 转换符格式化任意的对象
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTIxMjM4MDEsNzE5NjA1ODU2LC0xNj
+eyJoaXN0b3J5IjpbLTE2NzY3NTA2MDAsNzE5NjA1ODU2LC0xNj
 Q3MjkwODM3LC0xODM4NTc0NjcxLDE5Mjg5NDYwNDEsLTIwODk0
 NzEyOTQsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAzNDExMT
 g1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMTAs
