@@ -15,7 +15,8 @@
 - 标准命名规范：
 	- 类名大写
 	- 驼峰命名法
+- 源代码文件名必须与公共类名一致，且以**.java**作为扩展名
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI3NTQ5MjJdfQ==
+eyJoaXN0b3J5IjpbNTYwNTkwMDA0XX0=
 -->
