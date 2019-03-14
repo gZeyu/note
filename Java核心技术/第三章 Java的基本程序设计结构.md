@@ -198,14 +198,16 @@ int cp = greeting.codePointAt(index);
 - **java.math** 提供 ** BigInteger** 和 **BigDecimal** 类，以处理任意精度的整数运算和浮点数运算
 ## 3.10 数组
 - 数组声明后，需要 **new** 关键字来初始化
-- 创建数组时，数组元素都被初始化为g
+- 创建数组时，数组元素都被初始化为该类型默认值
+	- 数字数组，所有元素被初始化为0
+	- **boolean** 数组，所有元素被初始化为 **false**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwODcxMjgzLDEzOTU4NTg0MDUsOTQwMj
-ExODY3LC00NDI5Njk2MzMsLTE2NzY3NTA2MDAsNzE5NjA1ODU2
-LC0xNjQ3MjkwODM3LC0xODM4NTc0NjcxLDE5Mjg5NDYwNDEsLT
-IwODk0NzEyOTQsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAz
-NDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNT
-kyMTAsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYy
-LC04NjIzODkwMDhdfQ==
+eyJoaXN0b3J5IjpbLTM1MTg3NzE2NywxMzk1ODU4NDA1LDk0MD
+IxMTg2NywtNDQyOTY5NjMzLC0xNjc2NzUwNjAwLDcxOTYwNTg1
+NiwtMTY0NzI5MDgzNywtMTgzODU3NDY3MSwxOTI4OTQ2MDQxLC
+0yMDg5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIw
+MzQxMTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MT
+U5MjEwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2
+MiwtODYyMzg5MDA4XX0=
 -->
