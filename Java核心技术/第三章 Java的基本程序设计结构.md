@@ -147,11 +147,13 @@ a += (b += c);
 - **String** 类对象被称为不可变字符串
 - 不可变字符串的优点：编译器可以让字符串共享
 ### 3.6.4 检测字符串是否相等
-- 不要使用 **==** 运算符检测字符串是否相
+- 不要使用 **==** 运算符检测字符串是否相等
+### 3.6.5 空串与 **Null** 串
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Nzk5OTA5LDE5Mjg5NDYwNDEsLTIwOD
-k0NzEyOTQsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAzNDEx
-MTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMT
-AsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04
-NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbMTU4OTQ3MTY1MiwxOTI4OTQ2MDQxLC0yMD
+g5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQx
+MTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5Mj
+EwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2Miwt
+ODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
 -->
