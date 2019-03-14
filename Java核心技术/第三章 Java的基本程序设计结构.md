@@ -155,7 +155,9 @@ if (str != null && str.length() != 0) // 正确
 if (str.length() != 0 && str != null) // str为null时会出现错误
 ```
 ### 3.6.6 码点与代码单元
-- 大多数常用 **Unicode** 字符使用一个代码单元表示，辅助字符使用一对代码单元表示
+- 码点是指一个编码表中的某个字符对应的代码值
+- **Unicode** 的码点分为17个代码级别，第一个级别是基本的多语言级别，码点从 **U+0000——U+FFFF**，其余的16个级别从 **U+10000——U+10FFFF** 其中包括一些辅助字符。
+基本的多语言级别，每个字符用16位表示代码单元，而辅助字符采用连续的一对连续代码单元进行编码。
 ``` java
 String greeting = "Hello ";  
 int n = greeting.length(); // 获取代码单元长度  
@@ -165,9 +167,9 @@ int index = greeting.offsetByCodePoints(0, i);  // 获取第i个码点
 int cp = greeting.codePointAt(index);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDczMDUzMTEsMTkyODk0NjA0MSwtMj
-A4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMzU5LC0yMDM0
-MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1OT
-IxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIs
-LTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTQyNTY0NjA0NCwxOTI4OTQ2MDQxLC0yMD
+g5NDcxMjk0LC0xMzg2MzI1MjM3LDIxMDUxMjAzNTksLTIwMzQx
+MTE4NTcsLTE0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5Mj
+EwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2Miwt
+ODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
 -->
