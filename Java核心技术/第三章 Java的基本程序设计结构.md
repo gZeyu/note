@@ -136,11 +136,14 @@ a += b += c;
 a += (b += c);
 ```
 ### 3.5.9 枚举类型
-- 枚举类型的变量只能存储
+- 枚举类型的变量只能存储这个类型声明给定的枚举值或 **null** 值
+## 3.6 字符串
+- **Java** 字符串就是 **Unicode** 字符序列
+- **strong text**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTcxNzE1MCwtMTM4NjMyNTIzNywyMT
-A1MTIwMzU5LC0yMDM0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3
-ODM3ODUsLTY1NDE1OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MD
-E3LDE4NTE2NjgwNjIsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
-
+eyJoaXN0b3J5IjpbLTE4MjE4NTUxNTAsLTEzODYzMjUyMzcsMj
+EwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2
+NzgzNzg1LC02NTQxNTkyMTAsLTExODcyMTg4OTUsLTk5MzIyOT
+AxNywxODUxNjY4MDYyLC04NjIzODkwMDgsLTEyNTE1NDI5MDhd
+fQ==
 -->
