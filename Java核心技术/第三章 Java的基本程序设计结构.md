@@ -186,14 +186,16 @@ int cp = greeting.codePointAt(index);
 ### 3.8.4 确定循环
 ### 3.8.5 多重选择： **switch** 语句
 - **-Xlint:fallthrough**这个编译选项可以检查代码中的 **switch** 分之是否缺少 **break** 
+- **case** 标签可以是：
+	- 类型为 **char** 、**byte**、**short**或者**int**的常量表达式
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwMjExODY3LC00NDI5Njk2MzMsLTE2Nz
-Y3NTA2MDAsNzE5NjA1ODU2LC0xNjQ3MjkwODM3LC0xODM4NTc0
-NjcxLDE5Mjg5NDYwNDEsLTIwODk0NzEyOTQsLTEzODYzMjUyMz
-csMjEwNTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0x
-OTA2NzgzNzg1LC02NTQxNTkyMTAsLTExODcyMTg4OTUsLTk5Mz
-IyOTAxNywxODUxNjY4MDYyLC04NjIzODkwMDgsLTEyNTE1NDI5
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTIwNTI2NTEzNzksOTQwMjExODY3LC00ND
+I5Njk2MzMsLTE2NzY3NTA2MDAsNzE5NjA1ODU2LC0xNjQ3Mjkw
+ODM3LC0xODM4NTc0NjcxLDE5Mjg5NDYwNDEsLTIwODk0NzEyOT
+QsLTEzODYzMjUyMzcsMjEwNTEyMDM1OSwtMjAzNDExMTg1Nywt
+MTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQxNTkyMTAsLTExOD
+cyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MDYyLC04NjIzODkw
+MDgsLTEyNTE1NDI5MDhdfQ==
 -->
