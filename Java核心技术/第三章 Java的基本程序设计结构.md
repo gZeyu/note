@@ -63,8 +63,13 @@ object.method(parameters)
 - 八进制有个前缀**0**(如**010**)
 - **Java7**开始，二进制有个前缀**0b**或**0B**(如**ob1001**)
 - **Java7**开始，可以为字面量加下划线(如**ob1001_1001_1001_1001或1_000_000**)
-
+- **Java**没有无符号类型
+### 3.3.2 浮点型
+| 类型 | 字节数 | 取值范围 | 默认值 |
+|--|--|--|--|
+| **float** | 4 | -2147483648~2147483647(超过20亿) | **0** |
+| **double** | 8 | -32768~32717 | **0** |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTIxNDg4MiwxODUxNjY4MDYyLC04Nj
+eyJoaXN0b3J5IjpbLTg1NjcwODE1NSwxODUxNjY4MDYyLC04Nj
 IzODkwMDgsLTEyNTE1NDI5MDhdfQ==
 -->
