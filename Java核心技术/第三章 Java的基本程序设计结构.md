@@ -30,6 +30,7 @@ public class ClassName {
 	- **Java SE 1.4**及以后**main**方法必须是**public**
 	- 必须是静态(**static**)
 	- 无返回值。如果**main**方法正常退出，那么**Java**应用程序退出代码为0。可调用**System.exit**终止程序返回其他代码
+	- Javad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE1NDI5MDhdfQ==
+eyJoaXN0b3J5IjpbNjk1Mjg0MDExLC0xMjUxNTQyOTA4XX0=
 -->
