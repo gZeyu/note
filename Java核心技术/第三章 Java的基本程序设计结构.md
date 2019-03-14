@@ -75,7 +75,10 @@ object.method(parameters)
 	- 正无穷大
 	- 负无穷大
 	- NaN
+	- 正无穷大：用一个正数除以0将得到一个正无穷大，通过Double或Float的POSITIVE_INFINITY表示。
+	- 负无穷大：用一个负数除以0将得到一个负无穷大，通过Double或Float的NEGATIVE_INFINITY表示、
+	- 非数：0.0除以0.0或对一个负数开放将得到一个非数，通过Double或Float的NaN表示。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjQyMDg1MSwtOTkzMjI5MDE3LDE4NT
+eyJoaXN0b3J5IjpbMTg0MTcxODMyMCwtOTkzMjI5MDE3LDE4NT
 E2NjgwNjIsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
 -->
