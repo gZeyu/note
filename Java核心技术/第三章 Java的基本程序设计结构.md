@@ -60,9 +60,9 @@ object.method(parameters)
 | **byte** | 1 | -128~127 | **0L** |
 - 长整型数值有个后缀**L**或**l**(如**40000000000L**)
 - 十六进制有个前缀**0x**或**0X**(如**0xabcd**)
-- 八进制有个前缀**0**
+- 八进制有个前缀**0**(如**010**)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjEwNjUxNSwtODYyMzg5MDA4LC0xMj
+eyJoaXN0b3J5IjpbLTczMjEzMTIwMSwtODYyMzg5MDA4LC0xMj
 UxNTQyOTA4XX0=
 -->
