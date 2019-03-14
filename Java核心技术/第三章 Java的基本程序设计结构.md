@@ -52,8 +52,11 @@ object.method(parameters)
 	- 1种用于表示**Unicode**编码的字符类型**char**
 	- 1种表示布尔值的**boolean**类型
 ### 3.3.1 整型
+| 类型 |  ||
+|--|--|--|
+|  |  ||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODg3NTMwLC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbNjg1NTI5NDI0LC0xMjUxNTQyOTA4XX0=
 -->
