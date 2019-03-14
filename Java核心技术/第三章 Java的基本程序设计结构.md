@@ -78,9 +78,9 @@ object.method(parameters)
 - 所有非数值都被**Java**认为不相等，判断非数值可以使用**Double.isNaN 或 Float.isNaN**方法
 ### 3.3.3 char 类型
 - **Unicode**转义序列会在解析代码之前被处理
-	- **"\u0022+\u0022"**会被解析成**\"\"+\"\"**
+	- **"\u0022+\u0022"**会被解析成**""+""**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzYwNzI0NSwtNjU0MTU5MjEwLC0xMT
-g3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5
-MDA4LC0xMjUxNTQyOTA4XX0=
+eyJoaXN0b3J5IjpbLTEzMjAxMzgwNjEsLTY1NDE1OTIxMCwtMT
+E4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNjIsLTg2MjM4
+OTAwOCwtMTI1MTU0MjkwOF19
 -->
