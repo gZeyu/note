@@ -115,15 +115,17 @@ object.method(parameters)
 b?1:0
 ```
 ### 3.5.4 结合赋值和运算符
-- 运算符得到一个类型与左侧操作数类型不同的值，将发送强制类型转换
+- 二元运算符得到一个类型与左侧操作数类型不同的值，将发送强制类型转换
 ``` java
 // 两者等价
 x += 3.5;
 x = (int)(x + 3.5)
 ```
+### 3.5.5 自增与自减运算符
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODM1ODA3MSwyMTA1MTIwMzU5LC0yMD
-M0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUsLTY1NDE1
-OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2NjgwNj
-IsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbLTExNDk2OTU1MDIsMjEwNTEyMDM1OSwtMj
+AzNDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2NzgzNzg1LC02NTQx
+NTkyMTAsLTExODcyMTg4OTUsLTk5MzIyOTAxNywxODUxNjY4MD
+YyLC04NjIzODkwMDgsLTEyNTE1NDI5MDhdfQ==
 -->
