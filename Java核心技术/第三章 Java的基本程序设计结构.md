@@ -177,9 +177,9 @@ int cp = greeting.codePointAt(index);
 ### 3.7.2 格式化输出
 - 可以使用 **s** 转换符格式化任意的对象
 ### 3.7.3 文件输入与输出
-- 
+- 最好指定 **UTF-8** 编码
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTM0MjIyMCwtMTY3Njc1MDYwMCw3MT
+eyJoaXN0b3J5IjpbLTQ0Mjk2OTYzMywtMTY3Njc1MDYwMCw3MT
 k2MDU4NTYsLTE2NDcyOTA4MzcsLTE4Mzg1NzQ2NzEsMTkyODk0
 NjA0MSwtMjA4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1MTIwMz
 U5LC0yMDM0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3ODM3ODUs
