@@ -92,9 +92,9 @@ object.method(parameters)
 ### 3.3.5 **boolean 类型**
 - 整型值与布尔值不能进行相互转换
 ## 3.4 变量
-
+- 变量名必须是一个以字母开头并由字母或数字构成的序列，字母为任何表示字母的**Unicode**字符
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk2Nzk2NDksLTE5MDY3ODM3ODUsLT
-Y1NDE1OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3LDE4NTE2
-NjgwNjIsLTg2MjM4OTAwOCwtMTI1MTU0MjkwOF19
+eyJoaXN0b3J5IjpbMTA1Nzc3MDgwMCwtMTkwNjc4Mzc4NSwtNj
+U0MTU5MjEwLC0xMTg3MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2
+ODA2MiwtODYyMzg5MDA4LC0xMjUxNTQyOTA4XX0=
 -->
