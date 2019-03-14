@@ -105,10 +105,10 @@ object.method(parameters)
 ## 3.5 运算符
 - 整数被0除会得到异常；浮点数被0除会得到无穷大或 **NaN**
 - 使用 **strictfp** 关键字标记的方法必须使用严格的浮点计算。
-### 3.5.1 数学h
+### 3.5.1 数学函数与常量
 - 常量名习惯上大写
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ1MzgwODksLTIwMzQxMTE4NTcsLT
+eyJoaXN0b3J5IjpbLTE1MjY5MjE5NzEsLTIwMzQxMTE4NTcsLT
 E0ODYyNTExOSwtMTkwNjc4Mzc4NSwtNjU0MTU5MjEwLC0xMTg3
 MjE4ODk1LC05OTMyMjkwMTcsMTg1MTY2ODA2MiwtODYyMzg5MD
 A4LC0xMjUxNTQyOTA4XX0=
