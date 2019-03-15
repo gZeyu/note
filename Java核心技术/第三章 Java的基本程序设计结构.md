@@ -195,7 +195,7 @@ int cp = greeting.codePointAt(index);
 - **break** 只能跳出语句块，不能跳入语句块
 - **Java** 还提供带标签的 **continue** 语句
 ## 3.9 大数值
-- **java.math** 提供 ** BigInteger**  和 **BigDecimal** 类，以处理任意精度的整数运算和浮点数运算
+- **java.math** 提供 **BigInteger** 和 **BigDecimal** 类，以处理任意精度的整数运算和浮点数运算
 ## 3.10 数组
 - 数组声明后，需要 **new** 关键字来初始化
 - 创建数组时，数组元素都被初始化为该类型默认值
@@ -209,11 +209,11 @@ for (variable:collection) statement
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NDY1NjQ4LC05NTQwNzgyOTIsMTM5NT
-g1ODQwNSw5NDAyMTE4NjcsLTQ0Mjk2OTYzMywtMTY3Njc1MDYw
-MCw3MTk2MDU4NTYsLTE2NDcyOTA4MzcsLTE4Mzg1NzQ2NzEsMT
-kyODk0NjA0MSwtMjA4OTQ3MTI5NCwtMTM4NjMyNTIzNywyMTA1
-MTIwMzU5LC0yMDM0MTExODU3LC0xNDg2MjUxMTksLTE5MDY3OD
-M3ODUsLTY1NDE1OTIxMCwtMTE4NzIxODg5NSwtOTkzMjI5MDE3
-LDE4NTE2NjgwNjJdfQ==
+eyJoaXN0b3J5IjpbLTQ5ODQ0ODAxMiwtOTU0MDc4MjkyLDEzOT
+U4NTg0MDUsOTQwMjExODY3LC00NDI5Njk2MzMsLTE2NzY3NTA2
+MDAsNzE5NjA1ODU2LC0xNjQ3MjkwODM3LC0xODM4NTc0NjcxLD
+E5Mjg5NDYwNDEsLTIwODk0NzEyOTQsLTEzODYzMjUyMzcsMjEw
+NTEyMDM1OSwtMjAzNDExMTg1NywtMTQ4NjI1MTE5LC0xOTA2Nz
+gzNzg1LC02NTQxNTkyMTAsLTExODcyMTg4OTUsLTk5MzIyOTAx
+NywxODUxNjY4MDYyXX0=
 -->
