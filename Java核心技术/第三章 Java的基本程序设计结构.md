@@ -209,8 +209,9 @@ for (variable:collection) statement
 ```
 ### 3.10.2 数组初始化以及匿名数组
 - 数组长度为0与 **null** 不同
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTI3NDU5OCwtNDk4NDQ4MDEyLC05NT
+eyJoaXN0b3J5IjpbMTA4Mjg0NzAyNywtNDk4NDQ4MDEyLC05NT
 QwNzgyOTIsMTM5NTg1ODQwNSw5NDAyMTE4NjcsLTQ0Mjk2OTYz
 MywtMTY3Njc1MDYwMCw3MTk2MDU4NTYsLTE2NDcyOTA4MzcsLT
 E4Mzg1NzQ2NzEsMTkyODk0NjA0MSwtMjA4OTQ3MTI5NCwtMTM4
