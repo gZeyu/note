@@ -24,7 +24,9 @@
 1. 这些是阻塞函数调用，操作可能需要几毫秒才能完成。 对于 **NV** 写入操作尤其如此。 此外，中断可能会被禁用几毫秒。 最好在它们与其他时序关键操作不冲突时执行这些功能。 例如，写入 **NV** 项的好时机就是接收器关闭时。
 2. 尝试不经常执行 **NV** 写入。 这需要时间和力量; 大多数闪存设备也具有有限数量的擦除周期。
 3. 如果一个或多个 **NV** 项的结构发生变化，尤其是从一个版本的TI堆栈软件升级到另一个版本时，则必须擦除并重新初始化 **NV** 存储器。 否则，对更改的 **NV** 项的读写操作将失败或产生错误结果。
+## 10.2 osal_nv_item_init( )
+### 10.2.1 Description
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjkwNDk1MjQsMTA5MzU2MDExMCwxNj
-EyMzkxMTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
+eyJoaXN0b3J5IjpbMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MT
+IzOTExODEsMTY4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
 -->
