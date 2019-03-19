@@ -51,10 +51,10 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 `len` – 项长度，以字节为单位。
 `*buf` – 指向被读取的数据的指针。
 ### 10.3.4 Return
-Return value indicates the result of the operation.
+返回值表示操作的结果。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkxMDQ4ODMsNzU1MDY2MzYsLTE2OD
-Q0MDMzMTMsMTE3MjMzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4
-MTEyLDEwOTM1NjAxMTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LD
-E1NTY5NjIzN119
+eyJoaXN0b3J5IjpbMTE0NzMyODQzNyw3NTUwNjYzNiwtMTY4ND
+QwMzMxMywxMTcyMzMwOTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgx
+MTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMT
+U1Njk2MjM3XX0=
 -->
