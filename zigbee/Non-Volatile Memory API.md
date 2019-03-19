@@ -20,8 +20,7 @@
 |0x0301 – 0x0400 |ZigBee-Pro: Master Keys <br>ZigBee-RF4CE: app framework|
 |0x0401 – 0x0FFF |Application|
 |0x1000 -0xFFFF |Reserved|
-每个NV项目都有一个唯一的ID。 应用程序有特定的ID值范围，而堆栈或平台保留或使用某些ID值。 如果您的应用程序创建自己的NV项目，则必须从“应用程序”值范围中选择一个ID。 见下表。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTgyODc1NywxNjgzNDUzNzA1LDE1NT
+eyJoaXN0b3J5IjpbMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NT
 Y5NjIzN119
 -->
