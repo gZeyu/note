@@ -26,7 +26,7 @@
 3. 如果一个或多个 **NV** 项的结构发生变化，尤其是从一个版本的TI堆栈软件升级到另一个版本时，则必须擦除并重新初始化 **NV** 存储器。 否则，对更改的 **NV** 项的读写操作将失败或产生错误结果。
 ## 10.2 `osal_nv_item_init()`
 ### 10.2.1 Description
-初始化 **NV** 中的项目。 此功能检查 **NV** 中是否存在项目。 如果它不存在，则使用传递给函数的数据（如果有）创建并初始化它。
+初始化 **NV** 中的项目。 此函数检查 **NV** 中是否存在项目。 如果它不存在，则使用传递给函数的数据（如果有）创建并初始化它。
 必须在为每个项调用`osal_nv_read()`或`osal_nv_write()`之前，调用此函数。
 ### 10.2.2 Prototype
 ``` c
@@ -45,7 +45,7 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 |NV_OPER_FAILED |Operation failed|
 ## 10.3 `osal_nv_read( )`
 ### 10.3.1 Description
-从 **NV** 读取数据。 此功能可用于从 **NV** 中读取整个项或者通过偏移量来读取 **NV** 项的元素。被读取的数据被复制到`* buf`中。
+从 **NV** 读取数据。 此函数可用于从 **NV** 中读取整个项或者通过偏移量来读取 **NV** 项的元素。被读取的数据被复制到`* buf`中。
 ### 10.3.2 Prototype
 ``` c
 uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
@@ -63,7 +63,7 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 |NV_OPER_FAILED |Operation failed|
 ## 10.4 `osal_nv_write( )`
 ### 10.4.1 Description
-将数据写入 **NV** 。 此功能可用于将整个项写入 **NV** 或者通过偏移量将元素写入**NV** 项。
+将数据写入 **NV** 。 此函数可用于将整个项写入 **NV** 或者通过偏移量将元素写入**NV** 项。
 ### 10.4.2 Prototype
 ``` c
 uint8 osal_nv_write( uint16 id, uint16 offset, uint16 len, void *buf );
@@ -84,15 +84,17 @@ uint8 osal_nv_write( uint16 id, uint16 offset, uint16 len, void *buf );
 ### 10.5.1 Description
 从 **NV** 中删除项目。 此函数会检查 **NV** 项的存在。 如果项存在且其长度与函数调用中提供的长度匹配，则该项将从 **NV** 中删除。
 ### 10.5.2 Prototype
+``` c
 uint8 osal_nv_delete( uint16 id, uint16 len );
+``` 
 ### 10.5.3 Parameter Details
 id – User-defined item ID.
 len – Item length in bytes.
 ### 10.5.4 Return
 Return value indicates the result of the operation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODc4ODE2LC0xMzY5OTM3MzUzLDc1NT
-A2NjM2LC0xNjg0NDAzMzEzLDExNzIzMzA5NjYsLTEyNjU3OTAz
-OTIsMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MTIzOTExODEsMT
-Y4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
+eyJoaXN0b3J5IjpbMTU2MjE2NDkzMCwtMTM2OTkzNzM1Myw3NT
+UwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMwOTY2LC0xMjY1Nzkw
+MzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLD
+E2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
