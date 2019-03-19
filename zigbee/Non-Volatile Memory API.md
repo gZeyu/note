@@ -23,7 +23,8 @@
 使用此API时有一些重要注意事项：
 1. 这些是阻塞函数调用，操作可能需要几毫秒才能完成。 对于NV写入操作尤其如此。 此外，中断可能会被禁用几毫秒。 最好在它们与其他时序关键操作不冲突时执行这些功能。 例如，写入NV项目的好时机就是接收器关闭时。
 2. 尝试不经常执行NV写入。 这需要时间和力量; 大多数闪存设备也具有有限数量的擦除周期。
+3. 如果一个或多个NV项的结构发生变化，尤其是从一个版本的TI堆栈软件升级到另一个版本时，则必须擦除并重新初始化NV存储器。 否则，对更改的NV项目的读写操作将失败或产生错误结果。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4MzIyMTg4LDE2MTIzOTExODEsMTY4Mz
+eyJoaXN0b3J5IjpbMzA0NjU3MDcyLDE2MTIzOTExODEsMTY4Mz
 Q1MzcwNSwxNTU2OTYyMzddfQ==
 -->
