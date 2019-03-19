@@ -36,8 +36,10 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 `id` – 用户定义项ID。
 `len` – 项长度，以字节为单位
 `*buf` – 指向项初始化数据的指针。 如果没有初始化数据，则设置为NULL。
+### 10.2.4 Return
+返回值表示操作的结果。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNTkwOTU3LDExNzIzMzA5NjYsLTEyNj
-U3OTAzOTIsMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MTIzOTEx
-ODEsMTY4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
+eyJoaXN0b3J5IjpbMTYyODU2OTkzNSwxMTcyMzMwOTY2LC0xMj
+Y1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkx
+MTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
