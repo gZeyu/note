@@ -19,8 +19,8 @@
 |0x0201 – 0x0300 |ZigBee-Pro: APS Links Keys <br>ZigBee-RF4CE: network layer|
 |0x0301 – 0x0400 |ZigBee-Pro: Master Keys <br>ZigBee-RF4CE: app framework|
 |0x0401 – 0x0FFF |Application|
-|0x1000 -0xFFFF |Reserved|
+|0x1000 - 0xFFFF |Reserved|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NT
-Y5NjIzN119
+eyJoaXN0b3J5IjpbMTQ4OTQzNTExMSwxNjEyMzkxMTgxLDE2OD
+M0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
