@@ -34,7 +34,7 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 ```
 ### 10.2.3 Parameter Details
 `id` – 用户定义项ID。
-`len` – 项长度，以字节为单位
+`len` – 项长度，以字节为单位。
 `*buf` – 指向项初始化数据的指针。 如果没有初始化数据，则设置为NULL。
 ### 10.2.4 Return
 返回值表示操作的结果。
@@ -46,13 +46,13 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 ```
 ### 10.3.3 Parameter Details
-id – User-defined item ID.
-offset – Memory offset into item in bytes.
-len – Item length in bytes.
-*buf – Data is read into this buffer.
+`id` – 用户定义项ID。
+`offset` – Memory offset into item in bytes.
+`len` – Item length in bytes.
+`*buf` – Data is read into this buffer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc1Mjk5NzQsLTE2ODQ0MDMzMTMsMT
-E3MjMzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4MTEyLDEwOTM1
-NjAxMTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIzN1
-19
+eyJoaXN0b3J5IjpbLTI0NDQ3MzIzNywtMTY4NDQwMzMxMywxMT
+cyMzMwOTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2
+MDExMCwxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX
+0=
 -->
