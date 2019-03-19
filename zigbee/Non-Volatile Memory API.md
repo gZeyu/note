@@ -20,7 +20,9 @@
 |0x0301 – 0x0400 |ZigBee-Pro: Master Keys <br>ZigBee-RF4CE: app framework|
 |0x0401 – 0x0FFF |Application|
 |0x1000 - 0xFFFF |Reserved|
+使用此API时有一些重要注意事项：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTQzNTExMSwxNjEyMzkxMTgxLDE2OD
+eyJoaXN0b3J5IjpbMjA1NTE2NjUzNywxNjEyMzkxMTgxLDE2OD
 M0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
