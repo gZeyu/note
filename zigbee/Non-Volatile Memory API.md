@@ -46,13 +46,12 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 ```
 ### 10.3.3 Parameter Details
-`id` – 用户定义项ID。
+`id` – 用户定义项 **ID**。
 `offset` – 在 **NV** 项中的偏移量，以字节为单位。
 `len` – 项长度，以字节为单位。
 `*buf` – 指向被读取的数据的指针。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM3NDExOTAsLTE2ODQ0MDMzMTMsMT
-E3MjMzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4MTEyLDEwOTM1
-NjAxMTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIzN1
-19
+eyJoaXN0b3J5IjpbNzU1MDY2MzYsLTE2ODQ0MDMzMTMsMTE3Mj
+MzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4MTEyLDEwOTM1NjAx
+MTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIzN119
 -->
