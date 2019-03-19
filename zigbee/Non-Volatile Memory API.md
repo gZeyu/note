@@ -1,5 +1,5 @@
 
-
+# 10. Non-Volatile Memory API
 ## 简介  
 本节介绍 **OSAL** 非易失性( **NV** )内存系统。 该系统为应用程序提供了一种持久存储信息到设备内存中的方法。 堆栈还使用它来持久存储 **ZigBee** 规范所需的某些项目。 **NV**函数用于读取和写入由任意数据类型（如结构或数组）组成的用户定义项。 用户可以通过设置适当的偏移和长度来读取或写入整个项目或项目的元素。 **API** 独立于 **NV** 存储介质，可以用于 **flash** 或 **EEPROM** 。
 
@@ -25,6 +25,6 @@
 2. 尝试不经常执行 **NV** 写入。 这需要时间和力量; 大多数闪存设备也具有有限数量的擦除周期。
 3. 如果一个或多个 **NV** 项的结构发生变化，尤其是从一个版本的TI堆栈软件升级到另一个版本时，则必须擦除并重新初始化 **NV** 存储器。 否则，对更改的 **NV** 项的读写操作将失败或产生错误结果。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzU2MDExMCwxNjEyMzkxMTgxLDE2OD
-M0NTM3MDUsMTU1Njk2MjM3XX0=
+eyJoaXN0b3J5IjpbLTYxMzU5NjM4NSwxMDkzNTYwMTEwLDE2MT
+IzOTExODEsMTY4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
 -->
