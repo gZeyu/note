@@ -1,7 +1,7 @@
 
 
 ## 简介  
-本节介绍 **OSAL** 非易失性( **NV** )内存系统。 该系统为应用程序提供了一种持久存储信息到设备内存中的方法。 堆栈还使用它来持久存储 **ZigBee** 规范所需的某些项目。 **NV**函数用于读取和写入由任意数据类型（如结构或数组）组成的用户定义项。 用户可以通过设置适当的偏移和长度来读取或写入整个项目或项目的元素。 **API** 独立于 **NV** 存储介质，可以用于闪存或 **EEPROM** 。
+本节介绍 **OSAL** 非易失性( **NV** )内存系统。 该系统为应用程序提供了一种持久存储信息到设备内存中的方法。 堆栈还使用它来持久存储 **ZigBee** 规范所需的某些项目。 **NV**函数用于读取和写入由任意数据类型（如结构或数组）组成的用户定义项。 用户可以通过设置适当的偏移和长度来读取或写入整个项目或项目的元素。 **API** 独立于 **NV** 存储介质，可以用于 **flash** 或 **EEPROM** 。
 
 每个 **NV** 项目都有一个唯一的 **ID**。 应用程序有特定的 **ID** 值范围，而堆栈或平台保留或使用了某些 **ID** 值。 如果您的应用程序创建自己的 **NV** 项目，则必须从“应用程序”值范围中选择一个 **ID** 。 见下表。
 | VALUE | USER |
@@ -20,7 +20,8 @@
 |0x0301 – 0x0400 |ZigBee-Pro: Master Keys <br>ZigBee-RF4CE: app framework|
 |0x0401 – 0x0FFF |Application|
 |0x1000 -0xFFFF |Reserved|
+每个NV项目都有一个唯一的ID。 应用程序有特定的ID值范围，而堆栈或平台保留或使用某些ID值。 如果您的应用程序创建自己的NV项目，则必须从“应用程序”值范围中选择一个ID。 见下表。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY3MTk3MzcsMTY4MzQ1MzcwNSwxNT
-U2OTYyMzddfQ==
+eyJoaXN0b3J5IjpbLTc2MTgyODc1NywxNjgzNDUzNzA1LDE1NT
+Y5NjIzN119
 -->
