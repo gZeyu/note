@@ -69,14 +69,14 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 uint8 osal_nv_write( uint16 id, uint16 offset, uint16 len, void *buf );
 ```
 ### 10.4.3 Parameter Details
-id – User-defined item ID.
-offset – Memory offset into item in bytes.
-len – Item length in bytes.
-*buf – Data to write.
+`id` – 用户定义项 **ID**。
+`offset` – 在 **NV** 项中的偏移量，以字节为单位。
+`len` – 项长度，以字节为单位。
+`*buf` – 指向被读取的数据的指针。
 ### 10.4.4 Return
 Return value indicates the result of the operation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU4MDkxOTAsLTEzNjk5MzczNTMsNz
+eyJoaXN0b3J5IjpbLTEwODQ5MjAyNzEsLTEzNjk5MzczNTMsNz
 U1MDY2MzYsLTE2ODQ0MDMzMTMsMTE3MjMzMDk2NiwtMTI2NTc5
 MDM5MiwyMDg0NzQ4MTEyLDEwOTM1NjAxMTAsMTYxMjM5MTE4MS
 wxNjgzNDUzNzA1LDE1NTY5NjIzN119
