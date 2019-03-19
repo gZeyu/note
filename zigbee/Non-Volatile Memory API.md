@@ -63,7 +63,7 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 |NV_OPER_FAILED |Operation failed|
 ## 10.4 `osal_nv_write( )`
 ### 10.4.1 Description
-Write data to NV. This function can be used to write an entire item to NV or an element of an item by indexing into the item with an offset.
+将数据写入 **NV** 。 此功能可用于通过索引到具有偏移的项目来将整个项目写入NV或项目的元素。
 ### 10.4.2 Prototype
 uint8 osal_nv_write( uint16 id, uint16 offset, uint16 len, void *buf );
 ### 10.4.3 Parameter Details
@@ -74,8 +74,8 @@ len – Item length in bytes.
 ### 10.4.4 Return
 Return value indicates the result of the operation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY3NjIxNDQsLTEzNjk5MzczNTMsNz
-U1MDY2MzYsLTE2ODQ0MDMzMTMsMTE3MjMzMDk2NiwtMTI2NTc5
-MDM5MiwyMDg0NzQ4MTEyLDEwOTM1NjAxMTAsMTYxMjM5MTE4MS
-wxNjgzNDUzNzA1LDE1NTY5NjIzN119
+eyJoaXN0b3J5IjpbMjcxNjY5MjgsLTEzNjk5MzczNTMsNzU1MD
+Y2MzYsLTE2ODQ0MDMzMTMsMTE3MjMzMDk2NiwtMTI2NTc5MDM5
+MiwyMDg0NzQ4MTEyLDEwOTM1NjAxMTAsMTYxMjM5MTE4MSwxNj
+gzNDUzNzA1LDE1NTY5NjIzN119
 -->
