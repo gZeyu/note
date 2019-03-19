@@ -34,10 +34,10 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 ```
 ### 10.2.3 Parameter Details
 `id` – 用户定义项ID。
-`len` – Item length in bytes.
+`len` – 项长度，以字节为单位
 `*buf` – Pointer to item initialization data. If no initialization data, set to NULL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzYyNzkwMywxMTcyMzMwOTY2LC0xMj
+eyJoaXN0b3J5IjpbLTM0MzA1MzA0NiwxMTcyMzMwOTY2LC0xMj
 Y1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkx
 MTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
