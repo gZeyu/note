@@ -21,8 +21,8 @@
 |0x0401 – 0x0FFF |Application|
 |0x1000 - 0xFFFF |Reserved|
 使用此API时有一些重要注意事项：
-
+- 1. 这些是阻塞函数调用，操作可能需要几毫秒才能完成。 对于NV写入操作尤其如此。 此外，中断可能会被禁用几毫秒。 最好在它们与其他时序关键操作不冲突时执行这些功能。 例如，写入NV项目的好时机就是接收器关闭时。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTE2NjUzNywxNjEyMzkxMTgxLDE2OD
+eyJoaXN0b3J5IjpbLTI4MTA4NjM0NywxNjEyMzkxMTgxLDE2OD
 M0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
