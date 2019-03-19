@@ -27,7 +27,7 @@
 ## 10.2 `osal_nv_item_init()`
 ### 10.2.1 Description
 初始化 **NV** 中的项目。 此功能检查 **NV** 中是否存在项目。 如果它不存在，则使用传递给函数的数据（如果有）创建并初始化它。
-必须在调用`osal_nv_read()`或`osal_nv_write()`之前，为每个项调用此函数。
+必须在为每个项调用`osal_nv_read()`或`osal_nv_write()`之前，调用此函数。
 ### 10.2.2 Prototype
 ``` c
 uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
@@ -37,7 +37,7 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 `len` – 项长度，以字节为单位
 `*buf` – 指向项初始化数据的指针。 如果没有初始化数据，则设置为NULL。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzgwMTEyNSwxMTcyMzMwOTY2LC0xMj
-Y1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkx
-MTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
+eyJoaXN0b3J5IjpbMzQwNTkwOTU3LDExNzIzMzA5NjYsLTEyNj
+U3OTAzOTIsMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MTIzOTEx
+ODEsMTY4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
 -->
