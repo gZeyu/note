@@ -88,12 +88,12 @@ uint8 osal_nv_write( uint16 id, uint16 offset, uint16 len, void *buf );
 uint8 osal_nv_delete( uint16 id, uint16 len );
 ``` 
 ### 10.5.3 Parameter Details
-id – User-defined item ID.
-len – Item length in bytes.
+`id` – 用户定义项 **ID**。
+`len` – 项长度，以字节为单位。
 ### 10.5.4 Return
 Return value indicates the result of the operation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjE2NDkzMCwtMTM2OTkzNzM1Myw3NT
+eyJoaXN0b3J5IjpbMTc5ODAzODMyNiwtMTM2OTkzNzM1Myw3NT
 UwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMwOTY2LC0xMjY1Nzkw
 MzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLD
 E2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
