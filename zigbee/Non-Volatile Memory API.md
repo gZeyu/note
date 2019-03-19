@@ -7,7 +7,7 @@
 | VALUE | USER |
 |--|--|
 |VALUE |USER|
-|0x0000 Reserved|
+|0x0000 |Reserved|
 |0x0001 – 0x0020 |OSAL|
 |0x0021 – 0x0040 |NWK|
 |0x0041 – 0x0060 |APS|
@@ -21,5 +21,5 @@
 |0x0401 – 0x0FFF |Application|
 |0x1000 -0xFFFF |Reserved|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE5NTM5NDddfQ==
+eyJoaXN0b3J5IjpbMTU1Njk2MjM3XX0=
 -->
