@@ -38,7 +38,7 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 `*buf` – 指向项初始化数据的指针。 如果没有初始化数据，则设置为NULL。
 ### 10.2.4 Return
 返回值表示操作的结果。
-## 10.3 osal_nv_read( )
+## 10.3 `osal_nv_read( )`
 ### 10.3.1 Description
 从 **NV** 读取数据。 此功能可用于从 **NV** 中读取整个项或者通过偏移量来读取 **NV** 项的元素。被读取的数据被复制到`* buf`中。
 ### 10.3.2 Prototype
@@ -51,7 +51,8 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 `len` – 项长度，以字节为单位。
 `*buf` – 指向被读取的数据的指针。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1MDY2MzYsLTE2ODQ0MDMzMTMsMTE3Mj
-MzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4MTEyLDEwOTM1NjAx
-MTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIzN119
+eyJoaXN0b3J5IjpbMTE5NDI4MTU4OCw3NTUwNjYzNiwtMTY4ND
+QwMzMxMywxMTcyMzMwOTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgx
+MTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMT
+U1Njk2MjM3XX0=
 -->
