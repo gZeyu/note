@@ -32,8 +32,12 @@
 ``` c
 uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 ```
+### 10.2.3 Parameter Details
+id – User-defined item ID.
+len – Item length in bytes.
+*buf – Pointer to item initialization data. If no initialization data, set to NULL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyMjM4OTQxLDExNzIzMzA5NjYsLTEyNj
-U3OTAzOTIsMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MTIzOTEx
-ODEsMTY4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
+eyJoaXN0b3J5IjpbLTk2MzgwOTU2OCwxMTcyMzMwOTY2LC0xMj
+Y1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkx
+MTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
