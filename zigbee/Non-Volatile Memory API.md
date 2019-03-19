@@ -82,7 +82,7 @@ uint8 osal_nv_write( uint16 id, uint16 offset, uint16 len, void *buf );
 |NV_OPER_FAILED |Operation failed|
 ## 10.5 `osal_nv_delete( )`
 ### 10.5.1 Description
-从 **NV** 中删除项目。 此功能检查 **NV** 项的存在。 如果项目存在且其长度与函数调用中提供的长度匹配，则该项目将从 **NV** 中删除。
+从 **NV** 中删除项目。 此函数会检查 **NV** 项的存在。 如果项存在且其长度与函数调用中提供的长度匹配，则该项将从 **NV** 中删除。
 ### 10.5.2 Prototype
 uint8 osal_nv_delete( uint16 id, uint16 len );
 ### 10.5.3 Parameter Details
@@ -91,8 +91,8 @@ len – Item length in bytes.
 ### 10.5.4 Return
 Return value indicates the result of the operation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjgyMjM5NSwtMTM2OTkzNzM1Myw3NT
-UwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMwOTY2LC0xMjY1Nzkw
-MzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLD
-E2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
+eyJoaXN0b3J5IjpbMTQwODc4ODE2LC0xMzY5OTM3MzUzLDc1NT
+A2NjM2LC0xNjg0NDAzMzEzLDExNzIzMzA5NjYsLTEyNjU3OTAz
+OTIsMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MTIzOTExODEsMT
+Y4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
 -->
