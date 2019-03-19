@@ -1,0 +1,25 @@
+
+
+## 简介  
+本节介绍OSAL非易失性( **NV** )内存系统。 该系统为应用程序提供了一种持久存储信息到设备内存中的方法。 堆栈还使用它来持久存储 **ZigBee** 规范所需的某些项目。 **NV**函数用于读取和写入由任意数据类型（如结构或数组）组成的用户定义项。 用户可以通过设置适当的偏移和长度来读取或写入整个项目或项目的元素。 **API** 独立于 **NV** 存储介质，可以用于闪存或 **EEPROM** 。
+
+每个 **NV** 项目都有一个唯一的 **ID**。 应用程序有特定的 **ID** 值范围，而堆栈或平台保留或使用了某些 **ID** 值。 如果您的应用程序创建自己的 **NV** 项目，则必须从“应用程序”值范围中选择一个 **ID** 。 见下表。
+| VALUE | USER |
+|--|--|
+|VALUE |USER|
+|0x0000 Reserved|
+|0x0001 – 0x0020 |OSAL|
+|0x0021 – 0x0040 |NWK|
+|0x0041 – 0x0060 |APS|
+|0x0061 – 0x0080 |Security|
+|0x0081 – 0x00B0 |ZDO|
+|0x00B1 – 0x00E0 |Commissioning SAS|
+|0x00E1 – 0x0100 |Reserved|
+|0x0101 – 0x01FF |Trust Center Link Keys|
+|0x0201 – 0x0300 |ZigBee-Pro: APS Links Keys ZigBee-RF4CE: network layer|
+|0x0301 – 0x0400 |ZigBee-Pro: Master Keys ZigBee-RF4CE: app framework|
+|0x0401 – 0x0FFF |Application|
+|0x1000 -0xFFFF |Reserved|
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExNDE5NTM5NDddfQ==
+-->
