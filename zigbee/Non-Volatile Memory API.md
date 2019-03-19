@@ -40,7 +40,7 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 返回值表示操作的结果。
 ## 10.3 osal_nv_read( )
 ### 10.3.1 Description
-从 **NV** 读取数据。 此功能可用于从 **NV** 中读取整个项或者通过偏移量来读取 **NV** 项的元素。被读到的数据被复制到`* buf`中。
+从 **NV** 读取数据。 此功能可用于从 **NV** 中读取整个项或者通过偏移量来读取 **NV** 项的元素。被读取的数据被复制到`* buf`中。
 ### 10.3.2 Prototype
 ``` c
 uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
@@ -51,8 +51,8 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 `len` – 项长度，以字节为单位。
 `*buf` – Data is read into this buffer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzgyOTI1NSwtMTY4NDQwMzMxMywxMT
-cyMzMwOTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2
-MDExMCwxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX
-0=
+eyJoaXN0b3J5IjpbLTE3NjAzNzQyNDEsLTE2ODQ0MDMzMTMsMT
+E3MjMzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4MTEyLDEwOTM1
+NjAxMTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIzN1
+19
 -->
