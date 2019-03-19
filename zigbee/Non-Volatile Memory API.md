@@ -91,9 +91,15 @@ uint8 osal_nv_delete( uint16 id, uint16 len );
 `id` – 用户定义项 **ID**。
 `len` – 项长度，以字节为单位。
 ### 10.5.4 Return
-Return value indicates the result of the operation.
+返回值表示操作的结果。
+| RETURN | DESCRIPTION |
+|--|--|
+|SUCCESS |Success|
+|NV_ITEM_UNINIT |Item is not initialized|
+|NV_BAD_ITEM_LEN |Incorrect length parameter|
+|NV_OPER_FAILED |Operation failed|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODAzODMyNiwtMTM2OTkzNzM1Myw3NT
+eyJoaXN0b3J5IjpbMTg5OTkzNzkzMSwtMTM2OTkzNzM1Myw3NT
 UwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMwOTY2LC0xMjY1Nzkw
 MzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLD
 E2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
