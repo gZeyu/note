@@ -26,7 +26,9 @@
 3. 如果一个或多个 **NV** 项的结构发生变化，尤其是从一个版本的TI堆栈软件升级到另一个版本时，则必须擦除并重新初始化 **NV** 存储器。 否则，对更改的 **NV** 项的读写操作将失败或产生错误结果。
 ## 10.2 osal_nv_item_init( )
 ### 10.2.1 Description
+初始化NV中的项目。 此功能检查NV中是否存在项目。 如果它不存在，则使用传递给函数的数据（如果有）创建并初始化它。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MT
-IzOTExODEsMTY4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
+eyJoaXN0b3J5IjpbMTM2NjI5ODEyOCwyMDg0NzQ4MTEyLDEwOT
+M1NjAxMTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIz
+N119
 -->
