@@ -40,8 +40,7 @@ uint8 osal_nv_item_init( uint16 id, uint16 len, void *buf );
 返回值表示操作的结果。
 ## 10.3 osal_nv_read( )
 ### 10.3.1 Description
-Read data from NV. This function can be used to read an entire item from NV or an element of an item by indexing
-into the item with an offset. Read data is copied into *buf.
+从NV读取数据。 此功能可用于通过索引到具有偏移的项目来从NV或项目元素中读取整个项目。 读数据被复制到* buf中。
 ### 10.3.2 Prototype
 uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 ### 10.3.3 Parameter Details
@@ -50,7 +49,8 @@ offset – Memory offset into item in bytes.
 len – Item length in bytes.
 *buf – Data is read into this buffer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ0MDMzMTMsMTE3MjMzMDk2NiwtMT
-I2NTc5MDM5MiwyMDg0NzQ4MTEyLDEwOTM1NjAxMTAsMTYxMjM5
-MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIzN119
+eyJoaXN0b3J5IjpbLTU0Njk1NDgzNCwtMTY4NDQwMzMxMywxMT
+cyMzMwOTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2
+MDExMCwxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX
+0=
 -->
