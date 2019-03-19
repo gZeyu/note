@@ -80,9 +80,15 @@ uint8 osal_nv_write( uint16 id, uint16 offset, uint16 len, void *buf );
 |SUCCESS |Success|
 |NV_ITEM_UNINIT |Item is not initialized|
 |NV_OPER_FAILED |Operation failed|
+10.5 osal_nv_delete( )
+10.5.1 Description
+Delete an item from NV. This function checks for the presence of the item in NV. If the item exists and its length
+matches the length provided in the function call, the item will be removed from NV.
+10.5.2 Prototype
+uint8 osal_nv_delete( uint16 id, uint16 len );
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODgzMzQyMCwtMTM2OTkzNzM1Myw3NT
-UwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMwOTY2LC0xMjY1Nzkw
-MzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLD
-E2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
+eyJoaXN0b3J5IjpbNDY2ODc1ODc1LC0xMzY5OTM3MzUzLDc1NT
+A2NjM2LC0xNjg0NDAzMzEzLDExNzIzMzA5NjYsLTEyNjU3OTAz
+OTIsMjA4NDc0ODExMiwxMDkzNTYwMTEwLDE2MTIzOTExODEsMT
+Y4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
 -->
