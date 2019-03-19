@@ -49,10 +49,10 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 `id` – 用户定义项ID。
 `offset` – Memory offset into item in bytes.
 `len` – 项长度，以字节为单位。
-`*buf` – Data is read into this buffer.
+`*buf` – 指向被读取的数据的指针。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjAzNzQyNDEsLTE2ODQ0MDMzMTMsMT
-E3MjMzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4MTEyLDEwOTM1
-NjAxMTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LDE1NTY5NjIzN1
-19
+eyJoaXN0b3J5IjpbMTA5NTE5NjM1MCwtMTY4NDQwMzMxMywxMT
+cyMzMwOTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2
+MDExMCwxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX
+0=
 -->
