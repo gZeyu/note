@@ -57,8 +57,12 @@ uint8 osal_nv_read( uint16 id, uint16 offset, uint16 len, void *buf );
 `*buf` – 指向被读取的数据的指针。
 ### 10.3.4 Return
 返回值表示操作的结果。
+| RETURN | DESCRIPTION |
+|--|--|
+|SUCCESS |Success|
+|NV_OPER_FAILED |Operation failed|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk1MjkwNjYsNzU1MDY2MzYsLTE2OD
+eyJoaXN0b3J5IjpbLTEzNjk5MzczNTMsNzU1MDY2MzYsLTE2OD
 Q0MDMzMTMsMTE3MjMzMDk2NiwtMTI2NTc5MDM5MiwyMDg0NzQ4
 MTEyLDEwOTM1NjAxMTAsMTYxMjM5MTE4MSwxNjgzNDUzNzA1LD
 E1NTY5NjIzN119
