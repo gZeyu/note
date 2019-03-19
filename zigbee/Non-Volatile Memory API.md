@@ -114,14 +114,14 @@ uint16 osal_nv_item_len( uint16 id );
 |SUCCESS |Success|
 |0 |NV item not found|
 |1 - N |Length of NV item|
-10.7 osal_offsetof( )
-10.7.1 Description
+### 10.7 osal_offsetof( )
+### 10.7.1 Description
 This macro calculates the memory offset in bytes of an element within a structure. It is useful for calculating the
 offset parameter used by NV API functions.
-10.7.2 Prototype
+### 10.7.2 Prototype
 osal_offsetof(type, member)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODIyNTE5MSwtMTE5MTkwODc2NiwxOD
+eyJoaXN0b3J5IjpbLTE2NTU3NzE0OCwtMTE5MTkwODc2NiwxOD
 k5OTM3OTMxLC0xMzY5OTM3MzUzLDc1NTA2NjM2LC0xNjg0NDAz
 MzEzLDExNzIzMzA5NjYsLTEyNjU3OTAzOTIsMjA4NDc0ODExMi
 wxMDkzNTYwMTEwLDE2MTIzOTExODEsMTY4MzQ1MzcwNSwxNTU2
