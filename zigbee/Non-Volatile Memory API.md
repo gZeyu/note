@@ -98,9 +98,18 @@ uint8 osal_nv_delete( uint16 id, uint16 len );
 |NV_ITEM_UNINIT |Item is not initialized|
 |NV_BAD_ITEM_LEN |Incorrect length parameter|
 |NV_OPER_FAILED |Operation failed|
+10.6 osal_nv_item_len( )
+10.6.1 Description
+Get length of an item in NV. This function returns the length of an NV item, if found, otherwise zero.
+10.6.2 Prototype
+uint16 osal_nv_item_len( uint16 id );
+10.6.3 Parameter Details
+id – User-defined item ID.
+10.6.4 Return
+Return value indicates the result of the operation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTkzNzkzMSwtMTM2OTkzNzM1Myw3NT
-UwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMwOTY2LC0xMjY1Nzkw
-MzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMCwxNjEyMzkxMTgxLD
-E2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
+eyJoaXN0b3J5IjpbLTEwNjQ1MTE3NzQsMTg5OTkzNzkzMSwtMT
+M2OTkzNzM1Myw3NTUwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMw
+OTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMC
+wxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
