@@ -100,7 +100,7 @@ uint8 osal_nv_delete( uint16 id, uint16 len );
 |NV_OPER_FAILED |Operation failed|
 ## 10.6 `osal_nv_item_len( )`
 ### 10.6.1 Description
-获取 **NV** 项的长度。 此函数返回 **NV** 项的长度（如果找到），否则返回零。
+获取 **NV** 项的长度。 此函数返回 **NV** 项的长度（如果该 **NV** 项存在），否则返回零。
 ### 10.6.2 Prototype
 uint16 osal_nv_item_len( uint16 id );
 ### 10.6.3 Parameter Details
@@ -108,8 +108,8 @@ id – User-defined item ID.
 ### 10.6.4 Return
 Return value indicates the result of the operation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDAzMDcxOCwxODk5OTM3OTMxLC0xMz
-Y5OTM3MzUzLDc1NTA2NjM2LC0xNjg0NDAzMzEzLDExNzIzMzA5
-NjYsLTEyNjU3OTAzOTIsMjA4NDc0ODExMiwxMDkzNTYwMTEwLD
-E2MTIzOTExODEsMTY4MzQ1MzcwNSwxNTU2OTYyMzddfQ==
+eyJoaXN0b3J5IjpbLTE2NDExNTM3MDAsMTg5OTkzNzkzMSwtMT
+M2OTkzNzM1Myw3NTUwNjYzNiwtMTY4NDQwMzMxMywxMTcyMzMw
+OTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgxMTIsMTA5MzU2MDExMC
+wxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMTU1Njk2MjM3XX0=
 -->
