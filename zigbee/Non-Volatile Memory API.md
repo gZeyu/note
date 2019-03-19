@@ -116,14 +116,14 @@ uint16 osal_nv_item_len( uint16 id );
 |1 - N |Length of NV item|
 ### 10.7 osal_offsetof( )
 ### 10.7.1 Description
-此宏用于计算结构中元素的内存偏移量（以字节为单位）。 它对于计算NV API函数使用的偏移参数很有用。
+此宏用于计算元素在结构体中的内存偏移量（以字节为单位）。 它对于计算NV API函数使用的偏移参数很有用。
 offset parameter used by NV API functions.
 ### 10.7.2 Prototype
 osal_offsetof(type, member)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDQ0NjcxNywtMTE5MTkwODc2NiwxOD
-k5OTM3OTMxLC0xMzY5OTM3MzUzLDc1NTA2NjM2LC0xNjg0NDAz
-MzEzLDExNzIzMzA5NjYsLTEyNjU3OTAzOTIsMjA4NDc0ODExMi
-wxMDkzNTYwMTEwLDE2MTIzOTExODEsMTY4MzQ1MzcwNSwxNTU2
-OTYyMzddfQ==
+eyJoaXN0b3J5IjpbLTE4MjQ4OTcwNTYsLTExOTE5MDg3NjYsMT
+g5OTkzNzkzMSwtMTM2OTkzNzM1Myw3NTUwNjYzNiwtMTY4NDQw
+MzMxMywxMTcyMzMwOTY2LC0xMjY1NzkwMzkyLDIwODQ3NDgxMT
+IsMTA5MzU2MDExMCwxNjEyMzkxMTgxLDE2ODM0NTM3MDUsMTU1
+Njk2MjM3XX0=
 -->
