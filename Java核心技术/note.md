@@ -9,7 +9,8 @@ JAR包是Java中所特有一种压缩文档,其实大家就可以把它理解为
 JAR包是由JDK的jar命令生成的。
 ####  为什么重写equals方法时必须重写hashcode方法
 #### java 创建对象的几种不用方式
+#### nextLine()与next()的区别就在于:next()函数不会接收回车符和tab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MzA3NzI2LC05ODEyOTgyMiwtMTcwOD
-M4Njk5Nl19
+eyJoaXN0b3J5IjpbLTE0MTE2Mjc0NjQsNjY2MzA3NzI2LC05OD
+EyOTgyMiwtMTcwODM4Njk5Nl19
 -->
