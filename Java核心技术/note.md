@@ -11,7 +11,10 @@ JAR包是由JDK的jar命令生成的。
 #### java 创建对象的几种不用方式
 #### nextLine()与next()的区别就在于:next()函数不会接收回车符和tab
 #### 使用getComponentType()来获取数组类型的子类型
+#### 可变参数类型是兼容数组类参数的，但是数组类参数却无法兼容可变参数
+#### 可变参数类型必须作为参数列表的最后一项，而不能放在定长参数的前面
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDQ4NjA2NywtMTQxMTYyNzQ2NCw2Nj
-YzMDc3MjYsLTk4MTI5ODIyLC0xNzA4Mzg2OTk2XX0=
+eyJoaXN0b3J5IjpbMjE2MDc0NDI3LC00MTQ0ODYwNjcsLTE0MT
+E2Mjc0NjQsNjY2MzA3NzI2LC05ODEyOTgyMiwtMTcwODM4Njk5
+Nl19
 -->
