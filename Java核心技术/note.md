@@ -13,9 +13,9 @@ JAR包是由JDK的jar命令生成的。
 #### 使用getComponentType()来获取数组类型的子类型
 #### 可变参数是兼容数组参数的，但是数组参数却无法兼容可变参数
 #### 可变参数必须作为参数列表的最后一项，而不能放在定长参数的前面
-#### 组件类型相同的可变参数与数组参数不能重载
+#### 组件类型相同的可变参数方法与数组参数方法不能重载
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Nzc4Njg1NCwxNzYwOTIzNzkwLC00MT
+eyJoaXN0b3J5IjpbMTM3NDEwMDA3MCwxNzYwOTIzNzkwLC00MT
 Q0ODYwNjcsLTE0MTE2Mjc0NjQsNjY2MzA3NzI2LC05ODEyOTgy
 MiwtMTcwODM4Njk5Nl19
 -->
