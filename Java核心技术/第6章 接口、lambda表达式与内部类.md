@@ -7,8 +7,9 @@
 - 不能使用new运算符实例化一个接口；可以声明接口变量，接口变量必须引用实现了接口的类对象
 - 接口也可以被拓展
 - 接口不能包含实例域或静态方法，但却可以包含常量
-- 接口中的域被自动she
+- 接口中的方法被自动设为public
+- 接口中的域被自动设为public static final
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgxNTI2NDksLTI3NTE2MTU5NiwtMT
-M5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
+eyJoaXN0b3J5IjpbLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOT
+UzNzE5MDUsNTY1NzY1NTE2XX0=
 -->
