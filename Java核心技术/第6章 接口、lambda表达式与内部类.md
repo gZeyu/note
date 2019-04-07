@@ -4,8 +4,11 @@
 - **接口的所有方法自动地属于public**（在实现接口时，必须把方法声明为public）
 - **接口绝不能含有实例域**（在Java SE 8之前，也不能在接口中实现方法）
 ### 6.1.2 接口的特性
-- 不能使用new运算符实例化一个接口；可以声明接口变量，接口变量必须引用实现了
+- 不能使用new运算符实例化一个接口；可以声明接口变量，接口变量必须引用实现了接口的类对象
+- 接口也可以被拓展
+- 接口不能包含实例域或静态方法，但却可以包含常量
+- 接口中的域被自动she
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzU3NTUzNSwtMjc1MTYxNTk2LC0xMz
-k1MzcxOTA1LDU2NTc2NTUxNl19
+eyJoaXN0b3J5IjpbLTE1NzgxNTI2NDksLTI3NTE2MTU5NiwtMT
+M5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
