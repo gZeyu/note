@@ -11,8 +11,10 @@
 - 接口中的域被自动设为public static final
 ### 6.1.3 接口与抽象类
 ### 6.1.4 静态方法
+- 在Java SE 8中，允许在接口中增加静态方法
+### 6.1.5 默认方法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYwMzk1MiwtMjU5ODA0MzQsLTI3NT
+eyJoaXN0b3J5IjpbLTI0MjE0NjEyNywtMjU5ODA0MzQsLTI3NT
 E2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
