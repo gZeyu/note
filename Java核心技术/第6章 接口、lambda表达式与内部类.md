@@ -13,8 +13,9 @@
 ### 6.1.4 静态方法
 - 在Java SE 8中，允许在接口中增加静态方法
 ### 6.1.5 默认方法
-
+- 可以为接口方法提供一个默认实现。必须用default修饰符标记这样一个方法
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjE0NjEyNywtMjU5ODA0MzQsLTI3NT
+eyJoaXN0b3J5IjpbLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NT
 E2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
