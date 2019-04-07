@@ -9,7 +9,8 @@
 - 接口不能包含实例域或静态方法，但却可以包含常量
 - 接口中的方法被自动设为public
 - 接口中的域被自动设为public static final
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOT
-UzNzE5MDUsNTY1NzY1NTE2XX0=
+eyJoaXN0b3J5IjpbLTU2ODMzMzUyNSwtMjU5ODA0MzQsLTI3NT
+E2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
