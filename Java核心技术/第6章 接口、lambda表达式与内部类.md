@@ -9,8 +9,10 @@
 - 接口不能包含实例域或静态方法，但却可以包含常量
 - 接口中的方法被自动设为public
 - 接口中的域被自动设为public static final
--
+### 6.1.3 接口与抽象类
+### 6.1.4 静态方法
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODMzMzUyNSwtMjU5ODA0MzQsLTI3NT
+eyJoaXN0b3J5IjpbLTE0NzYwMzk1MiwtMjU5ODA0MzQsLTI3NT
 E2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
