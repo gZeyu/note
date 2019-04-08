@@ -18,8 +18,11 @@
 - 解决默认方法冲突
 	1. 超类优先
 	2. 接口冲突
+- 千万不要让一个默认方法重新定义Object类中的某个方法
+## 接口示例
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1MTU5MTY0LC05MzI3MDI4ODAsLTI1OT
-gwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1NTE2
-XX0=
+eyJoaXN0b3J5IjpbLTUxOTUzMTA3MCw4MzUxNTkxNjQsLTkzMj
+cwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkw
+NSw1NjU3NjU1MTZdfQ==
 -->
