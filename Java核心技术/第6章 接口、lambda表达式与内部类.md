@@ -14,8 +14,12 @@
 - 在Java SE 8中，允许在接口中增加静态方法
 ### 6.1.5 默认方法
 - 可以为接口方法提供一个默认实现。必须用default修饰符标记这样一个方法
-- 
+### 6.1.6 解决默认方法冲突
+- 解决默认方法冲突
+	1. 超类优先
+	2. 接口冲突
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NT
-E2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
+eyJoaXN0b3J5IjpbODM1MTU5MTY0LC05MzI3MDI4ODAsLTI1OT
+gwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1NTE2
+XX0=
 -->
