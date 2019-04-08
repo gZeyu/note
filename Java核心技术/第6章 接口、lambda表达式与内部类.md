@@ -19,10 +19,11 @@
 	1. 超类优先
 	2. 接口冲突
 - 千万不要让一个默认方法重新定义Object类中的某个方法
-## 接口示例
+## 6.2 接口示例
+### 6.2.1 接口与回调
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTUzMTA3MCw4MzUxNTkxNjQsLTkzMj
+eyJoaXN0b3J5IjpbMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMj
 cwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkw
 NSw1NjU3NjU1MTZdfQ==
 -->
