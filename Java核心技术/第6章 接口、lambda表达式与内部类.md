@@ -21,9 +21,16 @@
 - 千万不要让一个默认方法重新定义Object类中的某个方法
 ## 6.2 接口示例
 ### 6.2.1 接口与回调
-
+### 6.2.2 Comparator接口
+- Compare接口与Comparator接口
+	1. 排序规则实现的方法不同
+		- Comparable接口的方法：<code>compareTo(Object o)<code>
+		- Comparator接口的方法：compare(T o1, To2)
+	2. 类设计前后不同
+	    - Comparable接口用于在类的设计中使用
+	    - Comparator接口用于类设计已经完成，还想排序（Arrays）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMj
-cwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkw
-NSw1NjU3NjU1MTZdfQ==
+eyJoaXN0b3J5IjpbMTA5NjQyMjI1OCwxOTg0OTkwMzIxLDgzNT
+E1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQzNCwtMjc1MTYxNTk2
+LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
 -->
