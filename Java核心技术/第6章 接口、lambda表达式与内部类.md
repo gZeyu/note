@@ -41,9 +41,10 @@
 - **无需指定lambda表达式的返回类型**。如果一个lambda表达式只在某些分支返回一个值，而在另外一些分支不返回值，这是不合法的
 ### 6.3.3 函数式接口
 - 函数式接口（functional interface）
-- lam
+- lambda表达式可以转换为接口
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzgxNDM2MiwtNjkzMzQwODMxLC0zMz
+eyJoaXN0b3J5IjpbLTkxNDMxNzE0OSwtNjkzMzQwODMxLC0zMz
 c3NzEyMDcsLTE5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4MzUxNTkx
 NjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5NiwtMT
 M5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
