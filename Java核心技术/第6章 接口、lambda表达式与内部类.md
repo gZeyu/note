@@ -65,10 +65,10 @@ String::compareToIgnoreCase // 方法引用
 // 对于super::instanceMethod
 // 以下两种方式等价
 this::equals // 方法引用
-(x, y)->x.compareToIgnoreCase(y) // lambda表达式
+x->this.equals(x) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDA2ODQ4OSwxNDUwMjM5MDIsMTQ1MD
+eyJoaXN0b3J5IjpbLTkzMjIzNDE2MSwxNDUwMjM5MDIsMTQ1MD
 IzOTAyLDE4Nzk3Njk3MzEsLTkxNDMxNzE0OSwtNjkzMzQwODMx
 LC0zMzc3NzEyMDcsLTE5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4Mz
 UxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5
