@@ -92,13 +92,14 @@ x->new int[x] // lambda表达式
 - 在一个lambda表达式中使用`this`关键字时，是指创建这个lambda表达式的方法的`this`参数
 ### 6.3.7 处理lambda表达式
 - 延迟执行（deferred execution）
-- 可以使用`@FunctionalInt`
+- 可以使用`@FunctionalInterface`注解来标注函数式接口
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjg5Mjk4LDE1Mjg2ODA5MTIsLTEwMz
-g0ODA0NywtMTExNzEwOTk3NSwtMTc5ODMzNDMwMCwxNzA0MjQz
-MTQ3LDExMDcwNTc5MjksMTQ1MDIzOTAyLDE0NTAyMzkwMiwxOD
-c5NzY5NzMxLC05MTQzMTcxNDksLTY5MzM0MDgzMSwtMzM3Nzcx
-MjA3LC0xOTc2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC
-05MzI3MDI4ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUz
-NzE5MDVdfQ==
+eyJoaXN0b3J5IjpbMTIyMTQ4OTE5MiwxNTI4NjgwOTEyLC0xMD
+M4NDgwNDcsLTExMTcxMDk5NzUsLTE3OTgzMzQzMDAsMTcwNDI0
+MzE0NywxMTA3MDU3OTI5LDE0NTAyMzkwMiwxNDUwMjM5MDIsMT
+g3OTc2OTczMSwtOTE0MzE3MTQ5LC02OTMzNDA4MzEsLTMzNzc3
+MTIwNywtMTk3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNTE1OTE2NC
+wtOTMyNzAyODgwLC0yNTk4MDQzNCwtMjc1MTYxNTk2LC0xMzk1
+MzcxOTA1XX0=
 -->
