@@ -93,16 +93,17 @@ x->new int[x] // lambda表达式
 ### 6.3.7 处理lambda表达式
 - 延迟执行（deferred execution）
 - 可以使用`@FunctionalInterface`注解来标注函数式接口
+- Java泛型仅针对引用类型，如果使用Function，会将代码中的int进行装箱，从而在性能上付出代价。java.util.function包针对基本类型的int、double和long提供支持，当输入或/和输出为基本类型时，可以避免自动装箱的操作。
 - **大多数标准函数式接口都提供了非抽象方法来生成或合并函数**
 ### 6.3.8 再谈Comparator
 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MjA5NzIzOSwtMjEwNjU5Njg1LDEyMj
-E0ODkxOTIsMTUyODY4MDkxMiwtMTAzODQ4MDQ3LC0xMTE3MTA5
-OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMTEwNzA1NzkyOS
-wxNDUwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3MzEsLTkxNDMx
-NzE0OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYyOTQ3NT
-IsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4MCwtMjU5
-ODA0MzRdfQ==
+eyJoaXN0b3J5IjpbNjk5NzMwNzM1LC0yMTA2NTk2ODUsMTIyMT
+Q4OTE5MiwxNTI4NjgwOTEyLC0xMDM4NDgwNDcsLTExMTcxMDk5
+NzUsLTE3OTgzMzQzMDAsMTcwNDI0MzE0NywxMTA3MDU3OTI5LD
+E0NTAyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTczMSwtOTE0MzE3
+MTQ5LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1Mi
+wxOTg0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4
+MDQzNF19
 -->
