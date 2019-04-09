@@ -4,6 +4,9 @@
 > P237， 6.3.5
 
 如果允许创建泛型数组，就绕过了泛型的编译时的类型检查
+3.  
+> P241
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MTYzMTc4LC05Njc3MDcxOTVdfQ==
+eyJoaXN0b3J5IjpbMTk3ODQ1MTA1MCw0NTkxNjMxNzgsLTk2Nz
+cwNzE5NV19
 -->
