@@ -46,7 +46,7 @@
 - 方法引用（method reference）
 	- `object::instanceMethod`，等价于提供方法参数的lambda表达式
 	- `Class::staticMethod`，等价于提供方法参数的lambda表达式
-	- `Class::instanceMethod`
+	- `Class::instanceMethod`，第一个参数会成为方法的目标
 ``` java
 // 以下两种方式等价
 System.out::println // 方法引用
@@ -58,9 +58,9 @@ System.out::println // 方法引用
 x->System.out.println(x) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzkyOTI0NDMsMTg3OTc2OTczMSwtOT
-E0MzE3MTQ5LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5
-NDc1MiwxOTg0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC
-0yNTk4MDQzNCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LDU2NTc2
-NTUxNl19
+eyJoaXN0b3J5IjpbMTE0MjEyMjgwMCwxODc5NzY5NzMxLC05MT
+QzMTcxNDksLTY5MzM0MDgzMSwtMzM3NzcxMjA3LC0xOTc2Mjk0
+NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4ODAsLT
+I1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1
+NTE2XX0=
 -->
