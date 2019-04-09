@@ -73,7 +73,6 @@ x->this.equals(x) // lambda表达式
 super::equals // 方法引用
 x->super.equals(x) // lambda表达式
 ```
-
 ### 6.3.5 构造器引用
 - 构造器引用
 	- `Class::new`
@@ -84,10 +83,13 @@ int[]::new // 方法引用
 x->new int[x] // lambda表达式
 ```
 - Java有一个限制，无法构造泛型类型`T`的数组
+### 6.3.4 变量作用域
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDI0MzE0NywxMTA3MDU3OTI5LDE0NT
-AyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTczMSwtOTE0MzE3MTQ5
-LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOT
-g0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQz
-NCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
+eyJoaXN0b3J5IjpbLTE3OTgzMzQzMDAsMTcwNDI0MzE0NywxMT
+A3MDU3OTI5LDE0NTAyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTcz
+MSwtOTE0MzE3MTQ5LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMT
+k3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAy
+ODgwLC0yNTk4MDQzNCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LD
+U2NTc2NTUxNl19
 -->
