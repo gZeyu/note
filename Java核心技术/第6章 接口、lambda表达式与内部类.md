@@ -44,8 +44,8 @@
 - lambda表达式可以转换为接口
 ### 6.3.4 方法引用
 - 方法引用（method reference）
-	- `object::instanceMethod`
-	- `Class::staticMethod`
+	- `object::instanceMethod`，等价于提供方法参数的lambda表达式
+	- `Class::staticMethod`，等价于提供方法参数的lambda表达式
 	- `Class::instanceMethod`
 ``` java
 // 以下两种方式等价
@@ -53,8 +53,8 @@ System.out::println // 方法引用
 x->System.out.println(x) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE1MzA1MjUsLTkxNDMxNzE0OSwtNj
-kzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYyOTQ3NTIsMTk4NDk5
-MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLT
-I3NTE2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
+eyJoaXN0b3J5IjpbMTg3OTc2OTczMSwtOTE0MzE3MTQ5LC02OT
+MzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOTg0OTkw
+MzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQzNCwtMj
+c1MTYxNTk2LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
 -->
