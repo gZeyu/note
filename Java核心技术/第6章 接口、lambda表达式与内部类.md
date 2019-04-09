@@ -43,6 +43,7 @@
 - 函数式接口（functional interface）
 - lambda表达式可以转换为接口
 ### 6.3.4 方法引用
+- 可以在方法引用中使用`this`参数
 - 方法引用（method reference）
 	- `object::instanceMethod`，等价于提供方法参数的lambda表达式
 	- `Class::staticMethod`，等价于提供方法参数的lambda表达式
@@ -60,9 +61,9 @@ String::compareToIgnoreCase // 方法引用
 (x, y)->x.compareToIgnoreCase(y) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDIzOTAyLDE0NTAyMzkwMiwxODc5Nz
-Y5NzMxLC05MTQzMTcxNDksLTY5MzM0MDgzMSwtMzM3NzcxMjA3
-LC0xOTc2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05Mz
-I3MDI4ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5
-MDUsNTY1NzY1NTE2XX0=
+eyJoaXN0b3J5IjpbLTE3NTQ4MzkwMDAsMTQ1MDIzOTAyLDE0NT
+AyMzkwMiwxODc5NzY5NzMxLC05MTQzMTcxNDksLTY5MzM0MDgz
+MSwtMzM3NzcxMjA3LC0xOTc2Mjk0NzUyLDE5ODQ5OTAzMjEsOD
+M1MTU5MTY0LC05MzI3MDI4ODAsLTI1OTgwNDM0LC0yNzUxNjE1
+OTYsLTEzOTUzNzE5MDUsNTY1NzY1NTE2XX0=
 -->
