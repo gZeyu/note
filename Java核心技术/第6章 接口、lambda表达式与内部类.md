@@ -40,10 +40,10 @@
 - **如果方法只有一个参数，而且这个参数的类型可以推导得出，那么甚至还可以省略小括号**
 - **无需指定lambda表达式的返回类型**。如果一个lambda表达式只在某些分支返回一个值，而在另外一些分支不返回值，这是不合法的
 ### 6.3.3 函数式接口
-
+- 函数式接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzM0MDgzMSwtMzM3NzcxMjA3LC0xOT
-c2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4
-ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNT
-Y1NzY1NTE2XX0=
+eyJoaXN0b3J5IjpbLTE0NjIyMjIyOTIsLTY5MzM0MDgzMSwtMz
+M3NzcxMjA3LC0xOTc2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5
+MTY0LC05MzI3MDI4ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLT
+EzOTUzNzE5MDUsNTY1NzY1NTE2XX0=
 -->
