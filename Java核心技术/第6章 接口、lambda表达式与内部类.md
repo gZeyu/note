@@ -36,11 +36,12 @@
 - 使用lambda表达式，会使得设计的代码会更加简洁，且具有可读性
 ### 6.3.2 lambda表达式的语法
 - 即使lambda表达式没有参数，仍然要提供空括号
-- 如果可以推导出一个lambda表达式的参数类型，zeke
+- 如果可以推导出一个lambda表达式的参数类型，则可以忽略其类型
+- 如果方法只有一个参数，而且这个参数的类型可以tuidao
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAxMzM0NTksLTMzNzc3MTIwNywtMT
-k3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAy
-ODgwLC0yNTk4MDQzNCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LD
-U2NTc2NTUxNl19
+eyJoaXN0b3J5IjpbNDY2NzQ2Mzg0LC0zMzc3NzEyMDcsLTE5Nz
+YyOTQ3NTIsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4
+MCwtMjU5ODA0MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkwNSw1Nj
+U3NjU1MTZdfQ==
 -->
