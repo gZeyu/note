@@ -31,9 +31,12 @@
 	    - Comparator接口用于类设计已经完成，还想排序（Arrays）
 ### 6.2.3 对象克隆
 - 默认的克隆操作是“浅拷贝”
-- 
+## 6.3 lambda表达式
+### 6.3.1 为什么引入lambda表达式
+### 6.3.2 lambda表达式的语法
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4Mz
-UxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5
-NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
+eyJoaXN0b3J5IjpbLTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOT
+g0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQz
+NCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
 -->
