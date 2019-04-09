@@ -48,6 +48,7 @@
 	- `Class::staticMethod`，等价于提供方法参数的lambda表达式
 	- `Class::instanceMethod`，第一个参数会成为方法的目标
 ``` java
+// 对于object::instanceMethod或Class::staticMethod
 // 以下两种方式等价
 System.out::println // 方法引用
 x->System.out.println(x) // lambda表达式
@@ -58,7 +59,7 @@ String::compareToIgnoreCase // 方法引用
 (x, y)->x.compareToIgnoreCase(y) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODEwNjU3NCwxODc5NzY5NzMxLC05MT
+eyJoaXN0b3J5IjpbMTU1MzkxNDc5MywxODc5NzY5NzMxLC05MT
 QzMTcxNDksLTY5MzM0MDgzMSwtMzM3NzcxMjA3LC0xOTc2Mjk0
 NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4ODAsLT
 I1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1
