@@ -81,13 +81,12 @@ x->super.equals(x) // lambda表达式
 ``` java
 // 以下两种方式等价
 int[]::new // 方法引用
-x->super.equals(x) // lambda表达式
+x->new int[x] // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDYxODU2OTQsMTEwNzA1NzkyOSwxND
-UwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3MzEsLTkxNDMxNzE0
-OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYyOTQ3NTIsMT
-k4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0
-MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ
-==
+eyJoaXN0b3J5IjpbMTg4MzI0MjkxNCwxMTA3MDU3OTI5LDE0NT
+AyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTczMSwtOTE0MzE3MTQ5
+LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOT
+g0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQz
+NCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
 -->
