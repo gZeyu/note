@@ -77,9 +77,9 @@ x->super.equals(x) // lambda表达式
 ### 6.3.5 构造器引用
 - 构造器引用
 	- `Class::new`
-- 可以用数组类型建立
+- 可以用数组类型建立构造器引用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjA1MDczMiwxNDUwMjM5MDIsMTQ1MD
+eyJoaXN0b3J5IjpbMTEwNzA1NzkyOSwxNDUwMjM5MDIsMTQ1MD
 IzOTAyLDE4Nzk3Njk3MzEsLTkxNDMxNzE0OSwtNjkzMzQwODMx
 LC0zMzc3NzEyMDcsLTE5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4Mz
 UxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5
