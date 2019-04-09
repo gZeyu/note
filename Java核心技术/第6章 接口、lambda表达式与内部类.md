@@ -83,8 +83,9 @@ x->super.equals(x) // lambda表达式
 int[]::new // 方法引用
 x->new int[x] // lambda表达式
 ```
+- Java有一个限制，无法构造泛型类型`T`的数组
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzI0MjkxNCwxMTA3MDU3OTI5LDE0NT
+eyJoaXN0b3J5IjpbMTcwNDI0MzE0NywxMTA3MDU3OTI5LDE0NT
 AyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTczMSwtOTE0MzE3MTQ5
 LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOT
 g0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQz
