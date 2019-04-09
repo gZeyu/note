@@ -24,13 +24,13 @@
 ### 6.2.2 Comparator接口
 - Compare接口与Comparator接口
 	1. 排序规则实现的方法不同
-		- Comparable接口的方法：<code>compareTo(Object o)</code>
-		- Comparator接口的方法：compare(T o1, To2)
+		- Comparable接口的方法：`compareTo(Object o)`
+		- Comparator接口的方法：`compare(T o1, To2)`
 	2. 类设计前后不同
 	    - Comparable接口用于在类的设计中使用
 	    - Comparator接口用于类设计已经完成，还想排序（Arrays）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQxNTYyNjksMTk4NDk5MDMyMSw4Mz
+eyJoaXN0b3J5IjpbLTEzMTg1ODM1MTQsMTk4NDk5MDMyMSw4Mz
 UxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5
 NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
