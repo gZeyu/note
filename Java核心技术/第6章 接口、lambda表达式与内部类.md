@@ -79,15 +79,14 @@ x->super.equals(x) // lambda表达式
 	- `Class::new`
 - 可以用数组类型建立构造器引用
 ``` java
-// 对于super::instanceMethod
 // 以下两种方式等价
 super::equals // 方法引用
 x->super.equals(x) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjgwNzMyMywxMTA3MDU3OTI5LDE0NT
-AyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTczMSwtOTE0MzE3MTQ5
-LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOT
-g0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQz
-NCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
+eyJoaXN0b3J5IjpbNzY3NjQxODQzLDExMDcwNTc5MjksMTQ1MD
+IzOTAyLDE0NTAyMzkwMiwxODc5NzY5NzMxLC05MTQzMTcxNDks
+LTY5MzM0MDgzMSwtMzM3NzcxMjA3LC0xOTc2Mjk0NzUyLDE5OD
+Q5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4ODAsLTI1OTgwNDM0
+LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1NTE2XX0=
 -->
