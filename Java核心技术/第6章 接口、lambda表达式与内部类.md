@@ -43,10 +43,14 @@
 - 函数式接口（functional interface）
 - lambda表达式可以转换为接口
 ### 6.3.4 方法引用
-
+- 方法引用（method reference）
+``` java
+System.out::println // 方法yin
+x->System.out.println(x) 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMDA4NTA1LC05MTQzMTcxNDksLTY5Mz
-M0MDgzMSwtMzM3NzcxMjA3LC0xOTc2Mjk0NzUyLDE5ODQ5OTAz
-MjEsODM1MTU5MTY0LC05MzI3MDI4ODAsLTI1OTgwNDM0LC0yNz
-UxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1NTE2XX0=
+eyJoaXN0b3J5IjpbMTY0NDM2MzM1NCwtOTE0MzE3MTQ5LC02OT
+MzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOTg0OTkw
+MzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQzNCwtMj
+c1MTYxNTk2LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
 -->
