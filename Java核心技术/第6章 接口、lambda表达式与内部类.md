@@ -41,6 +41,7 @@
 - **无需指定lambda表达式的返回类型**。如果一个lambda表达式只在某些分支返回一个值，而在另外一些分支不返回值，这是不合法的
 ### 6.3.3 函数式接口
 - 函数式接口（functional interface）
+	- 只有一个抽象方法
 - lambda表达式可以转换为接口
 ### 6.3.4 方法引用
 - 方法引用（method reference）
@@ -91,12 +92,13 @@ x->new int[x] // lambda表达式
 - 在一个lambda表达式中使用`this`关键字时，是指创建这个lambda表达式的方法的`this`参数
 ### 6.3.7 处理lambda表达式
 - 延迟执行（deferred execution）
+- 可以使用`@FunctionalInt`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODY4MDkxMiwtMTAzODQ4MDQ3LC0xMT
-E3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMTEwNzA1
-NzkyOSwxNDUwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3MzEsLT
-kxNDMxNzE0OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYy
-OTQ3NTIsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4MC
-wtMjU5ODA0MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkwNSw1NjU3
-NjU1MTZdfQ==
+eyJoaXN0b3J5IjpbMTQzNjg5Mjk4LDE1Mjg2ODA5MTIsLTEwMz
+g0ODA0NywtMTExNzEwOTk3NSwtMTc5ODMzNDMwMCwxNzA0MjQz
+MTQ3LDExMDcwNTc5MjksMTQ1MDIzOTAyLDE0NTAyMzkwMiwxOD
+c5NzY5NzMxLC05MTQzMTcxNDksLTY5MzM0MDgzMSwtMzM3Nzcx
+MjA3LC0xOTc2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC
+05MzI3MDI4ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUz
+NzE5MDVdfQ==
 -->
