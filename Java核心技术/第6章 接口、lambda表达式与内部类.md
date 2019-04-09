@@ -86,9 +86,9 @@ x->new int[x] // lambda表达式
 ### 6.3.4 变量作用域
 - 闭包（closure）
 - lambda表达式可以捕获外围作用域中变量的值
-- 在lambda表达式中，只能引用值不会改变的变量
+- lambda表达式中捕获的变量必须实际上是最终变量（effectively final）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU3Njk0ODksLTE3OTgzMzQzMDAsMT
+eyJoaXN0b3J5IjpbLTExMTcxMDk5NzUsLTE3OTgzMzQzMDAsMT
 cwNDI0MzE0NywxMTA3MDU3OTI5LDE0NTAyMzkwMiwxNDUwMjM5
 MDIsMTg3OTc2OTczMSwtOTE0MzE3MTQ5LC02OTMzNDA4MzEsLT
 MzNzc3MTIwNywtMTk3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNTE1
