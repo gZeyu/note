@@ -64,13 +64,13 @@ String::compareToIgnoreCase // 方法引用
 ``` java
 // 对于super::instanceMethod
 // 以下两种方式等价
-String::compareToIgnoreCase // 方法引用
+this::equals // 方法引用
 (x, y)->x.compareToIgnoreCase(y) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxMjc2NTEzLDE0NTAyMzkwMiwxNDUwMj
-M5MDIsMTg3OTc2OTczMSwtOTE0MzE3MTQ5LC02OTMzNDA4MzEs
-LTMzNzc3MTIwNywtMTk3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNT
-E1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQzNCwtMjc1MTYxNTk2
-LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
+eyJoaXN0b3J5IjpbMTIwNDA2ODQ4OSwxNDUwMjM5MDIsMTQ1MD
+IzOTAyLDE4Nzk3Njk3MzEsLTkxNDMxNzE0OSwtNjkzMzQwODMx
+LC0zMzc3NzEyMDcsLTE5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4Mz
+UxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5
+NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
