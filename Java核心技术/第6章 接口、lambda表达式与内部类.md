@@ -80,13 +80,14 @@ x->super.equals(x) // lambda表达式
 - 可以用数组类型建立构造器引用
 ``` java
 // 以下两种方式等价
-super::equals // 方法引用
+int[]::new // 方法引用
 x->super.equals(x) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3NjQxODQzLDExMDcwNTc5MjksMTQ1MD
-IzOTAyLDE0NTAyMzkwMiwxODc5NzY5NzMxLC05MTQzMTcxNDks
-LTY5MzM0MDgzMSwtMzM3NzcxMjA3LC0xOTc2Mjk0NzUyLDE5OD
-Q5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4ODAsLTI1OTgwNDM0
-LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1NTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NDYxODU2OTQsMTEwNzA1NzkyOSwxND
+UwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3MzEsLTkxNDMxNzE0
+OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYyOTQ3NTIsMT
+k4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0
+MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ
+==
 -->
