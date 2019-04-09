@@ -85,23 +85,24 @@ x->new int[x] // lambda表达式
 ```
 - Java有一个限制，无法构造泛型类型`T`的数组
 ### 6.3.6 变量作用域
-- 闭包（closure）
+- **闭包（closure）**
 - lambda表达式可以捕获外围作用域中变量的值
-- lambda表达式中捕获的变量必须实际上是最终变量（effectively final）
+- lambda表达式中捕获的变量必须实际上是**最终变量（effectively final）**
 - 在lambda表达式中声明与一个局部变量同名的参数或局部变量是不合法的
-- 在一个lambda表达式中使用`this`关键字时，是指创建这个lambda表达式的方法的`this`参数
+- **在一个lambda表达式中使用`this`关键字时，是指创建这个lambda表达式的方法的`this`参数**
 ### 6.3.7 处理lambda表达式
 - 延迟执行（deferred execution）
 - 可以使用`@FunctionalInterface`注解来标注函数式接口
+- **大多数标准函数式接口都提供了非抽象方法来生成或合并函数**
 ### 6.3.8 再谈Comparator
 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY1OTY4NSwxMjIxNDg5MTkyLDE1Mj
-g2ODA5MTIsLTEwMzg0ODA0NywtMTExNzEwOTk3NSwtMTc5ODMz
-NDMwMCwxNzA0MjQzMTQ3LDExMDcwNTc5MjksMTQ1MDIzOTAyLD
-E0NTAyMzkwMiwxODc5NzY5NzMxLC05MTQzMTcxNDksLTY5MzM0
-MDgzMSwtMzM3NzcxMjA3LC0xOTc2Mjk0NzUyLDE5ODQ5OTAzMj
-EsODM1MTU5MTY0LC05MzI3MDI4ODAsLTI1OTgwNDM0LC0yNzUx
-NjE1OTZdfQ==
+eyJoaXN0b3J5IjpbMTA3MjA5NzIzOSwtMjEwNjU5Njg1LDEyMj
+E0ODkxOTIsMTUyODY4MDkxMiwtMTAzODQ4MDQ3LC0xMTE3MTA5
+OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMTEwNzA1NzkyOS
+wxNDUwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3MzEsLTkxNDMx
+NzE0OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYyOTQ3NT
+IsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4MCwtMjU5
+ODA0MzRdfQ==
 -->
