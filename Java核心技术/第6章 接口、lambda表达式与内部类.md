@@ -35,10 +35,12 @@
 ### 6.3.1 为什么引入lambda表达式
 - 使用lambda表达式，会使得设计的代码会更加简洁，且具有可读性
 ### 6.3.2 lambda表达式的语法
+- 即使lambda表达式没有参数，仍然要提供空括号
+- 如果可以推导出一个lambda表达式的参数类型，zeke
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjEzMDUzOCwtMzM3NzcxMjA3LC0xOT
-c2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4
-ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNT
-Y1NzY1NTE2XX0=
+eyJoaXN0b3J5IjpbLTE2MzAxMzM0NTksLTMzNzc3MTIwNywtMT
+k3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAy
+ODgwLC0yNTk4MDQzNCwtMjc1MTYxNTk2LC0xMzk1MzcxOTA1LD
+U2NTc2NTUxNl19
 -->
