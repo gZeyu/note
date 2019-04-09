@@ -33,11 +33,11 @@
 - 默认的克隆操作是“浅拷贝”
 ## 6.3 lambda表达式
 ### 6.3.1 为什么引入lambda表达式
-- 使用lambda表达式_,会使得设计的代码会更加简洁,且具有可读性
+- 使用lambda表达式，会使得设计的代码会更加简洁，且具有可读性
 ### 6.3.2 lambda表达式的语法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDU1Nzk2MywtMzM3NzcxMjA3LC0xOT
+eyJoaXN0b3J5IjpbMTY5NjEzMDUzOCwtMzM3NzcxMjA3LC0xOT
 c2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4
 ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNT
 Y1NzY1NTE2XX0=
