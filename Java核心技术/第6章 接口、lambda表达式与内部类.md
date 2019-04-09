@@ -54,14 +54,15 @@ System.out::println // 方法引用
 x->System.out.println(x) // lambda表达式
 ```
 ``` java
+// 对于Class::instanceMethod
 // 以下两种方式等价
 String::compareToIgnoreCase // 方法引用
 (x, y)->x.compareToIgnoreCase(y) // lambda表达式
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzkxNDc5MywxODc5NzY5NzMxLC05MT
-QzMTcxNDksLTY5MzM0MDgzMSwtMzM3NzcxMjA3LC0xOTc2Mjk0
-NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4ODAsLT
-I1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNTY1NzY1
-NTE2XX0=
+eyJoaXN0b3J5IjpbMTQ1MDIzOTAyLDE4Nzk3Njk3MzEsLTkxND
+MxNzE0OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYyOTQ3
+NTIsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4MCwtMj
+U5ODA0MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkwNSw1NjU3NjU1
+MTZdfQ==
 -->
