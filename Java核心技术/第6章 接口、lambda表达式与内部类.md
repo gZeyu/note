@@ -37,11 +37,12 @@
 ### 6.3.2 lambda表达式的语法
 - 即使lambda表达式没有参数，仍然要提供空括号
 - 如果可以推导出一个lambda表达式的参数类型，则可以忽略其类型
-- 如果方法只有一个参数，而且这个参数的类型可以tuidao
+- 如果方法只有一个参数，而且这个参数的类型可以推导得出，那么甚至还可以省略小括号
+- 无需指定lambda表达式的返回类型。如果一个lambdabiaod
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2NzQ2Mzg0LC0zMzc3NzEyMDcsLTE5Nz
-YyOTQ3NTIsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcwMjg4
-MCwtMjU5ODA0MzQsLTI3NTE2MTU5NiwtMTM5NTM3MTkwNSw1Nj
-U3NjU1MTZdfQ==
+eyJoaXN0b3J5IjpbLTQ1MjY1Mjc3OSwtMzM3NzcxMjA3LC0xOT
+c2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5MTY0LC05MzI3MDI4
+ODAsLTI1OTgwNDM0LC0yNzUxNjE1OTYsLTEzOTUzNzE5MDUsNT
+Y1NzY1NTE2XX0=
 -->
