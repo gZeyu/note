@@ -30,9 +30,10 @@
 	    - Comparable接口用于在类的设计中使用
 	    - Comparator接口用于类设计已经完成，还想排序（Arrays）
 ### 6.2.3 对象克隆
-
+- 默认的克隆操作是“浅拷贝”
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDQ0NzM1OSwxOTg0OTkwMzIxLDgzNT
-E1OTE2NCwtOTMyNzAyODgwLC0yNTk4MDQzNCwtMjc1MTYxNTk2
-LC0xMzk1MzcxOTA1LDU2NTc2NTUxNl19
+eyJoaXN0b3J5IjpbLTE5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4Mz
+UxNTkxNjQsLTkzMjcwMjg4MCwtMjU5ODA0MzQsLTI3NTE2MTU5
+NiwtMTM5NTM3MTkwNSw1NjU3NjU1MTZdfQ==
 -->
