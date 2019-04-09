@@ -83,14 +83,16 @@ int[]::new // 方法引用
 x->new int[x] // lambda表达式
 ```
 - Java有一个限制，无法构造泛型类型`T`的数组
-### 6.3.4 变量作用域
+### 6.3.6 变量作用域
 - 闭包（closure）
 - lambda表达式可以捕获外围作用域中变量的值
 - lambda表达式中捕获的变量必须实际上是最终变量（effectively final）
 - 在lambda表达式中声明与一个局部变量同名的参数或局部变量是不合法的
-- 在一个
+- 在一个lambda表达式中使用`this`关键字时，是指创建这个lambda表达式的方法的`this`参数
+### 6.3.7 处理lambda表达式
+- 延迟执行（deferred execution）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDM3NzM5OCwtMTAzODQ4MDQ3LC0xMT
+eyJoaXN0b3J5IjpbMTUyODY4MDkxMiwtMTAzODQ4MDQ3LC0xMT
 E3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMTEwNzA1
 NzkyOSwxNDUwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3MzEsLT
 kxNDMxNzE0OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLTE5NzYy
