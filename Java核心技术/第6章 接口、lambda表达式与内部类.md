@@ -160,13 +160,15 @@ new Object(){}.getClass().getEnclosingClass()
 	- 一个调用处理器   
 ### 6.5.3 代理类的特性
 - 代理类是在程序运行过程中创建的。然而，一旦被创建，就变成了**常规类**，与虚拟机中的任何其他类没有什么区别
-- 所有代理类都扩展
+- 所有代理类都扩展于`Proxy`类
+- 一个代理类只有一个实例域——调用处理器
+- 所有的代理类都覆盖了`Object`类中的方法`toString`、`equals`和`hashCode`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA3ODQ0MDksMzQyMzc5NTM5LC04Mj
-Y3NDE3NTksLTE4NjgyNTY4OTEsMTE5NDYzMzE2NywyMDI5MjI2
-NTAxLDEwOTAwMTM2NjksNzUyNTYwMjU1LC0xMDk3MjI3NzE1LD
-E4OTM4NTE5MjIsLTEwMTYxNzY0MjcsLTI2NzE5NTYwNiw4NzQ5
-Njg1NywtMzkzNTI1NjgzLC05OTUxMDEwMzIsNzcwMDc0MTYsLT
-UyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMjUwMzc3MTQsNDI4NDE2
-NDMwXX0=
+eyJoaXN0b3J5IjpbNjk1Nzc2NzcwLDM0MjM3OTUzOSwtODI2Nz
+QxNzU5LC0xODY4MjU2ODkxLDExOTQ2MzMxNjcsMjAyOTIyNjUw
+MSwxMDkwMDEzNjY5LDc1MjU2MDI1NSwtMTA5NzIyNzcxNSwxOD
+kzODUxOTIyLC0xMDE2MTc2NDI3LC0yNjcxOTU2MDYsODc0OTY4
+NTcsLTM5MzUyNTY4MywtOTk1MTAxMDMyLDc3MDA3NDE2LC01Mj
+YwNjE5MjAsLTY5MzM0Mjk3MSwxMzI1MDM3NzE0LDQyODQxNjQz
+MF19
 -->
