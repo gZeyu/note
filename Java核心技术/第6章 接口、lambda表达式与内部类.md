@@ -137,13 +137,16 @@ new SuperType(construction parameter) {
 ```
 - 由于构造器的名字必须与类名相同，而匿名类没有类名，所以，匿名类不能有构造器。取而代之的是，将构造器参数传递给超类（superclass）构造器
 - 建议使用lambda表达式替代匿名内部类实现事件监视器和其他回调
-- 双括号
+- 双括号初始化（double brace initialization）
+``` java
+new ArrayList<Class>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNTIzMTE4LDExOTQ2MzMxNjcsMjAyOT
-IyNjUwMSwxMDkwMDEzNjY5LDc1MjU2MDI1NSwtMTA5NzIyNzcx
-NSwxODkzODUxOTIyLC0xMDE2MTc2NDI3LC0yNjcxOTU2MDYsOD
-c0OTY4NTcsLTM5MzUyNTY4MywtOTk1MTAxMDMyLDc3MDA3NDE2
-LC01MjYwNjE5MjAsLTY5MzM0Mjk3MSwxMzI1MDM3NzE0LDQyOD
-QxNjQzMCwtMTA2NTI5OTY5MSw2NjY0NzA1OCw2OTk3MzA3MzVd
-fQ==
+eyJoaXN0b3J5IjpbLTMwMzIwNTAzNCwxMTk0NjMzMTY3LDIwMj
+kyMjY1MDEsMTA5MDAxMzY2OSw3NTI1NjAyNTUsLTEwOTcyMjc3
+MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMjY3MTk1NjA2LD
+g3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAzMiw3NzAwNzQx
+NiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMTMyNTAzNzcxNCw0Mj
+g0MTY0MzAsLTEwNjUyOTk2OTEsNjY2NDcwNTgsNjk5NzMwNzM1
+XX0=
 -->
