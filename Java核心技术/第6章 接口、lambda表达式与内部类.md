@@ -103,9 +103,10 @@ x->new int[x] // lambda表达式
 	- 内部类可以对同一个包中的其他类隐藏起来
 	- 当想要定义一个回调函数而且不想编写大量代码时，使用匿名（anonymous）内部类比较便捷
 ### 6.4.1 使用内部类访问对象状态
-- 内部类既可以访问自身的数据域，ye
+- 内部类既可以访问自身的数据域，也可以访问创建它的外围类对象的数据域
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE0ODQ1MDAsNjY2NDcwNTgsNjk5Nz
+eyJoaXN0b3J5IjpbLTEwNjUyOTk2OTEsNjY2NDcwNTgsNjk5Nz
 MwNzM1LC0yMTA2NTk2ODUsMTIyMTQ4OTE5MiwxNTI4NjgwOTEy
 LC0xMDM4NDgwNDcsLTExMTcxMDk5NzUsLTE3OTgzMzQzMDAsMT
 cwNDI0MzE0NywxMTA3MDU3OTI5LDE0NTAyMzkwMiwxNDUwMjM5
