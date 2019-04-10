@@ -128,13 +128,19 @@ outerObject.new InnerClass(construction parameters)
 > 可以使用长度为1的数组或者对象来绕过此限制。在多线程中执行内部类中的代码时，这做法可能会导致竞态条件
 ### 6.4.6 匿名内部类
 - 匿名内部类（anonymous inner class）
-- 
+- 通常的语法格式
+	- 其中`SuperType`ke
+``` java
+new SuperType() {
+	inner class methods and data
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMj
-Y3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAz
-Miw3NzAwNzQxNiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMTMyNT
-AzNzcxNCw0Mjg0MTY0MzAsLTEwNjUyOTk2OTEsNjY2NDcwNTgs
-Njk5NzMwNzM1LC0yMTA2NTk2ODUsMTIyMTQ4OTE5MiwxNTI4Nj
-gwOTEyLC0xMDM4NDgwNDcsLTExMTcxMDk5NzUsLTE3OTgzMzQz
-MDBdfQ==
+eyJoaXN0b3J5IjpbMTc4MjQyODkwMywxODkzODUxOTIyLC0xMD
+E2MTc2NDI3LC0yNjcxOTU2MDYsODc0OTY4NTcsLTM5MzUyNTY4
+MywtOTk1MTAxMDMyLDc3MDA3NDE2LC01MjYwNjE5MjAsLTY5Mz
+M0Mjk3MSwxMzI1MDM3NzE0LDQyODQxNjQzMCwtMTA2NTI5OTY5
+MSw2NjY0NzA1OCw2OTk3MzA3MzUsLTIxMDY1OTY4NSwxMjIxND
+g5MTkyLDE1Mjg2ODA5MTIsLTEwMzg0ODA0NywtMTExNzEwOTk3
+NV19
 -->
