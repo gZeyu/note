@@ -125,9 +125,9 @@ outerObject.new InnerClass(construction parameters)
 - 局部类不能用`public`或`private`访问说明符进行声明。它的作用域被限定在声明这个局部类的块中
 ### 6.4.5 由外部方法访问变量
 - 局部内部类可以访问局部变量。不过这些局部变量必须**事实上**为`final`
-> 可以使用长度为1的数组或者对象
+> 可以使用长度为1的数组或者对象来绕过此限制。在多线程中执行内部类中的代码时，这做法可能huidaozhi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY5Mjk2NjMsLTEwMTYxNzY0MjcsLT
+eyJoaXN0b3J5IjpbLTE1MjE2NDM0MDYsLTEwMTYxNzY0MjcsLT
 I2NzE5NTYwNiw4NzQ5Njg1NywtMzkzNTI1NjgzLC05OTUxMDEw
 MzIsNzcwMDc0MTYsLTUyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMj
 UwMzc3MTQsNDI4NDE2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3MDU4
