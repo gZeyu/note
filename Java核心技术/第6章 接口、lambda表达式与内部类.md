@@ -164,13 +164,14 @@ new Object(){}.getClass().getEnclosingClass()
 - 一个代理类只有一个实例域——调用处理器
 - 所有的代理类都覆盖了`Object`类中的方法`toString`、`equals`和`hashCode`
 - 没有定义代理类的名字，`Sun`虚拟机中的`Proxy`类将生成一个以字符串`$Proxy`开头的类名
-- 代理类一定是`pub`
+- 对于特定的类加载器和预设的一组接口来说，只能用一个代理类
+- 代理类一定是`public`和`final`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODc4Mzk1OSwzNDIzNzk1MzksLTgyNj
-c0MTc1OSwtMTg2ODI1Njg5MSwxMTk0NjMzMTY3LDIwMjkyMjY1
-MDEsMTA5MDAxMzY2OSw3NTI1NjAyNTUsLTEwOTcyMjc3MTUsMT
-g5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMjY3MTk1NjA2LDg3NDk2
-ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAzMiw3NzAwNzQxNiwtNT
-I2MDYxOTIwLC02OTMzNDI5NzEsMTMyNTAzNzcxNCw0Mjg0MTY0
-MzBdfQ==
+eyJoaXN0b3J5IjpbLTE1OTc5MTAwMjYsMzQyMzc5NTM5LC04Mj
+Y3NDE3NTksLTE4NjgyNTY4OTEsMTE5NDYzMzE2NywyMDI5MjI2
+NTAxLDEwOTAwMTM2NjksNzUyNTYwMjU1LC0xMDk3MjI3NzE1LD
+E4OTM4NTE5MjIsLTEwMTYxNzY0MjcsLTI2NzE5NTYwNiw4NzQ5
+Njg1NywtMzkzNTI1NjgzLC05OTUxMDEwMzIsNzcwMDc0MTYsLT
+UyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMjUwMzc3MTQsNDI4NDE2
+NDMwXX0=
 -->
