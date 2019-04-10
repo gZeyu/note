@@ -119,13 +119,13 @@ outerObject.new InnerClass(construction parameters)
 - 内部类不能有`static`方法
 - 可以通过显式地命名将外部类引用设置为其他的对象
 ### 6.4.3 内部类是否有用、必要和安全
-- 编译器将会把内部类翻译成用$（美元fu）
+- 编译器将会把内部类翻译成用$（美元符号）分隔外部类名与内部类名的常规类文件，而虚拟机则对此一无所知
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Njc1MzIyLC05OTUxMDEwMzIsNzcwMD
-c0MTYsLTUyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMjUwMzc3MTQs
-NDI4NDE2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3MDU4LDY5OTczMD
-czNSwtMjEwNjU5Njg1LDEyMjE0ODkxOTIsMTUyODY4MDkxMiwt
-MTAzODQ4MDQ3LC0xMTE3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MD
-QyNDMxNDcsMTEwNzA1NzkyOSwxNDUwMjM5MDIsMTQ1MDIzOTAy
-XX0=
+eyJoaXN0b3J5IjpbLTM5MzUyNTY4MywtOTk1MTAxMDMyLDc3MD
+A3NDE2LC01MjYwNjE5MjAsLTY5MzM0Mjk3MSwxMzI1MDM3NzE0
+LDQyODQxNjQzMCwtMTA2NTI5OTY5MSw2NjY0NzA1OCw2OTk3Mz
+A3MzUsLTIxMDY1OTY4NSwxMjIxNDg5MTkyLDE1Mjg2ODA5MTIs
+LTEwMzg0ODA0NywtMTExNzEwOTk3NSwtMTc5ODMzNDMwMCwxNz
+A0MjQzMTQ3LDExMDcwNTc5MjksMTQ1MDIzOTAyLDE0NTAyMzkw
+Ml19
 -->
