@@ -129,18 +129,18 @@ outerObject.new InnerClass(construction parameters)
 ### 6.4.6 匿名内部类
 - 匿名内部类（anonymous inner class）
 - 通常的语法格式
-	- 其中`SuperType`ke
+	- 其中`SuperType`可以是一个接口，也可以是一个类
 ``` java
 new SuperType() {
 	inner class methods and data
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjQyODkwMywxODkzODUxOTIyLC0xMD
-E2MTc2NDI3LC0yNjcxOTU2MDYsODc0OTY4NTcsLTM5MzUyNTY4
-MywtOTk1MTAxMDMyLDc3MDA3NDE2LC01MjYwNjE5MjAsLTY5Mz
-M0Mjk3MSwxMzI1MDM3NzE0LDQyODQxNjQzMCwtMTA2NTI5OTY5
-MSw2NjY0NzA1OCw2OTk3MzA3MzUsLTIxMDY1OTY4NSwxMjIxND
-g5MTkyLDE1Mjg2ODA5MTIsLTEwMzg0ODA0NywtMTExNzEwOTk3
-NV19
+eyJoaXN0b3J5IjpbLTEwOTcyMjc3MTUsMTg5Mzg1MTkyMiwtMT
+AxNjE3NjQyNywtMjY3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2
+ODMsLTk5NTEwMTAzMiw3NzAwNzQxNiwtNTI2MDYxOTIwLC02OT
+MzNDI5NzEsMTMyNTAzNzcxNCw0Mjg0MTY0MzAsLTEwNjUyOTk2
+OTEsNjY2NDcwNTgsNjk5NzMwNzM1LC0yMTA2NTk2ODUsMTIyMT
+Q4OTE5MiwxNTI4NjgwOTEyLC0xMDM4NDgwNDcsLTExMTcxMDk5
+NzVdfQ==
 -->
