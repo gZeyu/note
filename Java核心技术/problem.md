@@ -20,9 +20,10 @@ java类加载顺序，首先加载类，执行static变量初始化，接下来�
 ``` java
 javac -d your_path your_class.java
 ```
-
+8.  注释
+> P250
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM2NjMzNjUsMjA3OTQ0NTkwMSwtNj
-IzNTQ1ODI0LDE3MjE2MzI3MTcsNDU5MTYzMTc4LC05Njc3MDcx
-OTVdfQ==
+eyJoaXN0b3J5IjpbMjg5MzgyODY2LDIwNzk0NDU5MDEsLTYyMz
+U0NTgyNCwxNzIxNjMyNzE3LDQ1OTE2MzE3OCwtOTY3NzA3MTk1
+XX0=
 -->
