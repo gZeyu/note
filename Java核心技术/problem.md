@@ -9,11 +9,11 @@
 
 Java泛型仅针对引用类型，如果使用Function，会将代码中的int进行装箱，从而在性能上付出代价。java.util.function包针对基本类型的int、double和long提供支持，当输入或/和输出为基本类型时，可以避免自动装箱的操作。
 4. **闭包（closure）**
-5. 
+5. 内部类不能有`static`方法
 java类加载顺序，首先加载类，执行static变量初始化，接下来执行对象的创建，如果我们要执行代码中的变量int a 初始化，那么必须先执行加载外部类，再加载内部类，最后初始化静态变量 a ,问题就出在加载内部类上面，我们可以把内部类看成外部类的非静态成员，它的初始化必须在外部类对象创建后以后进行，要加载内部类必须在实例化外部类之后完成 ，java虚拟机要求所有的静态变量必须在对象创建之前完成，这样便产生了矛盾。  
 (有点绕，呵呵)  
 而java常量放在内存中常量池，它的机制与变量是不同的，编译时，加载常量是不需要加载类的，所以就没有上面那种矛盾。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyNTYyMjI0LDE3MjE2MzI3MTcsNDU5MT
-YzMTc4LC05Njc3MDcxOTVdfQ==
+eyJoaXN0b3J5IjpbMTA0MTMyMzA0MSwxNzIxNjMyNzE3LDQ1OT
+E2MzE3OCwtOTY3NzA3MTk1XX0=
 -->
