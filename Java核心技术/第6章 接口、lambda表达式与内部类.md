@@ -121,13 +121,15 @@ outerObject.new InnerClass(construction parameters)
 ### 6.4.3 内部类是否有用、必要和安全
 - 编译器将会把内部类翻译成用$（美元符号）分隔外部类名与内部类名的常规类文件，而虚拟机则对此一无所知
 - 如果内部类访问了私有数据域，就有可能通过附加在外围类所在包中的其他类访问它们
-### 
+### 6.4.4 局部内部类
+- 局部类不能用`public`或`private`访问说明符进行声明。它的作用域被限定在声明这个局部类的块中
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODkxNzY5ODIsODc0OTY4NTcsLTM5Mz
-UyNTY4MywtOTk1MTAxMDMyLDc3MDA3NDE2LC01MjYwNjE5MjAs
-LTY5MzM0Mjk3MSwxMzI1MDM3NzE0LDQyODQxNjQzMCwtMTA2NT
-I5OTY5MSw2NjY0NzA1OCw2OTk3MzA3MzUsLTIxMDY1OTY4NSwx
-MjIxNDg5MTkyLDE1Mjg2ODA5MTIsLTEwMzg0ODA0NywtMTExNz
-EwOTk3NSwtMTc5ODMzNDMwMCwxNzA0MjQzMTQ3LDExMDcwNTc5
-MjldfQ==
+eyJoaXN0b3J5IjpbMTMzNjM3MDUyMiw4NzQ5Njg1NywtMzkzNT
+I1NjgzLC05OTUxMDEwMzIsNzcwMDc0MTYsLTUyNjA2MTkyMCwt
+NjkzMzQyOTcxLDEzMjUwMzc3MTQsNDI4NDE2NDMwLC0xMDY1Mj
+k5NjkxLDY2NjQ3MDU4LDY5OTczMDczNSwtMjEwNjU5Njg1LDEy
+MjE0ODkxOTIsMTUyODY4MDkxMiwtMTAzODQ4MDQ3LC0xMTE3MT
+A5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMTEwNzA1Nzky
+OV19
 -->
