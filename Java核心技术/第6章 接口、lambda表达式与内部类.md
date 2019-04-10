@@ -96,14 +96,15 @@ x->new int[x] // lambda表达式
 - Java泛型仅针对引用类型，如果使用Function，会将代码中的int进行装箱，从而在性能上付出代价。java.util.function包针对基本类型的int、double和long提供支持，当输入或/和输出为基本类型时，可以避免自动装箱的操作。
 - **大多数标准函数式接口都提供了非抽象方法来生成或合并函数**
 ### 6.3.8 再谈Comparator
-
+## 6.4 内部类
+- 内部类（inner cl）
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NzMwNzM1LC0yMTA2NTk2ODUsMTIyMT
-Q4OTE5MiwxNTI4NjgwOTEyLC0xMDM4NDgwNDcsLTExMTcxMDk5
-NzUsLTE3OTgzMzQzMDAsMTcwNDI0MzE0NywxMTA3MDU3OTI5LD
-E0NTAyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTczMSwtOTE0MzE3
-MTQ5LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMTk3NjI5NDc1Mi
-wxOTg0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAyODgwLC0yNTk4
-MDQzNF19
+eyJoaXN0b3J5IjpbLTI4OTcyNjkwLDY5OTczMDczNSwtMjEwNj
+U5Njg1LDEyMjE0ODkxOTIsMTUyODY4MDkxMiwtMTAzODQ4MDQ3
+LC0xMTE3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMT
+EwNzA1NzkyOSwxNDUwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3
+MzEsLTkxNDMxNzE0OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLT
+E5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcw
+Mjg4MF19
 -->
