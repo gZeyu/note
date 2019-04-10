@@ -127,9 +127,10 @@ outerObject.new InnerClass(construction parameters)
 - 局部内部类可以访问局部变量。不过这些局部变量必须**事实上**为`final`
 > 可以使用长度为1的数组或者对象来绕过此限制。在多线程中执行内部类中的代码时，这做法可能会导致竞态条件
 ### 6.4.6 匿名内部类
-- 匿名内部类（an）
+- 匿名内部类（anonymous inner class）
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjA2MTI2MSwtMTAxNjE3NjQyNywtMj
+eyJoaXN0b3J5IjpbMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMj
 Y3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAz
 Miw3NzAwNzQxNiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMTMyNT
 AzNzcxNCw0Mjg0MTY0MzAsLTEwNjUyOTk2OTEsNjY2NDcwNTgs
