@@ -17,7 +17,10 @@ java类加载顺序，首先加载类，执行static变量初始化，接下来�
 > P247
 7. java编译 Error: Could not find or load main class java执行包main方法
 在java源文件开头有包声明语句，编译的时候需要指定生成的class文件路径.
+``` java
+javac -d your_path your_class.java
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NzQ1ODk4LC02MjM1NDU4MjQsMTcyMT
-YzMjcxNyw0NTkxNjMxNzgsLTk2NzcwNzE5NV19
+eyJoaXN0b3J5IjpbMjA3OTQ0NTkwMSwtNjIzNTQ1ODI0LDE3Mj
+E2MzI3MTcsNDU5MTYzMTc4LC05Njc3MDcxOTVdfQ==
 -->
