@@ -123,9 +123,10 @@ outerObject.new InnerClass(construction parameters)
 - 如果内部类访问了私有数据域，就有可能通过附加在外围类所在包中的其他类访问它们
 ### 6.4.4 局部内部类
 - 局部类不能用`public`或`private`访问说明符进行声明。它的作用域被限定在声明这个局部类的块中
-- 
+### 6.4.5 由外部方法访问变量
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjM3MDUyMiw4NzQ5Njg1NywtMzkzNT
+eyJoaXN0b3J5IjpbLTI2NzE5NTYwNiw4NzQ5Njg1NywtMzkzNT
 I1NjgzLC05OTUxMDEwMzIsNzcwMDc0MTYsLTUyNjA2MTkyMCwt
 NjkzMzQyOTcxLDEzMjUwMzc3MTQsNDI4NDE2NDMwLC0xMDY1Mj
 k5NjkxLDY2NjQ3MDU4LDY5OTczMDczNSwtMjEwNjU5Njg1LDEy
