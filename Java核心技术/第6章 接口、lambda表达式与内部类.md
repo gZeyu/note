@@ -157,13 +157,13 @@ new Object(){}.getClass().getEnclosingClass()
 - `Proxy`类的`newProxyInstance`方法的三个参数
 	- 一个类加载器（class loader）。用`null`表示使用默认的类加载器
 	- 一个`Class`对象数组，每个元素都是需要实现的接口
-	- 
+	- 一个调用处理器
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4NDA1NDAsLTE4NjgyNTY4OTEsMTE5ND
-YzMzE2NywyMDI5MjI2NTAxLDEwOTAwMTM2NjksNzUyNTYwMjU1
-LC0xMDk3MjI3NzE1LDE4OTM4NTE5MjIsLTEwMTYxNzY0MjcsLT
-I2NzE5NTYwNiw4NzQ5Njg1NywtMzkzNTI1NjgzLC05OTUxMDEw
-MzIsNzcwMDc0MTYsLTUyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMj
-UwMzc3MTQsNDI4NDE2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3MDU4
-XX0=
+eyJoaXN0b3J5IjpbLTgyNjc0MTc1OSwtMTg2ODI1Njg5MSwxMT
+k0NjMzMTY3LDIwMjkyMjY1MDEsMTA5MDAxMzY2OSw3NTI1NjAy
+NTUsLTEwOTcyMjc3MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNy
+wtMjY3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEw
+MTAzMiw3NzAwNzQxNiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMT
+MyNTAzNzcxNCw0Mjg0MTY0MzAsLTEwNjUyOTk2OTEsNjY2NDcw
+NThdfQ==
 -->
