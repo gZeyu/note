@@ -135,13 +135,13 @@ new SuperType(construction parameter) {
 	inner class methods and data
 }
 ```
-- 由于构造器的名字必须与类名相同，而匿名类没有类名，所以，匿名类不能有构造器。
+- 由于构造器的名字必须与类名相同，而匿名类没有类名，所以，匿名类不能有构造器。取而代之的是，将构造器参数传递给超类（superclass）构造器
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ1Njg3NTUsMTA5MDAxMzY2OSw3NT
-I1NjAyNTUsLTEwOTcyMjc3MTUsMTg5Mzg1MTkyMiwtMTAxNjE3
-NjQyNywtMjY3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLT
-k5NTEwMTAzMiw3NzAwNzQxNiwtNTI2MDYxOTIwLC02OTMzNDI5
-NzEsMTMyNTAzNzcxNCw0Mjg0MTY0MzAsLTEwNjUyOTk2OTEsNj
-Y2NDcwNTgsNjk5NzMwNzM1LC0yMTA2NTk2ODUsMTIyMTQ4OTE5
-Ml19
+eyJoaXN0b3J5IjpbMjAyOTIyNjUwMSwxMDkwMDEzNjY5LDc1Mj
+U2MDI1NSwtMTA5NzIyNzcxNSwxODkzODUxOTIyLC0xMDE2MTc2
+NDI3LC0yNjcxOTU2MDYsODc0OTY4NTcsLTM5MzUyNTY4MywtOT
+k1MTAxMDMyLDc3MDA3NDE2LC01MjYwNjE5MjAsLTY5MzM0Mjk3
+MSwxMzI1MDM3NzE0LDQyODQxNjQzMCwtMTA2NTI5OTY5MSw2Nj
+Y0NzA1OCw2OTk3MzA3MzUsLTIxMDY1OTY4NSwxMjIxNDg5MTky
+XX0=
 -->
