@@ -22,8 +22,10 @@ javac -d your_path your_class.java
 ```
 8.  注释
 > P250
+> 
+翻译有问题
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5MzgyODY2LDIwNzk0NDU5MDEsLTYyMz
+eyJoaXN0b3J5IjpbMjU2MTI3MDgzLDIwNzk0NDU5MDEsLTYyMz
 U0NTgyNCwxNzIxNjMyNzE3LDQ1OTE2MzE3OCwtOTY3NzA3MTk1
 XX0=
 -->
