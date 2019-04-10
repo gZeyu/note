@@ -139,14 +139,14 @@ new SuperType(construction parameter) {
 - 建议使用lambda表达式替代匿名内部类实现事件监视器和其他回调
 - 双括号初始化（double brace initialization）
 ``` java
-new ArrayList<Class>
+new ArrayList<Class>(){{add(object0);add(object1);}}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzIwNTAzNCwxMTk0NjMzMTY3LDIwMj
-kyMjY1MDEsMTA5MDAxMzY2OSw3NTI1NjAyNTUsLTEwOTcyMjc3
-MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMjY3MTk1NjA2LD
-g3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAzMiw3NzAwNzQx
-NiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMTMyNTAzNzcxNCw0Mj
-g0MTY0MzAsLTEwNjUyOTk2OTEsNjY2NDcwNTgsNjk5NzMwNzM1
-XX0=
+eyJoaXN0b3J5IjpbMTgwMDc5NjQwLDExOTQ2MzMxNjcsMjAyOT
+IyNjUwMSwxMDkwMDEzNjY5LDc1MjU2MDI1NSwtMTA5NzIyNzcx
+NSwxODkzODUxOTIyLC0xMDE2MTc2NDI3LC0yNjcxOTU2MDYsOD
+c0OTY4NTcsLTM5MzUyNTY4MywtOTk1MTAxMDMyLDc3MDA3NDE2
+LC01MjYwNjE5MjAsLTY5MzM0Mjk3MSwxMzI1MDM3NzE0LDQyOD
+QxNjQzMCwtMTA2NTI5OTY5MSw2NjY0NzA1OCw2OTk3MzA3MzVd
+fQ==
 -->
