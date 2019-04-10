@@ -158,9 +158,11 @@ new Object(){}.getClass().getEnclosingClass()
 	- 一个类加载器（class loader）。用`null`表示使用默认的类加载器
 	- 一个`Class`对象数组，每个元素都是需要实现的接口
 	- 一个调用处理器   
-### 6.5.2 创建代理对象
+### 6.5.3 代理类的特性
+- 代理类是在程序运行过程中创建的。然而，一旦被创建，就变成了**常规类**，与虚拟机中的任何其他类没有什么区别
+- 所有代理类都扩展
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ0NDMwMTMsMzQyMzc5NTM5LC04Mj
+eyJoaXN0b3J5IjpbLTE5MTA3ODQ0MDksMzQyMzc5NTM5LC04Mj
 Y3NDE3NTksLTE4NjgyNTY4OTEsMTE5NDYzMzE2NywyMDI5MjI2
 NTAxLDEwOTAwMTM2NjksNzUyNTYwMjU1LC0xMDk3MjI3NzE1LD
 E4OTM4NTE5MjIsLTEwMTYxNzY0MjcsLTI2NzE5NTYwNiw4NzQ5
