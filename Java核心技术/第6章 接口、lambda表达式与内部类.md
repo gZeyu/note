@@ -147,9 +147,11 @@ new Object(){}.getClass().getEnclosingClass()
 ```
 > 静态方法没有`this`，故不能使用`this.getClass()获取当前类名`
 ### 6.4.6 静态内部类
-- 只有内部类可以声明为static
+- 只有内部类可以声明为`static`
+- 静态内部类的对象除了没有对生成它的外围类对象的引用特权外，与其他所有内部类完全一样
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTYzNTA3NywtMTg2ODI1Njg5MSwxMT
+eyJoaXN0b3J5IjpbMjExNzk0MTA5NiwtMTg2ODI1Njg5MSwxMT
 k0NjMzMTY3LDIwMjkyMjY1MDEsMTA5MDAxMzY2OSw3NTI1NjAy
 NTUsLTEwOTcyMjc3MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNy
 wtMjY3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEw
