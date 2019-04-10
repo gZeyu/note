@@ -15,7 +15,9 @@ java类加载顺序，首先加载类，执行static变量初始化，接下来�
 而java常量放在内存中常量池，它的机制与变量是不同的，编译时，加载常量是不需要加载类的，所以就没有上面那种矛盾。
 6.  可以通过显式地命名将外部类引用设置为其他的对象
 > P247
+7. java编译 Error: Could not find or load main class java执行包main方法
+在java源文件开头有包声明语句，编译的时候需要指定生成的class文件路径.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzU0NTgyNCwxNzIxNjMyNzE3LDQ1OT
-E2MzE3OCwtOTY3NzA3MTk1XX0=
+eyJoaXN0b3J5IjpbMzg0NzQ1ODk4LC02MjM1NDU4MjQsMTcyMT
+YzMjcxNyw0NTkxNjMxNzgsLTk2NzcwNzE5NV19
 -->
