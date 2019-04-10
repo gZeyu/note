@@ -97,14 +97,17 @@ x->new int[x] // lambda表达式
 - **大多数标准函数式接口都提供了非抽象方法来生成或合并函数**
 ### 6.3.8 再谈Comparator
 ## 6.4 内部类
-- 内部类（inner cl）
-- 
+- **内部类（inner class）**
+- 使用内部类的原因
+	- 内部类方法可以访问该类定义所在的作用域中的数据，包括私有的数据
+	- 内部类可以对同一个包中的其他类隐藏起来
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTcyNjkwLDY5OTczMDczNSwtMjEwNj
-U5Njg1LDEyMjE0ODkxOTIsMTUyODY4MDkxMiwtMTAzODQ4MDQ3
-LC0xMTE3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMT
-EwNzA1NzkyOSwxNDUwMjM5MDIsMTQ1MDIzOTAyLDE4Nzk3Njk3
-MzEsLTkxNDMxNzE0OSwtNjkzMzQwODMxLC0zMzc3NzEyMDcsLT
-E5NzYyOTQ3NTIsMTk4NDk5MDMyMSw4MzUxNTkxNjQsLTkzMjcw
-Mjg4MF19
+eyJoaXN0b3J5IjpbNjY2NDcwNTgsNjk5NzMwNzM1LC0yMTA2NT
+k2ODUsMTIyMTQ4OTE5MiwxNTI4NjgwOTEyLC0xMDM4NDgwNDcs
+LTExMTcxMDk5NzUsLTE3OTgzMzQzMDAsMTcwNDI0MzE0NywxMT
+A3MDU3OTI5LDE0NTAyMzkwMiwxNDUwMjM5MDIsMTg3OTc2OTcz
+MSwtOTE0MzE3MTQ5LC02OTMzNDA4MzEsLTMzNzc3MTIwNywtMT
+k3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNTE1OTE2NCwtOTMyNzAy
+ODgwXX0=
 -->
