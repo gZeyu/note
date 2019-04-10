@@ -101,13 +101,13 @@ x->new int[x] // lambda表达式
 - 使用内部类的原因
 	- 内部类方法可以访问该类定义所在的作用域中的数据，包括私有的数据
 	- 内部类可以对同一个包中的其他类隐藏起来
-	- 当想要定义一个回调函数而且不想编写大量代码时，使用匿名（anony）
+	- 当想要定义一个回调函数而且不想编写大量代码时，使用匿名（anonymous）内部类比较便捷
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQwMjM2NzYsNjY2NDcwNTgsNjk5Nz
-MwNzM1LC0yMTA2NTk2ODUsMTIyMTQ4OTE5MiwxNTI4NjgwOTEy
-LC0xMDM4NDgwNDcsLTExMTcxMDk5NzUsLTE3OTgzMzQzMDAsMT
-cwNDI0MzE0NywxMTA3MDU3OTI5LDE0NTAyMzkwMiwxNDUwMjM5
-MDIsMTg3OTc2OTczMSwtOTE0MzE3MTQ5LC02OTMzNDA4MzEsLT
-MzNzc3MTIwNywtMTk3NjI5NDc1MiwxOTg0OTkwMzIxLDgzNTE1
-OTE2NF19
+eyJoaXN0b3J5IjpbLTc0MTA4Mjk5MSw2NjY0NzA1OCw2OTk3Mz
+A3MzUsLTIxMDY1OTY4NSwxMjIxNDg5MTkyLDE1Mjg2ODA5MTIs
+LTEwMzg0ODA0NywtMTExNzEwOTk3NSwtMTc5ODMzNDMwMCwxNz
+A0MjQzMTQ3LDExMDcwNTc5MjksMTQ1MDIzOTAyLDE0NTAyMzkw
+MiwxODc5NzY5NzMxLC05MTQzMTcxNDksLTY5MzM0MDgzMSwtMz
+M3NzcxMjA3LC0xOTc2Mjk0NzUyLDE5ODQ5OTAzMjEsODM1MTU5
+MTY0XX0=
 -->
