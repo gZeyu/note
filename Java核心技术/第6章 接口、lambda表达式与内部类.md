@@ -154,13 +154,16 @@ new Object(){}.getClass().getEnclosingClass()
 - 利用代理可以在运行时创建一个实现了一组给定接口的新类
 ### 6.5.1 何时使用代理
 ### 6.5.2 创建代理对象
-- `Proxy`类的`newInstance`方法
+- `Proxy`类的`newProxyInstance`方法的三个参数
+	- 一个类加载器（class loader）。用`null`表示使用默认的类加载器
+	- 一个`Class`对象数组，每个元素都是需要实现的接口
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODI1MTY5NzUsLTE4NjgyNTY4OTEsMT
-E5NDYzMzE2NywyMDI5MjI2NTAxLDEwOTAwMTM2NjksNzUyNTYw
-MjU1LC0xMDk3MjI3NzE1LDE4OTM4NTE5MjIsLTEwMTYxNzY0Mj
-csLTI2NzE5NTYwNiw4NzQ5Njg1NywtMzkzNTI1NjgzLC05OTUx
-MDEwMzIsNzcwMDc0MTYsLTUyNjA2MTkyMCwtNjkzMzQyOTcxLD
-EzMjUwMzc3MTQsNDI4NDE2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3
-MDU4XX0=
+eyJoaXN0b3J5IjpbNTE4NDA1NDAsLTE4NjgyNTY4OTEsMTE5ND
+YzMzE2NywyMDI5MjI2NTAxLDEwOTAwMTM2NjksNzUyNTYwMjU1
+LC0xMDk3MjI3NzE1LDE4OTM4NTE5MjIsLTEwMTYxNzY0MjcsLT
+I2NzE5NTYwNiw4NzQ5Njg1NywtMzkzNTI1NjgzLC05OTUxMDEw
+MzIsNzcwMDc0MTYsLTUyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMj
+UwMzc3MTQsNDI4NDE2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3MDU4
+XX0=
 -->
