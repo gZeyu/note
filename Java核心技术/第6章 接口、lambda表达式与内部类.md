@@ -142,14 +142,16 @@ new SuperType(construction parameter) {
 new ArrayList<Class>(){{add(object0);add(object1);}} // 构造匿名列表并添加元素
 ```
 - 在静态方法中获取当前类名
-- 
+``` java
+new Object(){}.getClass().getEnclosingClass()
+```
 > 静态方法没有`this`，故不能使用`this.getClass()获取当前类名`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDgyODE1OSwxMTk0NjMzMTY3LDIwMj
-kyMjY1MDEsMTA5MDAxMzY2OSw3NTI1NjAyNTUsLTEwOTcyMjc3
-MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMjY3MTk1NjA2LD
-g3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAzMiw3NzAwNzQx
-NiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMTMyNTAzNzcxNCw0Mj
-g0MTY0MzAsLTEwNjUyOTk2OTEsNjY2NDcwNTgsNjk5NzMwNzM1
-XX0=
+eyJoaXN0b3J5IjpbNzI2ODU2OTcwLDExOTQ2MzMxNjcsMjAyOT
+IyNjUwMSwxMDkwMDEzNjY5LDc1MjU2MDI1NSwtMTA5NzIyNzcx
+NSwxODkzODUxOTIyLC0xMDE2MTc2NDI3LC0yNjcxOTU2MDYsOD
+c0OTY4NTcsLTM5MzUyNTY4MywtOTk1MTAxMDMyLDc3MDA3NDE2
+LC01MjYwNjE5MjAsLTY5MzM0Mjk3MSwxMzI1MDM3NzE0LDQyOD
+QxNjQzMCwtMTA2NTI5OTY5MSw2NjY0NzA1OCw2OTk3MzA3MzVd
+fQ==
 -->
