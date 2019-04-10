@@ -141,9 +141,11 @@ new SuperType(construction parameter) {
 ``` java
 new ArrayList<Class>(){{add(object0);add(object1);}} // 构造匿名列表并添加元素
 ```
-- 在静态方法中获取当前类名（静态方法）
+- 在静态方法中获取当前类名
+- 
+> 静态方法没有`this`，故不能使用`this.getClass()获取当前类名`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzY2NTM5MSwxMTk0NjMzMTY3LDIwMj
+eyJoaXN0b3J5IjpbMTgzMDgyODE1OSwxMTk0NjMzMTY3LDIwMj
 kyMjY1MDEsMTA5MDAxMzY2OSw3NTI1NjAyNTUsLTEwOTcyMjc3
 MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMjY3MTk1NjA2LD
 g3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAzMiw3NzAwNzQx
