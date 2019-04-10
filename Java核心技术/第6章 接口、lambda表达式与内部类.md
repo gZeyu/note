@@ -124,13 +124,13 @@ outerObject.new InnerClass(construction parameters)
 ### 6.4.4 局部内部类
 - 局部类不能用`public`或`private`访问说明符进行声明。它的作用域被限定在声明这个局部类的块中
 ### 6.4.5 由外部方法访问变量
-
+- 局部内部类可以访问局部变量。不过这些局部变量必须**事实上**为`final`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzE5NTYwNiw4NzQ5Njg1NywtMzkzNT
-I1NjgzLC05OTUxMDEwMzIsNzcwMDc0MTYsLTUyNjA2MTkyMCwt
-NjkzMzQyOTcxLDEzMjUwMzc3MTQsNDI4NDE2NDMwLC0xMDY1Mj
-k5NjkxLDY2NjQ3MDU4LDY5OTczMDczNSwtMjEwNjU5Njg1LDEy
-MjE0ODkxOTIsMTUyODY4MDkxMiwtMTAzODQ4MDQ3LC0xMTE3MT
-A5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMxNDcsMTEwNzA1Nzky
-OV19
+eyJoaXN0b3J5IjpbLTEwMTYxNzY0MjcsLTI2NzE5NTYwNiw4Nz
+Q5Njg1NywtMzkzNTI1NjgzLC05OTUxMDEwMzIsNzcwMDc0MTYs
+LTUyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMjUwMzc3MTQsNDI4ND
+E2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3MDU4LDY5OTczMDczNSwt
+MjEwNjU5Njg1LDEyMjE0ODkxOTIsMTUyODY4MDkxMiwtMTAzOD
+Q4MDQ3LC0xMTE3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMx
+NDddfQ==
 -->
