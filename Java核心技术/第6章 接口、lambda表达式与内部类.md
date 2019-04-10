@@ -106,7 +106,7 @@ x->new int[x] // lambda表达式
 - 内部类既可以访问自身的数据域，也可以访问创建它的外围类对象的数据域
 - 外围类的引用在内部类构造器中设置，这个引用在内部类的定义中是不可见的
 - 只有内部类可以是私有类，而常规类只可以具有包可见性，或共有可见性
-### 6.4.1 内部类的特殊语法规则
+### 6.4.2 内部类的特殊语法规则
 - 使用外围类引用的正规语法
 ``` java
 OuterClass.this
@@ -118,13 +118,14 @@ outerObject.new InnerClass(construction parameters)
 - 内部类中声明的所有静态域都必须是`final`
 - 内部类不能有`static`方法
 - 可以通过显式地命名将外部类引用设置为其他的对象
-- 
+### 6.4.3 内部类是否有用、必要和安全
+- 编译器将会把内部类翻译成用$（美元fu）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTY5NjkxNSwtOTk1MTAxMDMyLDc3MD
-A3NDE2LC01MjYwNjE5MjAsLTY5MzM0Mjk3MSwxMzI1MDM3NzE0
-LDQyODQxNjQzMCwtMTA2NTI5OTY5MSw2NjY0NzA1OCw2OTk3Mz
-A3MzUsLTIxMDY1OTY4NSwxMjIxNDg5MTkyLDE1Mjg2ODA5MTIs
-LTEwMzg0ODA0NywtMTExNzEwOTk3NSwtMTc5ODMzNDMwMCwxNz
-A0MjQzMTQ3LDExMDcwNTc5MjksMTQ1MDIzOTAyLDE0NTAyMzkw
-Ml19
+eyJoaXN0b3J5IjpbLTc0Njc1MzIyLC05OTUxMDEwMzIsNzcwMD
+c0MTYsLTUyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMjUwMzc3MTQs
+NDI4NDE2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3MDU4LDY5OTczMD
+czNSwtMjEwNjU5Njg1LDEyMjE0ODkxOTIsMTUyODY4MDkxMiwt
+MTAzODQ4MDQ3LC0xMTE3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MD
+QyNDMxNDcsMTEwNzA1NzkyOSwxNDUwMjM5MDIsMTQ1MDIzOTAy
+XX0=
 -->
