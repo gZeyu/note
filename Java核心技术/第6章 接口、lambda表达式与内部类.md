@@ -131,13 +131,13 @@ outerObject.new InnerClass(construction parameters)
 - 通常的语法格式
 	- 其中`SuperType`可以是一个接口，也可以是一个类
 ``` java
-new SuperType(cons) {
+new SuperType(construction parameter) {
 	inner class methods and data
 }
 ```
 - 由于构造器的名字必须与类名相同，而匿名类没有类名，所以，匿名类不能有构造器
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjU4MDI0Miw3NTI1NjAyNTUsLTEwOT
+eyJoaXN0b3J5IjpbMTA5MDAxMzY2OSw3NTI1NjAyNTUsLTEwOT
 cyMjc3MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNywtMjY3MTk1
 NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAzMiw3Nz
 AwNzQxNiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMTMyNTAzNzcx
