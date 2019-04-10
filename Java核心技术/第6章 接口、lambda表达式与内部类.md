@@ -150,9 +150,12 @@ new Object(){}.getClass().getEnclosingClass()
 - 只有内部类可以声明为`static`
 - 静态内部类的对象除了没有对生成它的外围类对象的引用特权外，与其他所有内部类完全一样
 ## 6.5 代理
-- 代理（proxy）
+- **代理（proxy）**
+- 利用代理可以在运行时创建一个实现了一组给定接口的新类
+### 6.5.1 何时使用代理
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTc3NjY5OCwtMTg2ODI1Njg5MSwxMT
+eyJoaXN0b3J5IjpbLTQ4NjU4MTMzNiwtMTg2ODI1Njg5MSwxMT
 k0NjMzMTY3LDIwMjkyMjY1MDEsMTA5MDAxMzY2OSw3NTI1NjAy
 NTUsLTEwOTcyMjc3MTUsMTg5Mzg1MTkyMiwtMTAxNjE3NjQyNy
 wtMjY3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEw
