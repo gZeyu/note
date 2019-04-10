@@ -23,9 +23,9 @@ javac -d your_path your_class.java
 8.  注释
 > P250
 > 
-翻译有问题
+翻译有问题，关于**私有内部类**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MTI3MDgzLDIwNzk0NDU5MDEsLTYyMz
-U0NTgyNCwxNzIxNjMyNzE3LDQ1OTE2MzE3OCwtOTY3NzA3MTk1
-XX0=
+eyJoaXN0b3J5IjpbMTczMjEzNzkyMiwyNTYxMjcwODMsMjA3OT
+Q0NTkwMSwtNjIzNTQ1ODI0LDE3MjE2MzI3MTcsNDU5MTYzMTc4
+LC05Njc3MDcxOTVdfQ==
 -->
