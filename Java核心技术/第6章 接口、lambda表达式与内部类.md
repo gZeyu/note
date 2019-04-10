@@ -125,12 +125,13 @@ outerObject.new InnerClass(construction parameters)
 - 局部类不能用`public`或`private`访问说明符进行声明。它的作用域被限定在声明这个局部类的块中
 ### 6.4.5 由外部方法访问变量
 - 局部内部类可以访问局部变量。不过这些局部变量必须**事实上**为`final`
+> 可以使用数组或者对象raog
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTYxNzY0MjcsLTI2NzE5NTYwNiw4Nz
-Q5Njg1NywtMzkzNTI1NjgzLC05OTUxMDEwMzIsNzcwMDc0MTYs
-LTUyNjA2MTkyMCwtNjkzMzQyOTcxLDEzMjUwMzc3MTQsNDI4ND
-E2NDMwLC0xMDY1Mjk5NjkxLDY2NjQ3MDU4LDY5OTczMDczNSwt
-MjEwNjU5Njg1LDEyMjE0ODkxOTIsMTUyODY4MDkxMiwtMTAzOD
-Q4MDQ3LC0xMTE3MTA5OTc1LC0xNzk4MzM0MzAwLDE3MDQyNDMx
-NDddfQ==
+eyJoaXN0b3J5IjpbLTU4NTY1NjYyNCwtMTAxNjE3NjQyNywtMj
+Y3MTk1NjA2LDg3NDk2ODU3LC0zOTM1MjU2ODMsLTk5NTEwMTAz
+Miw3NzAwNzQxNiwtNTI2MDYxOTIwLC02OTMzNDI5NzEsMTMyNT
+AzNzcxNCw0Mjg0MTY0MzAsLTEwNjUyOTk2OTEsNjY2NDcwNTgs
+Njk5NzMwNzM1LC0yMTA2NTk2ODUsMTIyMTQ4OTE5MiwxNTI4Nj
+gwOTEyLC0xMDM4NDgwNDcsLTExMTcxMDk5NzUsLTE3OTgzMzQz
+MDBdfQ==
 -->
