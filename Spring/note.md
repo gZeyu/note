@@ -13,9 +13,20 @@
 [https://www.cnblogs.com/zqsky/p/6143319.html](https://www.cnblogs.com/zqsky/p/6143319.html)
 # Spring Boot 应用中server.context-path的作用
 [https://blog.csdn.net/onedaycbfly/article/details/80108129](https://blog.csdn.net/onedaycbfly/article/details/80108129)
+# map-underscore-to-camel-case
+[https://blog.csdn.net/zhao0416/article/details/78427191](https://blog.csdn.net/zhao0416/article/details/78427191)
+mybatis默认是属性名和数据库字段名一一对应的，即 
+数据库表列：user_name 
+实体类属性：user_name
+
+但是java中一般使用驼峰命名 
+数据库表列：user_name 
+实体类属性：userName
+
+在Springboot中，可以通过设置map-underscore-to-camel-case属性为true来开启驼峰功能。 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDU5ODQwLDIwODA1MDU0MjYsLTEwNT
+eyJoaXN0b3J5IjpbMTQ4NDU1MTQ0LDIwODA1MDU0MjYsLTEwNT
 AwNzM3NTAsNzAxMTAzNDQxLDczNTI5MTYxNywzMjE4MzIxNTQs
 LTEzODAyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYyLDU5Mz
 AzNzAxOSw2MTUwODc4ODVdfQ==
