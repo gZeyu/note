@@ -13,9 +13,10 @@
 [https://www.cnblogs.com/zqsky/p/6143319.html](https://www.cnblogs.com/zqsky/p/6143319.html)
 # Spring Boot 应用中server.context-path的作用
 [https://blog.csdn.net/onedaycbfly/article/details/80108129](https://blog.csdn.net/onedaycbfly/article/details/80108129)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDUwNTQyNiwtMTA1MDA3Mzc1MCw3MD
-ExMDM0NDEsNzM1MjkxNjE3LDMyMTgzMjE1NCwtMTM4MDIyOTQ2
-NiwxMzA2ODcwMzg1LDE0NDQ0MzE0NjIsNTkzMDM3MDE5LDYxNT
-A4Nzg4NV19
+eyJoaXN0b3J5IjpbLTU1NDU5ODQwLDIwODA1MDU0MjYsLTEwNT
+AwNzM3NTAsNzAxMTAzNDQxLDczNTI5MTYxNywzMjE4MzIxNTQs
+LTEzODAyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYyLDU5Mz
+AzNzAxOSw2MTUwODc4ODVdfQ==
 -->
