@@ -7,8 +7,10 @@
 1. entity字段必须和数据库字段一样
 2. model前端需要什么我们就给什么
 3. domain很少用，代表一个对象模块
+#
+[https://www.jianshu.com/p/9a7d613d5f75](https://www.jianshu.com/p/9a7d613d5f75)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MjkxNjE3LDMyMTgzMjE1NCwtMTM4MD
-IyOTQ2NiwxMzA2ODcwMzg1LDE0NDQ0MzE0NjIsNTkzMDM3MDE5
-LDYxNTA4Nzg4NV19
+eyJoaXN0b3J5IjpbMjAzNTk0NTIyMyw3MzUyOTE2MTcsMzIxOD
+MyMTU0LC0xMzgwMjI5NDY2LDEzMDY4NzAzODUsMTQ0NDQzMTQ2
+Miw1OTMwMzcwMTksNjE1MDg3ODg1XX0=
 -->
