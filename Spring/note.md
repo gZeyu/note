@@ -3,8 +3,9 @@
 # mybatis-spring-boot-starter
 [http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html)
 # # model与entity（实体类）的区别
+[https://blog.csdn.net/qq_38977097/article/details/81702349](https://blog.csdn.net/qq_38977097/article/details/81702349)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxODMyMTU0LC0xMzgwMjI5NDY2LDEzMD
-Y4NzAzODUsMTQ0NDQzMTQ2Miw1OTMwMzcwMTksNjE1MDg3ODg1
-XX0=
+eyJoaXN0b3J5IjpbLTc4MzQyMzI5NywzMjE4MzIxNTQsLTEzOD
+AyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYyLDU5MzAzNzAx
+OSw2MTUwODc4ODVdfQ==
 -->
