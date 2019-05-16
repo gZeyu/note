@@ -7,10 +7,12 @@
 1. entity字段必须和数据库字段一样
 2. model前端需要什么我们就给什么
 3. domain很少用，代表一个对象模块
-# dao/service/controller/model/entity/VO
-[https://www.jianshu.com/p/9a7d613d5f75](https://www.jianshu.com/p/9a7d613d5f75)
+# 分层思想
+[https://www.cnblogs.com/lkboy/p/4210742.html](https://www.cnblogs.com/lkboy/p/4210742.html)
+# service和serviceImpl的选择
+[https://www.cnblogs.com/zqsky/p/6143319.html](https://www.cnblogs.com/zqsky/p/6143319.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMTAzNDQxLDczNTI5MTYxNywzMjE4Mz
-IxNTQsLTEzODAyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYy
-LDU5MzAzNzAxOSw2MTUwODc4ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwNTAwNzM3NTAsNzAxMTAzNDQxLDczNT
+I5MTYxNywzMjE4MzIxNTQsLTEzODAyMjk0NjYsMTMwNjg3MDM4
+NSwxNDQ0NDMxNDYyLDU5MzAzNzAxOSw2MTUwODc4ODVdfQ==
 -->
