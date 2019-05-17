@@ -1,7 +1,8 @@
 # 登录
 ```
-mysql -hip -uroot -pPass
+mysql -u {username} -h {hostaddress} -P {port} -D {dbname} -p {password}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzMwMjg5NywxODcyNDI3NjA2XX0=
+eyJoaXN0b3J5IjpbMTMzNjk0MjAsMTU4NzMwMjg5NywxODcyND
+I3NjA2XX0=
 -->
