@@ -35,10 +35,12 @@ mybatis提供了一个配置：
 
 使用该配置可以让mybatis自动将SQL中查出来的带下划线的字段，转换为驼峰标志，再去匹配类中的属性。
 [https://www.cnblogs.com/flying607/p/8473075.html](https://www.cnblogs.com/flying607/p/8473075.html)
+# 关于springboot配置DataSource
+[https://www.cnblogs.com/toughzcf/p/9835867.html](https://www.cnblogs.com/toughzcf/p/9835867.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDc1ODAwNCwxNTE0NDMyMzksMTE3Nz
-EyNTM0MSwxNDg0NTUxNDQsMjA4MDUwNTQyNiwtMTA1MDA3Mzc1
-MCw3MDExMDM0NDEsNzM1MjkxNjE3LDMyMTgzMjE1NCwtMTM4MD
-IyOTQ2NiwxMzA2ODcwMzg1LDE0NDQ0MzE0NjIsNTkzMDM3MDE5
-LDYxNTA4Nzg4NV19
+eyJoaXN0b3J5IjpbNDAyNjMyMDgyLC02MDQ3NTgwMDQsMTUxND
+QzMjM5LDExNzcxMjUzNDEsMTQ4NDU1MTQ0LDIwODA1MDU0MjYs
+LTEwNTAwNzM3NTAsNzAxMTAzNDQxLDczNTI5MTYxNywzMjE4Mz
+IxNTQsLTEzODAyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYy
+LDU5MzAzNzAxOSw2MTUwODc4ODVdfQ==
 -->
