@@ -44,12 +44,12 @@ mybatis提供了一个配置：
 # Spring Boot 参考指南（Spring Boot文档）
 [https://segmentfault.com/a/1190000015040758](https://segmentfault.com/a/1190000015040758)
 # spring.datasource.url
-app.datasource.url=jdbc:mysql://ip:port/databasename
+app.datasource.url=jdbc:mysql://ip:port/DatabaseName 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMwOTYzODYsMTkwMTAyNTU2Niw0Nj
-k3NDUxOCwtNjA0NzU4MDA0LDE1MTQ0MzIzOSwxMTc3MTI1MzQx
-LDE0ODQ1NTE0NCwyMDgwNTA1NDI2LC0xMDUwMDczNzUwLDcwMT
-EwMzQ0MSw3MzUyOTE2MTcsMzIxODMyMTU0LC0xMzgwMjI5NDY2
-LDEzMDY4NzAzODUsMTQ0NDQzMTQ2Miw1OTMwMzcwMTksNjE1MD
-g3ODg1XX0=
+eyJoaXN0b3J5IjpbMTI4ODkwMzU4LDE5MDEwMjU1NjYsNDY5Nz
+Q1MTgsLTYwNDc1ODAwNCwxNTE0NDMyMzksMTE3NzEyNTM0MSwx
+NDg0NTUxNDQsMjA4MDUwNTQyNiwtMTA1MDA3Mzc1MCw3MDExMD
+M0NDEsNzM1MjkxNjE3LDMyMTgzMjE1NCwtMTM4MDIyOTQ2Niwx
+MzA2ODcwMzg1LDE0NDQ0MzE0NjIsNTkzMDM3MDE5LDYxNTA4Nz
+g4NV19
 -->
