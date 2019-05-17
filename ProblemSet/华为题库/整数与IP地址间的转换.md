@@ -29,6 +29,11 @@
 10.0.3.193
 167969729
 ```
+**put**
+```
+10.0.3.193
+167969729
+```
 ## Approach
 ### 思路
 1. IP地址字符串转换成10进制的IP地址。以“.”作为分隔符将IP地址字符串分割，将得到的4个字符串分别转成整数并移位，然后累加得到10进制的IP地址。
@@ -71,6 +76,6 @@ public class Main {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTg5OTM0NCwxNDExNDc3NTQ0LC0xMT
+eyJoaXN0b3J5IjpbMTYxNzQzMDU5NCwxNDExNDc3NTQ0LC0xMT
 Y2OTk0NjMxLDE3NDI0MDg0MzgsLTUxMjc1OTE1Nl19
 -->
