@@ -30,14 +30,15 @@ mybatis默认是属性名和数据库字段名一一对应的，即
 mybatis提供了一个配置：
 
 #开启驼峰命名转换
-mybatis.configuration.map-underscore-to-camel-case=true
+
+    mybatis.configuration.map-underscore-to-camel-case=true
 
 使用该配置可以让mybatis自动将SQL中查出来的带下划线的字段，转换为驼峰标志，再去匹配类中的属性。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyODk2MzU0LDE1MTQ0MzIzOSwxMTc3MT
-I1MzQxLDE0ODQ1NTE0NCwyMDgwNTA1NDI2LC0xMDUwMDczNzUw
-LDcwMTEwMzQ0MSw3MzUyOTE2MTcsMzIxODMyMTU0LC0xMzgwMj
-I5NDY2LDEzMDY4NzAzODUsMTQ0NDQzMTQ2Miw1OTMwMzcwMTks
-NjE1MDg3ODg1XX0=
+eyJoaXN0b3J5IjpbLTE3ODYyMDc3NTYsMTUxNDQzMjM5LDExNz
+cxMjUzNDEsMTQ4NDU1MTQ0LDIwODA1MDU0MjYsLTEwNTAwNzM3
+NTAsNzAxMTAzNDQxLDczNTI5MTYxNywzMjE4MzIxNTQsLTEzOD
+AyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYyLDU5MzAzNzAx
+OSw2MTUwODc4ODVdfQ==
 -->
