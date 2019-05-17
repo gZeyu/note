@@ -8,13 +8,7 @@ sudo apt-get autoremove mysql* --purge
  
 sudo apt-get remove apparmor
  
- 
-sudo apt-get install mysql-server mysql-common
---------------------- 
-作者：醉雨轩Y 
-来源：CSDN 
-原文：
-版权声明：本文为博主原创文章，转载请附上博文链接！
+ [https://blog.csdn.net/miao0967020148/article/details/80218170 ](https://blog.csdn.net/miao0967020148/article/details/80218170)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzOTE3MDc0XX0=
+eyJoaXN0b3J5IjpbLTEwMDg4MjU2NDhdfQ==
 -->
