@@ -27,9 +27,44 @@
 ### 思路
 1. IP地址字符串转换成10进制的IP地址。以“.”作为分隔符将IP地址字符串分割，将得到的4个字符串分别转成整数并移位，然后累加得到10进制的IP地址。
 2. 10进制的IP地址转换成IP地址字符串。通过位运算以每8位为单元分割10进制的IP地址，将得到的4个整数转字符串，再依次拼接得到转换后的IP地址字符串。
-3. 
+### Java Code
+``` Java
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Scanner scanner = TEST ? new Scanner(INPUT) : new Scanner(System.in);
+    while (scanner.hasNextLine()) {
+      String str = scanner.nextLine();
+      long value = Long.valueOf(scanner.nextLine());
+      System.out.println(getIPValue(str));
+      System.out.println(getIPString(value));
+    }
+    scanner.close();
+  }
+
+  private static long getIPValue(String str) {
+    String[] numberString = str.split("\\.");
+    long value = 0;
+    for (String s : numberString) {
+      value <<= 8;
+      value += Integer.valueOf(s);
+    }
+    return value;
+  }
+
+  private static String getIPString(long value) {
+    return String.valueOf((value & 0xff000000) >> 24) + '.' + ((value & 0x00ff0000) >> 16) + '.'
+        + ((value & 0x0000ff00) >> 8) + '.' + (value & 0x000000ff);
+  }
+
+  private static final boolean TEST = true;
+  private static final String INPUT = "10.0.3.193\n" + "167969729\n";
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1Njk3OTAzLC0xMTY2OTk0NjMxLDE3ND
-I0MDg0MzgsLTUxMjc1OTE1Nl19
+eyJoaXN0b3J5IjpbMTY4NzU1NjYxNiwtMTE2Njk5NDYzMSwxNz
+QyNDA4NDM4LC01MTI3NTkxNTZdfQ==
 -->
