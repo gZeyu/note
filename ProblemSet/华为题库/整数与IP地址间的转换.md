@@ -1,6 +1,6 @@
 
 # 整数与IP地址间的转换
-
+## 题目描述
 原理：ip地址的每段可以看成是一个0-255的整数，把每段拆分成一个二进制形式组合起来，然后把这个二进制数转变成  
 一个长整数。  
 举例：一个ip地址为10.0.3.193  
@@ -27,6 +27,6 @@
 **Algorithm**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYzNzY5OTAsMTc0MjQwODQzOCwtNT
-EyNzU5MTU2XX0=
+eyJoaXN0b3J5IjpbMTA4NzM3NjMzOSwxNzQyNDA4NDM4LC01MT
+I3NTkxNTZdfQ==
 -->
