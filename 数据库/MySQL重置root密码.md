@@ -17,8 +17,9 @@ mysql> update user set plugin="mysql_native_password";
 mysql> flush privileges; 
 mysql> quit;
 ```
-
+ ### 参考
+>[1] :  [https://blog.csdn.net/miao0967020148/article/details/80218170 ](https://blog.csdn.net/miao0967020148/article/details/80218170)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTQ4NTEyXX0=
+eyJoaXN0b3J5IjpbLTkxMjcxNjM5Ml19
 -->
