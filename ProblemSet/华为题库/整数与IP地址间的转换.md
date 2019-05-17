@@ -23,7 +23,7 @@
 1 输出转换成10进制的IP地址  
 2 输出转换后的IP地址
 ```
-## Approach: 
+## Approach
 **Algorithm**
 
 Suppose we have a function  `boolean allUnique(String substring)`  which will return true if the characters in the substring are all unique, otherwise false. We can iterate through all the possible substrings of the given string  `s`  and call the function  `allUnique`. If it turns out to be true, then we update our answer of the maximum length of substring without duplicate characters.
@@ -34,6 +34,6 @@ Now let's fill the missing parts:
     
 2.  To check if one string has duplicate characters, we can use a set. We iterate through all the characters in the string and put them into the  `set`  one by one. Before putting one character, we check if the set already contains it. If so, we return  `false`. After the loop, we return  `true`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDAwODM5NSwxNzQyNDA4NDM4LC01MT
-I3NTkxNTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMTc3MTQzMzEsMTc0MjQwODQzOCwtNT
+EyNzU5MTU2XX0=
 -->
