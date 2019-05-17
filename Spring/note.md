@@ -45,12 +45,13 @@ mybatis提供了一个配置：
 [https://segmentfault.com/a/1190000015040758](https://segmentfault.com/a/1190000015040758)
 # spring.datasource.url
 app.datasource.url=jdbc:mysql://ip:port/DatabaseName 
-# @Controller和@RestController的区别？(https://www.cnblogs.com/shuaifing/p/8119664.html)
+# @Controller和@RestController的区别？
+[https://www.cnblogs.com/shuaifing/p/8119664.html](https://www.cnblogs.com/shuaifing/p/8119664.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyMzcwMzE4LDE5MDEwMjU1NjYsNDY5Nz
-Q1MTgsLTYwNDc1ODAwNCwxNTE0NDMyMzksMTE3NzEyNTM0MSwx
-NDg0NTUxNDQsMjA4MDUwNTQyNiwtMTA1MDA3Mzc1MCw3MDExMD
-M0NDEsNzM1MjkxNjE3LDMyMTgzMjE1NCwtMTM4MDIyOTQ2Niwx
-MzA2ODcwMzg1LDE0NDQ0MzE0NjIsNTkzMDM3MDE5LDYxNTA4Nz
-g4NV19
+eyJoaXN0b3J5IjpbMTg2MDE0NTYzOCwxOTAxMDI1NTY2LDQ2OT
+c0NTE4LC02MDQ3NTgwMDQsMTUxNDQzMjM5LDExNzcxMjUzNDEs
+MTQ4NDU1MTQ0LDIwODA1MDU0MjYsLTEwNTAwNzM3NTAsNzAxMT
+AzNDQxLDczNTI5MTYxNywzMjE4MzIxNTQsLTEzODAyMjk0NjYs
+MTMwNjg3MDM4NSwxNDQ0NDMxNDYyLDU5MzAzNzAxOSw2MTUwOD
+c4ODVdfQ==
 -->
