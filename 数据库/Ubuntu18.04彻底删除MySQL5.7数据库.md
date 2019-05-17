@@ -1,3 +1,4 @@
+# Ubuntu18.04彻底删除MySQL5.7数据库
 ``` bash
 #查看MySQL的依赖项
 dpkg --list|grep mysql
@@ -15,5 +16,6 @@ sudo apt-get autoremove --purge mysql-apt-config
 >[1] : [https://blog.csdn.net/iehadoop/article/details/82961264](https://blog.csdn.net/iehadoop/article/details/82961264)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODgwOTc4MjksMTQ3NTA2MjAyOV19
+eyJoaXN0b3J5IjpbLTYzNjMzOTk1LC0xMjg4MDk3ODI5LDE0Nz
+UwNjIwMjldfQ==
 -->
