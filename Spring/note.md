@@ -48,9 +48,10 @@ app.datasource.url=jdbc:mysql://ip:port/DatabaseName
 # @Controller和@RestController的区别？
 [https://www.cnblogs.com/shuaifing/p/8119664.html](https://www.cnblogs.com/shuaifing/p/8119664.html)
 [https://www.jdon.com/50892](https://www.jdon.com/50892)
-## @Resource注解
+# @Resource注解
+[https://www.cnblogs.com/loveweiwei/p/3901387.html](https://www.cnblogs.com/loveweiwei/p/3901387.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDAyODM5MiwxMDUxMTQyMjExLDE5MD
+eyJoaXN0b3J5IjpbMTQ4MTM0NTU0OCwxMDUxMTQyMjExLDE5MD
 EwMjU1NjYsNDY5NzQ1MTgsLTYwNDc1ODAwNCwxNTE0NDMyMzks
 MTE3NzEyNTM0MSwxNDg0NTUxNDQsMjA4MDUwNTQyNiwtMTA1MD
 A3Mzc1MCw3MDExMDM0NDEsNzM1MjkxNjE3LDMyMTgzMjE1NCwt
