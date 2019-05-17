@@ -18,8 +18,8 @@ mysql> flush privileges;
 mysql> quit;
 ```
  ### 参考
->[1] :  [https://blog.csdn.net/miao0967020148/article/details/80218170 ](https://blog.csdn.net/miao0967020148/article/details/80218170)
+>[1] :  [https://blog.csdn.net/wei_love_2017/article/details/82313444](https://blog.csdn.net/wei_love_2017/article/details/82313444)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjcxNjM5Ml19
+eyJoaXN0b3J5IjpbLTM2ODM5ODU3OF19
 -->
