@@ -11,17 +11,23 @@
 | 3 | 00000011 |
 | 193 | 11000001 |
 组合起来即为：00001010 00000000 00000011 11000001，转换为10进制数就是：167773121，即该IP地址转换后的数字就是它了。
-### **Input**
+## 输入描述
 ```
 输入  
 1 输入IP地址  
 2 输入10进制型的IP地址
 ```
-###  **Output**
+##  输出描述
 ```
 输出  
 1 输出转换成10进制的IP地址  
 2 输出转换后的IP地址
+```
+## 示例
+
+```
+10.0.3.193
+167969729
 ```
 ## Approach
 ### 思路
@@ -65,6 +71,6 @@ public class Main {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTQ3NzU0NCwtMTE2Njk5NDYzMSwxNz
-QyNDA4NDM4LC01MTI3NTkxNTZdfQ==
+eyJoaXN0b3J5IjpbMTI0MDM1NDM5MiwxNDExNDc3NTQ0LC0xMT
+Y2OTk0NjMxLDE3NDI0MDg0MzgsLTUxMjc1OTE1Nl19
 -->
