@@ -29,14 +29,14 @@ mybatis默认是属性名和数据库字段名一一对应的，即
 在Springboot中，可以通过设置map-underscore-to-camel-case属性为true来开启驼峰功能。 
 mybatis提供了一个配置：
 
-#开启驼峰命名转换
+## 开启驼峰命名转换
 
     mybatis.configuration.map-underscore-to-camel-case=true
 
 使用该配置可以让mybatis自动将SQL中查出来的带下划线的字段，转换为驼峰标志，再去匹配类中的属性。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYyMDc3NTYsMTUxNDQzMjM5LDExNz
+eyJoaXN0b3J5IjpbLTIxMzQwOTM4NzEsMTUxNDQzMjM5LDExNz
 cxMjUzNDEsMTQ4NDU1MTQ0LDIwODA1MDU0MjYsLTEwNTAwNzM3
 NTAsNzAxMTAzNDQxLDczNTI5MTYxNywzMjE4MzIxNTQsLTEzOD
 AyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYyLDU5MzAzNzAx
