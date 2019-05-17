@@ -24,7 +24,7 @@
 2 输出转换后的IP地址
 ```
 ## 示例
-
+**Input**
 ```
 10.0.3.193
 167969729
@@ -71,6 +71,6 @@ public class Main {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDM1NDM5MiwxNDExNDc3NTQ0LC0xMT
+eyJoaXN0b3J5IjpbMTM1NTg5OTM0NCwxNDExNDc3NTQ0LC0xMT
 Y2OTk0NjMxLDE3NDI0MDg0MzgsLTUxMjc1OTE1Nl19
 -->
