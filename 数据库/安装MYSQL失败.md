@@ -5,7 +5,9 @@ sudo apt-get autoremove mysql* --purge
 sudo apt-get remove apparmor
 sudo apt-get install mysql-server mysql-common
 ```
- [https://blog.csdn.net/miao0967020148/article/details/80218170 ](https://blog.csdn.net/miao0967020148/article/details/80218170)
+
+ ### 参考
+>[1] : [https://blog.csdn.net/iehadoop/article/details/82961264](https://blog.csdn.net/iehadoop/article/details/82961264)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDcxNjAxMF19
+eyJoaXN0b3J5IjpbLTUxNjAxNjk5OV19
 -->
