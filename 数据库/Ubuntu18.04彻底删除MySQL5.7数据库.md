@@ -1,4 +1,4 @@
-```
+``` bash
 #查看MySQL的依赖项
 dpkg --list|grep mysql
 #卸载
@@ -12,5 +12,5 @@ dpkg --list|grep mysql
 sudo apt-get autoremove --purge mysql-apt-config
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzI0ODI1OV19
+eyJoaXN0b3J5IjpbMTc0MzI5MjY1OV19
 -->
