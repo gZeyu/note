@@ -5,9 +5,12 @@ Debian/Ubuntu系统下mysql会有一个默认的**debian-sys-maint**账户,这�
 ```
 sudo cat /etc/mysql/debian.cnf
 ```
-## 使用debian-sys-maint账户
+## 登录MySQL
+``` bash
+mysql -udebian-sys-maint -p{password}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNzI0NTY1XX0=
+eyJoaXN0b3J5IjpbLTExNTAyNjEzMzFdfQ==
 -->
