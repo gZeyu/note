@@ -12,7 +12,7 @@ mysql -udebian-sys-maint -p{password}
 ## 重置root密码
 ```
 > use mysql; 
-> update user set authentication_string=PASSWORD("{ new password}") where User='root'; # 更改密码 
+> update user set authentication_string=PASSWORD("{new password}") where User='root'; # 更改密码 
 > update user set plugin="mysql_native_password"; 
 > flush privileges; 
 > quit;
@@ -21,5 +21,5 @@ mysql -udebian-sys-maint -p{password}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDI0MzU2MzJdfQ==
+eyJoaXN0b3J5IjpbLTEyMjI1ODQyNjRdfQ==
 -->
