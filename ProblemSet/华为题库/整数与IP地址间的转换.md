@@ -25,9 +25,9 @@
 ```
 ## Approach
 ### 思路
-1. IP
+1. IP地址转换成10进制的IP地址 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY5OTQ2MzEsMTc0MjQwODQzOCwtNT
-EyNzU5MTU2XX0=
+eyJoaXN0b3J5IjpbODkzNzMxNDcwLC0xMTY2OTk0NjMxLDE3ND
+I0MDg0MzgsLTUxMjc1OTE1Nl19
 -->
