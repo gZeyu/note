@@ -29,7 +29,7 @@
 10.0.3.193
 167969729
 ```
-**put**
+**Output**
 ```
 10.0.3.193
 167969729
@@ -76,6 +76,6 @@ public class Main {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzQzMDU5NCwxNDExNDc3NTQ0LC0xMT
+eyJoaXN0b3J5IjpbMTExNzMyMzg0MCwxNDExNDc3NTQ0LC0xMT
 Y2OTk0NjMxLDE3NDI0MDg0MzgsLTUxMjc1OTE1Nl19
 -->
