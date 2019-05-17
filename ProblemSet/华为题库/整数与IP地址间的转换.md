@@ -26,14 +26,7 @@
 ## Approach
 **Algorithm**
 
-Suppose we have a function  `boolean allUnique(String substring)`  which will return true if the characters in the substring are all unique, otherwise false. We can iterate through all the possible substrings of the given string  `s`  and call the function  `allUnique`. If it turns out to be true, then we update our answer of the maximum length of substring without duplicate characters.
-
-Now let's fill the missing parts:
-
-1.  To enumerate all substrings of a given string, we enumerate the start and end indices of them. Suppose the start and end indices are  ii  and  jj, respectively. Then we have  0 \leq i \lt j \leq n0≤i<j≤n  (here end index  jj  is exclusive by convention). Thus, using two nested loops with  ii  from 0 to  n - 1n−1  and  jj  from  i+1i+1  to  nn, we can enumerate all the substrings of  `s`.
-    
-2.  To check if one string has duplicate characters, we can use a set. We iterate through all the characters in the string and put them into the  `set`  one by one. Before putting one character, we check if the set already contains it. If so, we return  `false`. After the loop, we return  `true`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc3MTQzMzEsMTc0MjQwODQzOCwtNT
+eyJoaXN0b3J5IjpbLTEyOTYzNzY5OTAsMTc0MjQwODQzOCwtNT
 EyNzU5MTU2XX0=
 -->
