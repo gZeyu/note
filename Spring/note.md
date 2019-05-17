@@ -50,11 +50,14 @@ app.datasource.url=jdbc:mysql://ip:port/DatabaseName
 [https://www.jdon.com/50892](https://www.jdon.com/50892)
 # @Resource注解
 [https://www.cnblogs.com/loveweiwei/p/3901387.html](https://www.cnblogs.com/loveweiwei/p/3901387.html)
+
+# Mybatis
+[https://www.jianshu.com/p/25db002b0367](https://www.jianshu.com/p/25db002b0367)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTM0NTU0OCwxMDUxMTQyMjExLDE5MD
-EwMjU1NjYsNDY5NzQ1MTgsLTYwNDc1ODAwNCwxNTE0NDMyMzks
-MTE3NzEyNTM0MSwxNDg0NTUxNDQsMjA4MDUwNTQyNiwtMTA1MD
-A3Mzc1MCw3MDExMDM0NDEsNzM1MjkxNjE3LDMyMTgzMjE1NCwt
-MTM4MDIyOTQ2NiwxMzA2ODcwMzg1LDE0NDQ0MzE0NjIsNTkzMD
-M3MDE5LDYxNTA4Nzg4NV19
+eyJoaXN0b3J5IjpbLTgxNDI5NzA1MSwxNDgxMzQ1NTQ4LDEwNT
+ExNDIyMTEsMTkwMTAyNTU2Niw0Njk3NDUxOCwtNjA0NzU4MDA0
+LDE1MTQ0MzIzOSwxMTc3MTI1MzQxLDE0ODQ1NTE0NCwyMDgwNT
+A1NDI2LC0xMDUwMDczNzUwLDcwMTEwMzQ0MSw3MzUyOTE2MTcs
+MzIxODMyMTU0LC0xMzgwMjI5NDY2LDEzMDY4NzAzODUsMTQ0ND
+QzMTQ2Miw1OTMwMzcwMTksNjE1MDg3ODg1XX0=
 -->
