@@ -39,10 +39,12 @@ mybatis提供了一个配置：
 [https://segmentfault.com/a/1190000010240142](https://segmentfault.com/a/1190000010240142)
 # 关于springboot配置DataSource
 [https://www.cnblogs.com/toughzcf/p/9835867.html](https://www.cnblogs.com/toughzcf/p/9835867.html)
+# Spring Boot 官方属性
+[https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA0OTE0MzUsLTYwNDc1ODAwNCwxNT
-E0NDMyMzksMTE3NzEyNTM0MSwxNDg0NTUxNDQsMjA4MDUwNTQy
-NiwtMTA1MDA3Mzc1MCw3MDExMDM0NDEsNzM1MjkxNjE3LDMyMT
-gzMjE1NCwtMTM4MDIyOTQ2NiwxMzA2ODcwMzg1LDE0NDQ0MzE0
-NjIsNTkzMDM3MDE5LDYxNTA4Nzg4NV19
+eyJoaXN0b3J5IjpbNDY5NzQ1MTgsLTYwNDc1ODAwNCwxNTE0ND
+MyMzksMTE3NzEyNTM0MSwxNDg0NTUxNDQsMjA4MDUwNTQyNiwt
+MTA1MDA3Mzc1MCw3MDExMDM0NDEsNzM1MjkxNjE3LDMyMTgzMj
+E1NCwtMTM4MDIyOTQ2NiwxMzA2ODcwMzg1LDE0NDQ0MzE0NjIs
+NTkzMDM3MDE5LDYxNTA4Nzg4NV19
 -->
