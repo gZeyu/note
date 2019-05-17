@@ -1,5 +1,6 @@
-# MySQL5.7重置root密码
+# Ubuntu18.04重置MySQL5.7的root密码
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg1MzI0NV19
+eyJoaXN0b3J5IjpbMTg2NzAzNjEwN119
 -->
