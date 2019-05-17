@@ -24,9 +24,10 @@
 2 输出转换后的IP地址
 ```
 ## Approach
-**Algorithm**
+### 思路
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzM3NjMzOSwxNzQyNDA4NDM4LC01MT
-I3NTkxNTZdfQ==
+eyJoaXN0b3J5IjpbLTE3OTg4OTY3NTUsMTc0MjQwODQzOCwtNT
+EyNzU5MTU2XX0=
 -->
