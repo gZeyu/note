@@ -2,6 +2,8 @@
 有许多方法可以创建Spring Boot应用程序。最简单的方法是在[https://start.spring.io/](https://start.spring.io/)上使用Spring Initializr，这是一个在线Spring Boot应用程序生成器，或者通过IntelliJ IDEA的Spring Initializr选项生成SpringBoot项目。
 # mybatis-spring-boot-starter
 [http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html)
+# springboot下使用mybatis
+[https://www.jianshu.com/p/13616babe6ae](https://www.jianshu.com/p/13616babe6ae)
 # model与entity（实体类）的区别
 [https://blog.csdn.net/qq_38977097/article/details/81702349](https://blog.csdn.net/qq_38977097/article/details/81702349)
 1. entity字段必须和数据库字段一样
@@ -27,8 +29,9 @@ mybatis默认是属性名和数据库字段名一一对应的，即
 在Springboot中，可以通过设置map-underscore-to-camel-case属性为true来开启驼峰功能。 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzEyNTM0MSwxNDg0NTUxNDQsMjA4MD
-UwNTQyNiwtMTA1MDA3Mzc1MCw3MDExMDM0NDEsNzM1MjkxNjE3
-LDMyMTgzMjE1NCwtMTM4MDIyOTQ2NiwxMzA2ODcwMzg1LDE0ND
-Q0MzE0NjIsNTkzMDM3MDE5LDYxNTA4Nzg4NV19
+eyJoaXN0b3J5IjpbMTUxNDQzMjM5LDExNzcxMjUzNDEsMTQ4ND
+U1MTQ0LDIwODA1MDU0MjYsLTEwNTAwNzM3NTAsNzAxMTAzNDQx
+LDczNTI5MTYxNywzMjE4MzIxNTQsLTEzODAyMjk0NjYsMTMwNj
+g3MDM4NSwxNDQ0NDMxNDYyLDU5MzAzNzAxOSw2MTUwODc4ODVd
+fQ==
 -->
