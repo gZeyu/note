@@ -41,10 +41,12 @@ mybatis提供了一个配置：
 [https://www.cnblogs.com/toughzcf/p/9835867.html](https://www.cnblogs.com/toughzcf/p/9835867.html)
 # Spring Boot 官方属性
 [https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix)
+# Spring Boot 参考指南（Spring Boot文档）
+[https://segmentfault.com/a/1190000015040758](https://segmentfault.com/a/1190000015040758)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NzQ1MTgsLTYwNDc1ODAwNCwxNTE0ND
-MyMzksMTE3NzEyNTM0MSwxNDg0NTUxNDQsMjA4MDUwNTQyNiwt
-MTA1MDA3Mzc1MCw3MDExMDM0NDEsNzM1MjkxNjE3LDMyMTgzMj
-E1NCwtMTM4MDIyOTQ2NiwxMzA2ODcwMzg1LDE0NDQ0MzE0NjIs
-NTkzMDM3MDE5LDYxNTA4Nzg4NV19
+eyJoaXN0b3J5IjpbMTkwMTAyNTU2Niw0Njk3NDUxOCwtNjA0Nz
+U4MDA0LDE1MTQ0MzIzOSwxMTc3MTI1MzQxLDE0ODQ1NTE0NCwy
+MDgwNTA1NDI2LC0xMDUwMDczNzUwLDcwMTEwMzQ0MSw3MzUyOT
+E2MTcsMzIxODMyMTU0LC0xMzgwMjI5NDY2LDEzMDY4NzAzODUs
+MTQ0NDQzMTQ2Miw1OTMwMzcwMTksNjE1MDg3ODg1XX0=
 -->
