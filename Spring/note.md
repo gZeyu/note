@@ -47,8 +47,9 @@ mybatis提供了一个配置：
 app.datasource.url=jdbc:mysql://ip:port/DatabaseName 
 # @Controller和@RestController的区别？
 [https://www.cnblogs.com/shuaifing/p/8119664.html](https://www.cnblogs.com/shuaifing/p/8119664.html)
+[https://www.jdon.com/50892](https://www.jdon.com/50892)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDE0NTYzOCwxOTAxMDI1NTY2LDQ2OT
+eyJoaXN0b3J5IjpbMTA1MTE0MjIxMSwxOTAxMDI1NTY2LDQ2OT
 c0NTE4LC02MDQ3NTgwMDQsMTUxNDQzMjM5LDExNzcxMjUzNDEs
 MTQ4NDU1MTQ0LDIwODA1MDU0MjYsLTEwNTAwNzM3NTAsNzAxMT
 AzNDQxLDczNTI5MTYxNywzMjE4MzIxNTQsLTEzODAyMjk0NjYs
