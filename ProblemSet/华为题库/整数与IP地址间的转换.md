@@ -26,9 +26,9 @@
 ## Approach
 ### 思路
 1. IP地址字符串转换成10进制的IP地址。以“.”作为分隔符将IP地址字符串分割，将得到的4个字符串分别转成整数并移位，然后累加得到10进制的IP地址。
-2. 10进制的IP地址转换成IP地址字符串。通过位运算分别取高
+2. 10进制的IP地址转换成IP地址字符串。通过位运算以每8位为dany分割10进制的IP地址，
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDg1MTMyNDQsLTExNjY5OTQ2MzEsMT
+eyJoaXN0b3J5IjpbLTE3MDEzMzI2MjksLTExNjY5OTQ2MzEsMT
 c0MjQwODQzOCwtNTEyNzU5MTU2XX0=
 -->
