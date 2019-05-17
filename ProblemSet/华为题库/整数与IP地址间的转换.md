@@ -38,7 +38,7 @@
 ### 思路
 1. IP地址字符串转换成10进制的IP地址。以“.”作为分隔符将IP地址字符串分割，将得到的4个字符串分别转成整数并移位，然后累加得到10进制的IP地址。
 2. 10进制的IP地址转换成IP地址字符串。通过位运算以每8位为单元分割10进制的IP地址，将得到的4个整数转字符串，再依次拼接得到转换后的IP地址字符串。
-注意Java的int类型占用四字节
+Java的int类型占用4字节，如果yo
 ### Java Code
 ``` Java
 import java.util.Scanner;
@@ -77,7 +77,7 @@ public class Main {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMwNTAyMjgsLTIwNjIyMTEyOCwxND
-ExNDc3NTQ0LC0xMTY2OTk0NjMxLDE3NDI0MDg0MzgsLTUxMjc1
-OTE1Nl19
+eyJoaXN0b3J5IjpbLTM2MzU0NzcwMCwtMjA2MjIxMTI4LDE0MT
+E0Nzc1NDQsLTExNjY5OTQ2MzEsMTc0MjQwODQzOCwtNTEyNzU5
+MTU2XX0=
 -->
