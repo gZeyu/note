@@ -43,10 +43,13 @@ mybatis提供了一个配置：
 [https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix)
 # Spring Boot 参考指南（Spring Boot文档）
 [https://segmentfault.com/a/1190000015040758](https://segmentfault.com/a/1190000015040758)
+# spring.datasource.url
+app.datasource.url=jdbc:mysql://ip:port/test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTAyNTU2Niw0Njk3NDUxOCwtNjA0Nz
-U4MDA0LDE1MTQ0MzIzOSwxMTc3MTI1MzQxLDE0ODQ1NTE0NCwy
-MDgwNTA1NDI2LC0xMDUwMDczNzUwLDcwMTEwMzQ0MSw3MzUyOT
-E2MTcsMzIxODMyMTU0LC0xMzgwMjI5NDY2LDEzMDY4NzAzODUs
-MTQ0NDQzMTQ2Miw1OTMwMzcwMTksNjE1MDg3ODg1XX0=
+eyJoaXN0b3J5IjpbODA0MTMwNzM4LDE5MDEwMjU1NjYsNDY5Nz
+Q1MTgsLTYwNDc1ODAwNCwxNTE0NDMyMzksMTE3NzEyNTM0MSwx
+NDg0NTUxNDQsMjA4MDUwNTQyNiwtMTA1MDA3Mzc1MCw3MDExMD
+M0NDEsNzM1MjkxNjE3LDMyMTgzMjE1NCwtMTM4MDIyOTQ2Niwx
+MzA2ODcwMzg1LDE0NDQ0MzE0NjIsNTkzMDM3MDE5LDYxNTA4Nz
+g4NV19
 -->
