@@ -11,10 +11,11 @@ dpkg --list|grep mysql
 #继续删除剩余依赖项，
 sudo apt-get autoremove --purge mysql-apt-config
 ```
->参考:[https://blog.csdn.net/iehadoop/article/details/82961264](https://blog.csdn.net/iehadoop/article/details/82961264)
+### 参考
+>[1] :[https://blog.csdn.net/iehadoop/article/details/82961264](https://blog.csdn.net/iehadoop/article/details/82961264)
 
 [提示文字][1] 
 [1]: http://blog.csdn.net/u012195214
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA1MTQyMjEsMTQ3NTA2MjAyOV19
+eyJoaXN0b3J5IjpbLTEzMTE3NzY4NjksMTQ3NTA2MjAyOV19
 -->
