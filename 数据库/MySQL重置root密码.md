@@ -10,16 +10,15 @@ sudo cat /etc/mysql/debian.cnf
 mysql -udebian-sys-maint -p{password}
 ```
 ## 重置root密码
-```
+``` bash
 > use mysql; 
 > update user set authentication_string=PASSWORD("{new password}") where User='root'; # 更改密码 
 > update user set plugin="mysql_native_password"; 
 > flush privileges; 
 > quit;
-
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI1ODQyNjRdfQ==
+eyJoaXN0b3J5IjpbLTIwNjM0NzMyODhdfQ==
 -->
