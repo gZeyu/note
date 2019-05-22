@@ -23,7 +23,7 @@ What is the minimum candies you must give?
 **Explanation:** You can allocate to the first, second and third child with 1, 2, 1 candies respectively. The third child gets 1 candy because it satisfies the above two conditions.
 ## Approach 1
 ### 思路
-我们先来看一个例子，下面是一个ratings数组以及一个按满足题目要求的最优分配方案candies数组。
+我们先来看一个例子，下面是一个$ratings$数组以及一个按满足题目要求的最优分配方案$candies$数组。
 ```
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 candies: [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
@@ -31,7 +31,7 @@ candies: [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
 观察两个数组并结合题意，我们可以得到以下结论：
 $$ candies[i]=MAX(左侧严格递增序列长度, 右侧严格递减序列长度,1) $$
 
-故我们可以维护两个辅助数组分别记录左侧严格递增序列长度和右侧严格递减序列长度，然后根据上面的公式遍历两个辅助数组就可以得到最优分配方案。
+故我们可以维护两个辅助数组$left2Right$和$right2Left$分别记录左侧严格递增序列长度和右侧严格递减序列长度，然后根据上面的公式遍历两个辅助数组就可以得到最优分配方案。为了
 ```
 ratings:[1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 left:[]
@@ -69,5 +69,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Nzk2MDg4MywxODk3MTQ0NzM4XX0=
+eyJoaXN0b3J5IjpbODE0MjcxNDEzLDE4OTcxNDQ3MzhdfQ==
 -->
