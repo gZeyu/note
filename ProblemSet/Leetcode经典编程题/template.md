@@ -24,15 +24,15 @@ What is the minimum candies you must give?
 ## Approach 1
 ### 思路
 我们先来看一个例子，下面是一个ratings数组以及一个按满足题目要求的最优分配方案candies数组。观察两个数组并结合题意，我们可以得到以下结论：
-$$ candies[i]=MAX(左侧严格递增数组长度, 右侧严格递减数组长度,1) $$
+$$ candies[i]=MAX(左侧严格递增序列长度, 右侧严格递减序列长度,1) $$
 ```
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 candies: [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
 ```
-故我们可以维护两个辅助数组分别记录左侧严格递增数组长度和右侧严格递减数组长度，然后根据上面的公式遍历两个辅助数组就可以得到最优分配方案。
+故我们可以维护两个辅助数组分别记录左侧严格递增序列长度和右侧严格递减序列长度，然后根据上面的公式遍历两个辅助数组就可以得到最优分配方案。
 ```
-ratings:   [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
-左侧严格递增长度:[]
+ratings:          [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
+左侧严格递增序列长度:[]
 ```
 ### Java Code
 ``` Java
@@ -67,5 +67,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM4NjQ4NDEsMTg5NzE0NDczOF19
+eyJoaXN0b3J5IjpbMzgzMTE3NTY1LDE4OTcxNDQ3MzhdfQ==
 -->
