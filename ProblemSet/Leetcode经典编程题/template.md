@@ -29,6 +29,7 @@ $$ candies[i]=MAX(左侧严格递增数组长度, 右侧严格递减数组长度
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 candies: [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
 ```
+故我们可以维护两个数组，
 ### Java Code
 ``` Java
 class Solution {  
@@ -62,5 +63,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTk5MzgwNCwxODk3MTQ0NzM4XX0=
+eyJoaXN0b3J5IjpbMTU1NTI0NjE5NCwxODk3MTQ0NzM4XX0=
 -->
