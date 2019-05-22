@@ -1,8 +1,8 @@
 # 139. Word Break
 
->  **Related Topics:** 动态规划，回溯，DFS
-There are  _N_  children standing in a line. Each child is assigned a rating value.
+>  **Related Topics:** t
 
+There are  _N_  children standing in a line. Each child is assigned a rating value.
 You are giving candies to these children subjected to the following requirements:
 
 -   Each child must have at least one candy.
@@ -28,5 +28,5 @@ What is the minimum candies you must give?
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzE0NDczOF19
+eyJoaXN0b3J5IjpbLTEwMDM4NjMyNjUsMTg5NzE0NDczOF19
 -->
