@@ -29,7 +29,7 @@ $$ candies[i]=MAX(左侧严格递增数组长度, 右侧严格递减数组长度
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 candies: [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
 ```
-故我们可以维护两个辅助数组分别记录左侧严格递增数组长度和右侧严格递减数组长度
+故我们可以维护两个辅助数组分别记录左侧严格递增数组长度和右侧严格递减数组长度，然后根据上面的公式计算最优分配方案candies数组并求和。
 ### Java Code
 ``` Java
 class Solution {  
@@ -63,5 +63,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0ODI2ODg4LDE4OTcxNDQ3MzhdfQ==
+eyJoaXN0b3J5IjpbMTI4NTg3ODY2NywxODk3MTQ0NzM4XX0=
 -->
