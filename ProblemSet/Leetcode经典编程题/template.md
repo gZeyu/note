@@ -25,7 +25,7 @@ What is the minimum candies you must give?
 ### 思路
 我们先来看一个例子，下面是一个ratings数组以及一个按满足题目要求的最优分配方案candies数组。观察两个数组，我们可以得到以下推论：
 
--  rating value 为极大值的小孩对应糖果数量恰好是左右
+-  如果小孩的 rating value 恰好
 ```
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 candies:  [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
@@ -63,5 +63,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTg5MTk2LDE4OTcxNDQ3MzhdfQ==
+eyJoaXN0b3J5IjpbMTgyODMzODM5NiwxODk3MTQ0NzM4XX0=
 -->
