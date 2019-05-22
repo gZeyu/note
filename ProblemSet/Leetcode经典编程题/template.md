@@ -27,7 +27,7 @@ What is the minimum candies you must give?
 $$ candies[i]=MAX(左侧严格递增数组长度, 右侧严格递减数组长度,1) $$
 ```
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
-candies:  [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
+candies: [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
 ```
 ### Java Code
 ``` Java
@@ -62,5 +62,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTc2MTcwLDE4OTcxNDQ3MzhdfQ==
+eyJoaXN0b3J5IjpbLTM0OTk5MzgwNCwxODk3MTQ0NzM4XX0=
 -->
