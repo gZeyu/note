@@ -20,8 +20,7 @@ What is the minimum candies you must give?
 
 **Input:** [1,2,2]
 **Output:** 4
-**Explanation:** You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
-             The third child gets 1 candy because it satisfies the above two conditions.
+**Explanation:** You can allocate to the first, second and third child with 1, 2, 1 candies respectively. The third child gets 1 candy because it satisfies the above two conditions.
 ## Approach 1
 ### 思路
 ### Java Code
@@ -29,5 +28,5 @@ What is the minimum candies you must give?
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg5MDM1NjRdfQ==
+eyJoaXN0b3J5IjpbMTg5NzE0NDczOF19
 -->
