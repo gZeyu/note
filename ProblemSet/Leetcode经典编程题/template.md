@@ -1,6 +1,6 @@
 # 139. Word Break
 
->  **Related Topics:** t
+>  **Related Topics:** 贪心
 
 There are  _N_  children standing in a line. Each child is assigned a rating value.
 You are giving candies to these children subjected to the following requirements:
@@ -28,5 +28,5 @@ What is the minimum candies you must give?
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM4NjMyNjUsMTg5NzE0NDczOF19
+eyJoaXN0b3J5IjpbLTE4NTMxNTk4NjQsMTg5NzE0NDczOF19
 -->
