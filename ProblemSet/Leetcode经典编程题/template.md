@@ -31,7 +31,8 @@ candies: [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
 ```
 故我们可以维护两个辅助数组分别记录左侧严格递增数组长度和右侧严格递减数组长度，然后根据上面的公式遍历两个辅助数组就可以得到最优分配方案。
 ```
-ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
+ratings:   [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
+左侧严格递增:[
 ```
 ### Java Code
 ``` Java
@@ -66,5 +67,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA1NDgxMDIsMTg5NzE0NDczOF19
+eyJoaXN0b3J5IjpbMTExOTczNjk5NSwxODk3MTQ0NzM4XX0=
 -->
