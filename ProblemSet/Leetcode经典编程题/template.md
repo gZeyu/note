@@ -25,7 +25,7 @@ What is the minimum candies you must give?
 ### 思路
 ```
 rankings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
-candies:  [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
+candies:  [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
 ```
 ### Java Code
 ``` Java
@@ -60,5 +60,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4Mjc5MDU2LDE4OTcxNDQ3MzhdfQ==
+eyJoaXN0b3J5IjpbLTIwNDAxODg1NDQsMTg5NzE0NDczOF19
 -->
