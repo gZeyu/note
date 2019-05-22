@@ -23,7 +23,7 @@ What is the minimum candies you must give?
 **Explanation:** You can allocate to the first, second and third child with 1, 2, 1 candies respectively. The third child gets 1 candy because it satisfies the above two conditions.
 ## Approach 1
 ### 思路
-我们先来看一个例子，下面是一个ratings数组以及一个按满足题目要求的最优分配方案candies数组。观察两个数组，我们可以得到以下推论：
+我们先来看一个例子，下面是一个ratings数组以及一个按满足题目要求的最优分配方案candies数组。观察两个数组bing，我们可以得到以下结论：
 
 -  $candies[i]=MAX(左侧严格递增数组长度, 右侧严格递减数组长度,1)$
 ```
@@ -63,5 +63,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MzIxNjU2LDE4OTcxNDQ3MzhdfQ==
+eyJoaXN0b3J5IjpbLTEwODE4MTQwNDUsMTg5NzE0NDczOF19
 -->
