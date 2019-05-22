@@ -34,36 +34,10 @@ $$ candies[i]=MAX(左侧严格递增序列长度, 右侧严格递减序列长度
 故我们可以维护两个辅助数组$left2Right$和$right2Left$分别记录左侧严格递增序列长度和右侧严格递减序列长度，然后根据上面的公式遍历两个辅助数组就可以得到最优分配方案。
 ### Java Code
 ``` Java
-class Solution {  
-  
-  public int candy(int[] ratings) {  
-    int[] left2Right = new int[ratings.length];  
-    int[] right2Left = new int[ratings.length];  
-    left2Right[0] = 1;  
-    for (int i = 1; i < ratings.length; i++) {  
-      left2Right[i] = ratings[i] > ratings[i - 1] ? left2Right[i - 1] + 1 : 1;  
-    }  
-    right2Left[ratings.length - 1] = 1;  
-    for (int i = ratings.length - 2; i > -1; i--) {  
-      right2Left[i] = ratings[i] > ratings[i + 1] ? right2Left[i + 1] + 1 : 1;  
-    }  
-    int sum = 0;  
-    for (int i = 0; i < ratings.length; i++) {  
-      sum += left2Right[i] > right2Left[i] ? left2Right[i] : right2Left[i];  
-    }  
-    return sum;  
-  }  
-  
-  public static void main(String[] args) {  
-    Solution s = new Solution();  
-    System.out.println(s.candy(new int[] {1, 0, 2}));  
-    System.out.println(s.candy(new int[] {1, 2, 2}));  
-    System.out.println(  
-        s.candy(new int[] {1, 2, 3, 4, 5, 3, 2, 1, 2, 6, 5, 4, 3, 3, 2, 1, 1, 3, 3, 3, 4, 2}));  
-  }  
-}
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjkyMTE3OTksMTg5NzE0NDczOF19
+eyJoaXN0b3J5IjpbMTEyNzAzOTAyMSwtMTU2OTIxMTc5OSwxOD
+k3MTQ0NzM4XX0=
 -->
