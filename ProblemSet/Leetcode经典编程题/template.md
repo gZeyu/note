@@ -23,6 +23,9 @@ What is the minimum candies you must give?
 **Explanation:** You can allocate to the first, second and third child with 1, 2, 1 candies respectively. The third child gets 1 candy because it satisfies the above two conditions.
 ## Approach 1
 ### 思路
+```
+rankings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
+```
 ### Java Code
 ``` Java
 class Solution {  
@@ -56,5 +59,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQxNTU2MjAsMTg5NzE0NDczOF19
+eyJoaXN0b3J5IjpbLTE4MTkwNTI5NzYsMTg5NzE0NDczOF19
 -->
