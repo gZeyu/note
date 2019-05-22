@@ -25,7 +25,7 @@ What is the minimum candies you must give?
 ### 思路
 我们先来看一个例子，下面是一个ratings数组以及一个按满足题目要求的最优分配方案candies数组。观察两个数组，我们可以得到以下推论：
 
--  如果小孩的 rating value 恰好
+-  如果小孩的 rating value 恰好处于某个严格递增数组内部（）
 ```
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 candies:  [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
@@ -63,5 +63,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODMzODM5NiwxODk3MTQ0NzM4XX0=
+eyJoaXN0b3J5IjpbLTIwMzM2MjE3OSwxODk3MTQ0NzM4XX0=
 -->
