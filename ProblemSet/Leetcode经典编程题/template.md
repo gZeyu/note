@@ -25,7 +25,7 @@ What is the minimum candies you must give?
 ### 思路
 我们先来看一个例子，下面是一个ratings数组以及一个按满足题目要求的最优分配方案candies数组。观察两个数组，我们可以得到以下推论：
 
--  $candies[i]=MAX(左侧严格递增数组长度, )$
+-  $candies[i]=MAX(左侧严格递增数组长度, 右侧严格递增数组长度,1)$
 ```
 ratings: [1 2 3 4 5 3 2 1 2 6 5 4 3 3 2 1 1 3 3 3 4 2]
 candies:  [1 2 3 4 5 3 2 1 2 4 3 2 1 3 2 1 1 2 1 1 2 1]
@@ -63,5 +63,5 @@ class Solution {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNjM1NTIsMTg5NzE0NDczOF19
+eyJoaXN0b3J5IjpbNjM5OTI2NjY1LDE4OTcxNDQ3MzhdfQ==
 -->
