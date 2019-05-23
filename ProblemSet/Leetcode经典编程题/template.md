@@ -1,6 +1,6 @@
 # 
 
->  **Related Topics:** 贪心
+>  **Related Topics:** 
 
 ## Approach 1
 ### 思路
@@ -10,6 +10,6 @@
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1MTk3NDg1LC0xNTY5MjExNzk5LDE4OT
-cxNDQ3MzhdfQ==
+eyJoaXN0b3J5IjpbLTE2NTMzMDk5OTYsLTE1NjkyMTE3OTksMT
+g5NzE0NDczOF19
 -->
