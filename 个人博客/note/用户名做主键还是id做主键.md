@@ -1,6 +1,6 @@
 1. 一般来说，主键最好是无意义的字段。
 2. 用户名可以是千奇百怪的字符串，而用ID（一般用guid或自增int）是比较规则的字母数字序列。而用数字做索引查询和搜索的速度比字符串快。
-3. 假如从用户表里删除了一个用户a，再增加用户b，用户b的用户名与用户a相同。如果用户a的权限表相对用户名没有清除干净，就会引发权限安全问题。
+3. 假如以用户名作为主键并与其他表关联，当删除用户时，再创建一个同名的用户，可能导致这些关联紊乱。而绝对唯一的ID则不会。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTkxODk4MTcsMTk0MjYzODM4MV19
+eyJoaXN0b3J5IjpbLTI5MTM3NDMyNiwxOTQyNjM4MzgxXX0=
 -->
