@@ -1,8 +1,8 @@
 1. 一般来说，主键最好是无意义的字段。
 2. 用户名可以是千奇百怪的字符串，而用ID（一般用guid或自增int）是比较规则的字母数字序列。而用数字做索引查询和搜索的速度比字符串快。
 3. 假如以用户名作为主键并与其他表关联，当删除用户后，再创建一个同名的用户，可能导致这些关联紊乱。而绝对唯一的ID则不会。
-4. 有的系统可能会允许修改用户名，如果以用户名为主键，将带来很多麻烦。而如果以ID为主键进行关联，则没有此问题。
+4. 用户名以后可能要更改，而且以后可能有重复的用户名，所以用用户名作主键很不妥，而用ID字段来做主键可以完全避免这种情况。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDgxNjEyOSwxOTkyNzg4ODIsMTk0Mj
-YzODM4MV19
+eyJoaXN0b3J5IjpbLTEzNTk2MDI1NzQsLTQ4MDgxNjEyOSwxOT
+kyNzg4ODIsMTk0MjYzODM4MV19
 -->
