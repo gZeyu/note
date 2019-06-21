@@ -4,8 +4,8 @@
 3. [NLJ和BNLJ之JOIN底层算法](https://blog.csdn.net/qq_40795214/article/details/81838995)
 4. [MySQL的JOIN](https://www.cnblogs.com/fudashi/p/7491039.html)
 5. [Mysql  _join_  算法原理](https://zhuanlan.zhihu.com/p/54275505)
-6. [https://www.jianshu.com/p/933a6f1aa4f8](https://www.jianshu.com/p/933a6f1aa4f8)
+6. [深入浅析Mysql联合索引最左匹配原则](https://www.jianshu.com/p/933a6f1aa4f8)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MDI5NTgsMjQxNDg4NDIxLC0xNzA4Mz
-A0OTgyXX0=
+eyJoaXN0b3J5IjpbLTM2NzYyODgxMCwyNDE0ODg0MjEsLTE3MD
+gzMDQ5ODJdfQ==
 -->
