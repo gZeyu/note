@@ -2,8 +2,9 @@
 用户名做主键还是id做主键
 2. [https://www.cnblogs.com/fudashi/p/7491039.html](https://www.cnblogs.com/fudashi/p/7491039.html)
 3. [NLJ和BNLJ之JOIN底层算法](https://blog.csdn.net/qq_40795214/article/details/81838995)
-4. 
+4. [MySQL的JOIN](https://www.cnblogs.com/fudashi/p/7491039.html)
+5. [Mysql  _join_  算法原理](https://zhuanlan.zhihu.com/p/54275505)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMyNTYyNjEsMjQxNDg4NDIxLC0xNz
-A4MzA0OTgyXX0=
+eyJoaXN0b3J5IjpbODY0NzU3NjAxLDI0MTQ4ODQyMSwtMTcwOD
+MwNDk4Ml19
 -->
