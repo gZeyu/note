@@ -8,8 +8,8 @@
 7. [create index注意n如果是大表建立索引，切记加上ONLINE参数](https://wmcxy.iteye.com/blog/891224)
 8. [MySQL下使用Inplace和Online方式创建索引的教程](https://www.jb51.net/article/75217.htm)
 9. [web聊天类数据库功能表结构如何设计?](http://www.zuidaima.com/question/2261153871498240.htm)
-10.[数据库中 事务的四大特性（ACID），事务的隔离级别。](https://blog.csdn.net/zh521zh/article/details/69400053) 
+10. [数据库中 事务的四大特性（ACID），事务的隔离级别。](https://blog.csdn.net/zh521zh/article/details/69400053) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA4NTk2MTIsLTQ0NDUzMzAzNiwtMT
-k1MTQ3ODgwOSwyNDE0ODg0MjEsLTE3MDgzMDQ5ODJdfQ==
+eyJoaXN0b3J5IjpbMTYzNTA3ODk2MiwtNDQ0NTMzMDM2LC0xOT
+UxNDc4ODA5LDI0MTQ4ODQyMSwtMTcwODMwNDk4Ml19
 -->
