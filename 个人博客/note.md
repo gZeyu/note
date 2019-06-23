@@ -8,7 +8,8 @@
 7. [create index注意n如果是大表建立索引，切记加上ONLINE参数](https://wmcxy.iteye.com/blog/891224)
 8. [MySQL下使用Inplace和Online方式创建索引的教程](https://www.jb51.net/article/75217.htm)
 9. [web聊天类数据库功能表结构如何设计?](http://www.zuidaima.com/question/2261153871498240.htm)
+10.[https://blog.csdn.net/u014079773/article/details/52808193](https://blog.csdn.net/u014079773/article/details/52808193) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDUzMzAzNiwtMTk1MTQ3ODgwOSwyND
-E0ODg0MjEsLTE3MDgzMDQ5ODJdfQ==
+eyJoaXN0b3J5IjpbMjAwOTk1ODUwLC00NDQ1MzMwMzYsLTE5NT
+E0Nzg4MDksMjQxNDg4NDIxLC0xNzA4MzA0OTgyXX0=
 -->
