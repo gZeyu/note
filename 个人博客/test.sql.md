@@ -1,4 +1,4 @@
-```
+```sql
 CREATE DATABASE blog;
 CREATE TABLE blog_user (
   id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
@@ -26,5 +26,5 @@ CREATE TABLE international_telephone_code(
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjU2NzIwNV19
+eyJoaXN0b3J5IjpbNTkzMzUyNDg1XX0=
 -->
