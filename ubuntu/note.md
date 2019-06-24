@@ -10,10 +10,11 @@ if [ -f ~/.Xmodmap ]; then xmodmap ~/.Xmodmap; fi
 keycode 118 = F12 F12 F12 F12 F12 F12 XF86Switch_VT_12
 ! 把F12键更换为Insert
 keycode 96 = Insert NoSymbol Insert
+
 ```
 ## xev
 查看按键`keycode`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4ODYxNzAzLDg5ODg2MTcwMywxNTk1OT
-Q1OTE3LC04ODEyMzgwODRdfQ==
+eyJoaXN0b3J5IjpbMTE3MzExNjUzMyw4OTg4NjE3MDMsMTU5NT
+k0NTkxNywtODgxMjM4MDg0XX0=
 -->
