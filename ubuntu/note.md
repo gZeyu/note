@@ -15,7 +15,9 @@ keycode 96 = Insert NoSymbol Insert
 ## xev
 查看按键`keycode`
 
+setkeycodes
+？？？？
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgyNDkyNSwxMTczMTE2NTMzLDg5OD
-g2MTcwMywxNTk1OTQ1OTE3LC04ODEyMzgwODRdfQ==
+eyJoaXN0b3J5IjpbLTIyNjUyNTY4LDExNzMxMTY1MzMsODk4OD
+YxNzAzLDE1OTU5NDU5MTcsLTg4MTIzODA4NF19
 -->
