@@ -4,11 +4,12 @@
 ### RBAC0
 ```mermaid
 graph LR
-A[Square Rect] -- Link text --> B((Circle))
+User1[Square Rect] -- Link text --> B((Circle))
 A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NzMyNTU0LDEyMjQ5OTAzNDZdfQ==
+eyJoaXN0b3J5IjpbLTc2ODkwNjc2OSwyMTY3MzI1NTQsMTIyND
+k5MDM0Nl19
 -->
