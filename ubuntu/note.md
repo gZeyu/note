@@ -1,10 +1,10 @@
 ## xmodmap 
 键盘映射
-```shel
+```bash
 if [ -f ~/.Xmodmap ]; then xmodmap ~/.Xmodmap; fi
 ```
 ## xev
 查看按键`keycode`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg5NTEyODBdfQ==
+eyJoaXN0b3J5IjpbMjE0MzYwNTY3Ml19
 -->
