@@ -9,11 +9,8 @@ U[用户] --多对多--> R((角色))
 R((角色)) --多对多--> P(权限)
 ```
 ## 参考
-1. [用MySQL实现微博关注关系的方案分析](https://my.oschina.net/yonghan/blog/475588)
-2. [用Redis实现微博关注关系的分析](https://www.cnblogs.com/JockChou/p/4643646.html)
-3. [社交网络如何设计存储好友关系的数据库的？](https://www.zhihu.com/question/20216864/answer/92695981  )
-4. [微博关注我、我关注你数据库该怎么设计](https://blog.csdn.net/u010098331/article/details/51445904)
+1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3NzExMTI3LC0yMjgxNTY5ODEsLTE1Mz
-YwMzY0OTUsMjE2NzMyNTU0LDEyMjQ5OTAzNDZdfQ==
+eyJoaXN0b3J5IjpbMjEyMTAyNzksLTIyODE1Njk4MSwtMTUzNj
+AzNjQ5NSwyMTY3MzI1NTQsMTIyNDk5MDM0Nl19
 -->
