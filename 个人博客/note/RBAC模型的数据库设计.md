@@ -4,9 +4,9 @@
 ### RBAC0
 ```mermaid
 graph LR
-U1[用户1] --> B((Circle))
-U2[用户2] --> B((Circle))
-U3[用户3] --> B((Circle))
+U1[用户1] --> R((Role))
+U2[用户2] --> R((Circle))
+U3[用户3] --> R((Circle))
 U1[用户1] --> B((Circle))
 U2[用户2] --> B((Circle))
 U3[用户3] --> B((Circle))
@@ -15,6 +15,6 @@ U2[用户2] --> B((Circle))
 U3[用户3] --> B((Circle))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4NTg1MTIxLDIxNjczMjU1NCwxMjI0OT
-kwMzQ2XX0=
+eyJoaXN0b3J5IjpbLTE1MTYyNDYzNzcsMjE2NzMyNTU0LDEyMj
+Q5OTAzNDZdfQ==
 -->
