@@ -10,14 +10,13 @@ if [ -f ~/.Xmodmap ]; then xmodmap ~/.Xmodmap; fi
 keycode 123 = 33
 ! 把Insert键更换为F12
 keycode 118 = 96
-keycode  95 = F11 F11 F11 F11 F11 F11 XF86Switch_VT_11
-
-keycode 118 = Insert NoSymbol Insert
+keycode 118 = F11 F11 F11 F11 F11 F11 XF86Switch_VT_11
+keycode 95 = Insert NoSymbol Insert
 
 ```
 ## xev
 查看按键`keycode`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4Mzg3MzY0LDE1OTU5NDU5MTcsLTg4MT
-IzODA4NF19
+eyJoaXN0b3J5IjpbMTYzNDU5NDgxNCwxNTk1OTQ1OTE3LC04OD
+EyMzgwODRdfQ==
 -->
