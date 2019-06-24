@@ -4,12 +4,12 @@
 ### RBAC0
 ```mermaid
 graph LR
-Subject1[User1] --> B((Circle))
-Subject2[User2] --> B((Circle))
-Subject3[User1] --> B((Circle))
+Subject1[Subject1] --> B((Circle))
+Subject2[Subject2] --> B((Circle))
+Subject3[Subject3] --> B((Circle))
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjM3MDk2OCwyMTY3MzI1NTQsMTIyND
-k5MDM0Nl19
+eyJoaXN0b3J5IjpbLTE1ODEwMzk5ODksMjE2NzMyNTU0LDEyMj
+Q5OTAzNDZdfQ==
 -->
