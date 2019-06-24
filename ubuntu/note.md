@@ -7,12 +7,12 @@ if [ -f ~/.Xmodmap ]; then xmodmap ~/.Xmodmap; fi
 2. 设置`~/.Xmodmap`
 ```bash
 ! 把F12键更换为Insert
-keycode 96 = 118
+keycode 123 = 33
 ! 把Insert键更换为F12
 keycode 118 = 96
 ```
-  currentnote## xev
+## xev
 查看按键`keycode`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDIxMjI2MywtODgxMjM4MDg0XX0=
+eyJoaXN0b3J5IjpbMTU5NTk0NTkxNywtODgxMjM4MDg0XX0=
 -->
