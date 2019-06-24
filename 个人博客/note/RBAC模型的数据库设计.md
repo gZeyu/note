@@ -5,9 +5,9 @@
 ```mermaid
 graph LR
 U[用户2] --多对多--> R((角色)) 
-R((角色)) --> P(权限)
+R((角色)) --多对多--> P(权限)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIyNzI4MCwyMTY3MzI1NTQsMTIyND
-k5MDM0Nl19
+eyJoaXN0b3J5IjpbLTE1MzYwMzY0OTUsMjE2NzMyNTU0LDEyMj
+Q5OTAzNDZdfQ==
 -->
