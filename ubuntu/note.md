@@ -11,8 +11,8 @@ keycode 96 = 118
 ! 把Insert键更换为F12
 keycode 118 = 96
 ```
-## xev
+  currentnote## xev
 查看按键`keycode`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTIzODA4NF19
+eyJoaXN0b3J5IjpbMTIzNDIxMjI2MywtODgxMjM4MDg0XX0=
 -->
