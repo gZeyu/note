@@ -4,9 +4,10 @@
 ### RBAC0
 ```mermaid
 graph LR
-U[用户2] --> R((角色)) --> {d}
+U[用户2] --> 
+R((角色)) --> {d}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMjk4MjA5LDIxNjczMjU1NCwxMjI0OT
-kwMzQ2XX0=
+eyJoaXN0b3J5IjpbLTE3ODUyNTgwMzMsMjE2NzMyNTU0LDEyMj
+Q5OTAzNDZdfQ==
 -->
