@@ -8,14 +8,14 @@ graph LR
 U[用户] --多对多--> R((角色)) 
 R((角色)) --多对多--> P(权限)
 ```
-个人博客网站的权限复杂度不高，`RBAC0`
+个人博客网站的权限复杂度不高，`RBAC0`基本能满足权限需求
 ### 数据库设计
 这里
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA1MDcyMiwyMTIxMDI3OSwtMjI4MT
+eyJoaXN0b3J5IjpbLTg1NjQwODE1NCwyMTIxMDI3OSwtMjI4MT
 U2OTgxLC0xNTM2MDM2NDk1LDIxNjczMjU1NCwxMjI0OTkwMzQ2
 XX0=
 -->
