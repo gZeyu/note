@@ -10,12 +10,12 @@ R((角色)) --多对多--> P(权限)
 ```
 个人博客网站的权限复杂度不高，`RBAC0`基本能满足个人博客网站的权限需求。
 ### 数据库设计
-这里
+接下来根据`RBAC0`为权限模型来设计数据库
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMTI0OTY2LDIxMjEwMjc5LC0yMjgxNT
-Y5ODEsLTE1MzYwMzY0OTUsMjE2NzMyNTU0LDEyMjQ5OTAzNDZd
-fQ==
+eyJoaXN0b3J5IjpbMzM3MTk2MDc1LDg4MjEyNDk2NiwyMTIxMD
+I3OSwtMjI4MTU2OTgxLC0xNTM2MDM2NDk1LDIxNjczMjU1NCwx
+MjI0OTkwMzQ2XX0=
 -->
