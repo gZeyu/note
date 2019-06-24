@@ -8,9 +8,12 @@ graph LR
 U[用户] --多对多--> R((角色)) 
 R((角色)) --多对多--> P(权限)
 ```
+因为当前的博客比较简单
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTAyNzksLTIyODE1Njk4MSwtMTUzNj
-AzNjQ5NSwyMTY3MzI1NTQsMTIyNDk5MDM0Nl19
+eyJoaXN0b3J5IjpbODQ1ODMzNjc5LDIxMjEwMjc5LC0yMjgxNT
+Y5ODEsLTE1MzYwMzY0OTUsMjE2NzMyNTU0LDEyMjQ5OTAzNDZd
+fQ==
 -->
