@@ -7,9 +7,14 @@ graph LR
 U1[用户1] --> B((Circle))
 U2[用户2] --> B((Circle))
 U3[用户3] --> B((Circle))
-
+U1[用户1] --> B((Circle))
+U2[用户2] --> B((Circle))
+U3[用户3] --> B((Circle))
+U1[用户1] --> B((Circle))
+U2[用户2] --> B((Circle))
+U3[用户3] --> B((Circle))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjI3MDcwNywyMTY3MzI1NTQsMTIyND
-k5MDM0Nl19
+eyJoaXN0b3J5IjpbNTc4NTg1MTIxLDIxNjczMjU1NCwxMjI0OT
+kwMzQ2XX0=
 -->
