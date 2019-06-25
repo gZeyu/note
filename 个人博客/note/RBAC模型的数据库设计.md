@@ -52,7 +52,7 @@ CREATE TABLE blog_role
     PRIMARY KEY (id),  
     KEY (name)  
 ) ENGINE = InnoDB  
-  DEFAULT CHARSET = utf8;  
+  DEFAULT CHARSET = utf8;
 ```
 #### 权限表  
 ```sql
@@ -96,8 +96,9 @@ CREATE TABLE blog_role_permission
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. [基于角色的访问控制RBAC的mysql表设计](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxNDg5NDM1LDc2OTY2ODIzMCw5NjU5Nj
-A4NDEsLTQyNDEyNDIxMywtMTMwNjYyNjU1NiwtMzE4NTA3Nzks
-ODgyMTI0OTY2LDIxMjEwMjc5LC0yMjgxNTY5ODEsLTE1MzYwMz
-Y0OTUsMjE2NzMyNTU0LDEyMjQ5OTAzNDZdfQ==
+eyJoaXN0b3J5IjpbLTUyNTU2NDcwOSw0MjE0ODk0MzUsNzY5Nj
+Y4MjMwLDk2NTk2MDg0MSwtNDI0MTI0MjEzLC0xMzA2NjI2NTU2
+LC0zMTg1MDc3OSw4ODIxMjQ5NjYsMjEyMTAyNzksLTIyODE1Nj
+k4MSwtMTUzNjAzNjQ5NSwyMTY3MzI1NTQsMTIyNDk5MDM0Nl19
+
 -->
