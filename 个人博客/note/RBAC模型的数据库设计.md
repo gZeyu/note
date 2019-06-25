@@ -45,10 +45,10 @@ CREATE TABLE blog_user
 ```
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
-2. 
+2. [https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1OTYwODQxLC00MjQxMjQyMTMsLTEzMD
-Y2MjY1NTYsLTMxODUwNzc5LDg4MjEyNDk2NiwyMTIxMDI3OSwt
-MjI4MTU2OTgxLC0xNTM2MDM2NDk1LDIxNjczMjU1NCwxMjI0OT
-kwMzQ2XX0=
+eyJoaXN0b3J5IjpbLTEwNTkzMDI4MCw5NjU5NjA4NDEsLTQyND
+EyNDIxMywtMTMwNjYyNjU1NiwtMzE4NTA3NzksODgyMTI0OTY2
+LDIxMjEwMjc5LC0yMjgxNTY5ODEsLTE1MzYwMzY0OTUsMjE2Nz
+MyNTU0LDEyMjQ5OTAzNDZdfQ==
 -->
