@@ -20,7 +20,7 @@ blog_user_role(id, user_id, role_id, gmt_create, gmt_modified)
 blog_role_permission(id, role_id, perm_id, gmt_create, gmt_modified)
 ```
 ### MySQL 建表语句
-
+#### 用户表 
 ```sql
 CREATE TABLE blog_user  
 (  
@@ -47,7 +47,7 @@ CREATE TABLE blog_user
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. [基于角色的访问控制RBAC的mysql表设计](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzA4NjQyOCw5NjU5NjA4NDEsLTQyND
+eyJoaXN0b3J5IjpbMTAzOTEyNzI0MSw5NjU5NjA4NDEsLTQyND
 EyNDIxMywtMTMwNjYyNjU1NiwtMzE4NTA3NzksODgyMTI0OTY2
 LDIxMjEwMjc5LC0yMjgxNTY5ODEsLTE1MzYwMzY0OTUsMjE2Nz
 MyNTU0LDEyMjQ5OTAzNDZdfQ==
