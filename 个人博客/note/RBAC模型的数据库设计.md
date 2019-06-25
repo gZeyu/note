@@ -22,25 +22,25 @@ blog_role_permission(id, role_id, perm_id, gmt_create, gmt_modified)
 ### MySQL 建表语句
 #### 用户表 
 ```sql
-CREATE TABLE blog_user  
-(  
-    id bigint(20) unsigned NOT NULL AUTO_INCREMENT,  
-    username varchar(20)         NOT NULL,  
-    password varchar(15)         NOT NULL,  
-    nickname varchar(20)         NOT NULL,  
-    email varchar(30)         NOT NULL,  
-    phone_number varchar(11)         NOT NULL,  
-    avatar varchar(255)        NOT NULL,  
-    level varchar(20)         NOT NULL,  
-    rights varchar(20)         NOT NULL,  
-    gmt_create datetime            NOT NULL,  
-    gmt_modified datetime            NOT NULL,  
-    PRIMARY KEY (id),  
-    KEY (username),  
-    KEY (nickname),  
-    KEY (email),  
-    KEY (phone_number)  
-) ENGINE = InnoDB  
+CREATE TABLE blog_user
+(
+    id           bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    username     varchar(20)         NOT NULL,
+    password     varchar(15)         NOT NULL,
+    nickname     varchar(20)         NOT NULL,
+    email        varchar(30)         NOT NULL,
+    phone_number varchar(11)         NOT NULL,
+    avatar       varchar(255)        NOT NULL,
+    level        varchar(20)         NOT NULL,
+    rights       varchar(20)         NOT NULL,
+    gmt_create   datetime            NOT NULL,
+    gmt_modified datetime            NOT NULL,
+    PRIMARY KEY (id),
+    KEY (username),
+    KEY (nickname),
+    KEY (email),
+    KEY (phone_number)
+) ENGINE = InnoDB
   DEFAULT CHARSET = utf8;
 ```
 #### 角色表  
@@ -96,9 +96,9 @@ CREATE TABLE blog_role_permission
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. [基于角色的访问控制RBAC的mysql表设计](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAzOTMzMywtNTI1NTY0NzA5LDQyMT
-Q4OTQzNSw3Njk2NjgyMzAsOTY1OTYwODQxLC00MjQxMjQyMTMs
-LTEzMDY2MjY1NTYsLTMxODUwNzc5LDg4MjEyNDk2NiwyMTIxMD
-I3OSwtMjI4MTU2OTgxLC0xNTM2MDM2NDk1LDIxNjczMjU1NCwx
-MjI0OTkwMzQ2XX0=
+eyJoaXN0b3J5IjpbNTAwMDI2OTUxLC0xOTEwMzkzMzMsLTUyNT
+U2NDcwOSw0MjE0ODk0MzUsNzY5NjY4MjMwLDk2NTk2MDg0MSwt
+NDI0MTI0MjEzLC0xMzA2NjI2NTU2LC0zMTg1MDc3OSw4ODIxMj
+Q5NjYsMjEyMTAyNzksLTIyODE1Njk4MSwtMTUzNjAzNjQ5NSwy
+MTY3MzI1NTQsMTIyNDk5MDM0Nl19
 -->
