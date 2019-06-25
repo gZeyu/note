@@ -12,12 +12,22 @@ R((角色)) --多对多--> P(权限)
 ## 数据库设计
 接下来根据`RBAC0`模型设计数据库。
 ### 关系模式
+```
+blog_user(id, username, gmt_create, gmt_modified)
+blog_role(id, name, gmt_create, gmt_modified)
+blog_permission(id, description, gmt_create, gmt_modified)
+blog_user_role(id, user_id, role_id, gmt_create, gmt_modified)
+blog_role_permission(id, role_id, perm_id, gmt_create, gmt_modified)
+```
+### MySQL 建表语句
 
+```sql
+```
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODUwNzc5LDg4MjEyNDk2NiwyMTIxMD
-I3OSwtMjI4MTU2OTgxLC0xNTM2MDM2NDk1LDIxNjczMjU1NCwx
-MjI0OTkwMzQ2XX0=
+eyJoaXN0b3J5IjpbLTEzMDY2MjY1NTYsLTMxODUwNzc5LDg4Mj
+EyNDk2NiwyMTIxMDI3OSwtMjI4MTU2OTgxLC0xNTM2MDM2NDk1
+LDIxNjczMjU1NCwxMjI0OTkwMzQ2XX0=
 -->
