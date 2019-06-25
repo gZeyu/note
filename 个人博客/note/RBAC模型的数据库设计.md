@@ -45,9 +45,9 @@ CREATE TABLE blog_user
 ```
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
-2. [# 基于角色的访问控制RBAC的mysql表设计](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
+2. [基于角色的访问控制RBAC的mysql表设计](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTA1MjM0NSw5NjU5NjA4NDEsLTQyND
+eyJoaXN0b3J5IjpbMjA5NzA4NjQyOCw5NjU5NjA4NDEsLTQyND
 EyNDIxMywtMTMwNjYyNjU1NiwtMzE4NTA3NzksODgyMTI0OTY2
 LDIxMjEwMjc5LC0yMjgxNTY5ODEsLTE1MzYwMzY0OTUsMjE2Nz
 MyNTU0LDEyMjQ5OTAzNDZdfQ==
