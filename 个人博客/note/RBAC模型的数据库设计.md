@@ -43,12 +43,14 @@ CREATE TABLE blog_user
 ) ENGINE = InnoDB  
   DEFAULT CHARSET = utf8;
 ```
+### 角色表
+
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. [基于角色的访问控制RBAC的mysql表设计](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTEyNzI0MSw5NjU5NjA4NDEsLTQyND
-EyNDIxMywtMTMwNjYyNjU1NiwtMzE4NTA3NzksODgyMTI0OTY2
-LDIxMjEwMjc5LC0yMjgxNTY5ODEsLTE1MzYwMzY0OTUsMjE2Nz
-MyNTU0LDEyMjQ5OTAzNDZdfQ==
+eyJoaXN0b3J5IjpbNzY5NjY4MjMwLDk2NTk2MDg0MSwtNDI0MT
+I0MjEzLC0xMzA2NjI2NTU2LC0zMTg1MDc3OSw4ODIxMjQ5NjYs
+MjEyMTAyNzksLTIyODE1Njk4MSwtMTUzNjAzNjQ5NSwyMTY3Mz
+I1NTQsMTIyNDk5MDM0Nl19
 -->
