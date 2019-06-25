@@ -13,7 +13,7 @@ R((角色)) --多对多--> P(权限)
 接下来根据`RBAC0`模型设计数据库。
 ### 关系模式
 ```
-blog_user(id, username, gmt_create, gmt_modified)
+blog_user(id, username, password, nickname, email, phone_number, avatar, level, gmt_create, gmt_modified)
 blog_role(id, name, gmt_create, gmt_modified)
 blog_permission(id, description, gmt_create, gmt_modified)
 blog_user_role(id, user_id, role_id, gmt_create, gmt_modified)
@@ -47,7 +47,8 @@ CREATE TABLE blog_user
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDEyNDIxMywtMTMwNjYyNjU1NiwtMz
-E4NTA3NzksODgyMTI0OTY2LDIxMjEwMjc5LC0yMjgxNTY5ODEs
-LTE1MzYwMzY0OTUsMjE2NzMyNTU0LDEyMjQ5OTAzNDZdfQ==
+eyJoaXN0b3J5IjpbOTY1OTYwODQxLC00MjQxMjQyMTMsLTEzMD
+Y2MjY1NTYsLTMxODUwNzc5LDg4MjEyNDk2NiwyMTIxMDI3OSwt
+MjI4MTU2OTgxLC0xNTM2MDM2NDk1LDIxNjczMjU1NCwxMjI0OT
+kwMzQ2XX0=
 -->
