@@ -43,14 +43,56 @@ CREATE TABLE blog_user
 ) ENGINE = InnoDB  
   DEFAULT CHARSET = utf8;
 ```
-### 角色表
+# 角色表  
+CREATE TABLE blog_role  
+(  
+    id bigint(20) unsigned NOT NULL AUTO_INCREMENT,  
+    name varchar(20)         NOT NULL,  
+    PRIMARY KEY (id),  
+    KEY (name)  
+) ENGINE = InnoDB  
+  DEFAULT CHARSET = utf8;  
+  
+# 权限表  
+CREATE TABLE blog_permission  
+(  
+    id bigint(20) unsigned NOT NULL AUTO_INCREMENT,  
+    description varchar(20)         NOT NULL,  
+    PRIMARY KEY (id),  
+    KEY (description)  
+) ENGINE = InnoDB  
+  DEFAULT CHARSET = utf8;  
+  
+# 用户角色关联表  
+CREATE TABLE blog_user_role  
+(  
+    id bigint(20) unsigned NOT NULL AUTO_INCREMENT,  
+    user_id bigint(20) unsigned NOT NULL,  
+    role_id bigint(20) unsigned NOT NULL,  
+    PRIMARY KEY (id),  
+    KEY (user_id),  
+    KEY (role_id)  
+) ENGINE = InnoDB  
+  DEFAULT CHARSET = utf8;  
+  
+# 角色权限关联表  
+CREATE TABLE blog_role_permission  
+(  
+    id bigint(20) unsigned NOT NULL AUTO_INCREMENT,  
+    role_id bigint(20) unsigned NOT NULL,  
+    permission_id bigint(20) unsigned NOT NULL,  
+    PRIMARY KEY (id),  
+    KEY (role_id),  
+    KEY (permission_id)  
+) ENGINE = InnoDB  
+  DEFAULT CHARSET = utf8;
 
 ## 参考
 1. [RBAC权限管理模型](https://www.xiaoman.cn/detail/150)
 2. [基于角色的访问控制RBAC的mysql表设计](https://blog.csdn.net/xiaoxiaodongxie/article/details/52400488)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NjY4MjMwLDk2NTk2MDg0MSwtNDI0MT
-I0MjEzLC0xMzA2NjI2NTU2LC0zMTg1MDc3OSw4ODIxMjQ5NjYs
-MjEyMTAyNzksLTIyODE1Njk4MSwtMTUzNjAzNjQ5NSwyMTY3Mz
-I1NTQsMTIyNDk5MDM0Nl19
+eyJoaXN0b3J5IjpbLTIwODQ2NjcxOSw3Njk2NjgyMzAsOTY1OT
+YwODQxLC00MjQxMjQyMTMsLTEzMDY2MjY1NTYsLTMxODUwNzc5
+LDg4MjEyNDk2NiwyMTIxMDI3OSwtMjI4MTU2OTgxLC0xNTM2MD
+M2NDk1LDIxNjczMjU1NCwxMjI0OTkwMzQ2XX0=
 -->
