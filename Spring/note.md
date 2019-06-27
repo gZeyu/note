@@ -1,5 +1,5 @@
 # Spring Initializr
-有许多方法可以创建Spring Boot应用程序。最简单的方法是在[https://start.spring.io/](https://start.spring.io/)上使用Spring Initializr，这是一个在线Spring Boot应用程序生成器，或者通过IntelliJ IDEA的Spring Initializr选项生成SpringBoot项目。
+有wo
 # mybatis-spring-boot-starter
 [http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html)
 # springboot下使用mybatis
@@ -56,11 +56,11 @@ app.datasource.url=jdbc:mysql://ip:port/DatabaseName
 # Mybatis自动创建表/更新表结构/动态建表
 [https://blog.csdn.net/sun5769675/article/details/51757867](https://blog.csdn.net/sun5769675/article/details/51757867)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk2OTMzMDksLTgxNDI5NzA1MSwxND
-gxMzQ1NTQ4LDEwNTExNDIyMTEsMTkwMTAyNTU2Niw0Njk3NDUx
-OCwtNjA0NzU4MDA0LDE1MTQ0MzIzOSwxMTc3MTI1MzQxLDE0OD
-Q1NTE0NCwyMDgwNTA1NDI2LC0xMDUwMDczNzUwLDcwMTEwMzQ0
-MSw3MzUyOTE2MTcsMzIxODMyMTU0LC0xMzgwMjI5NDY2LDEzMD
-Y4NzAzODUsMTQ0NDQzMTQ2Miw1OTMwMzcwMTksNjE1MDg3ODg1
-XX0=
+eyJoaXN0b3J5IjpbMTgxMTMwMzE0OSwtMjA1OTY5MzMwOSwtOD
+E0Mjk3MDUxLDE0ODEzNDU1NDgsMTA1MTE0MjIxMSwxOTAxMDI1
+NTY2LDQ2OTc0NTE4LC02MDQ3NTgwMDQsMTUxNDQzMjM5LDExNz
+cxMjUzNDEsMTQ4NDU1MTQ0LDIwODA1MDU0MjYsLTEwNTAwNzM3
+NTAsNzAxMTAzNDQxLDczNTI5MTYxNywzMjE4MzIxNTQsLTEzOD
+AyMjk0NjYsMTMwNjg3MDM4NSwxNDQ0NDMxNDYyLDU5MzAzNzAx
+OV19
 -->
