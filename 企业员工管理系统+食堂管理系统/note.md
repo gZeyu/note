@@ -1,7 +1,6 @@
+## 技术选型
 ## 前端
 vue
-route
-store
 element-ui
 
 ## 后端
@@ -24,6 +23,6 @@ jdk 1.8
 代码实现
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ4NTEyNzYsLTExMzYxMjc2NTZdfQ
-==
+eyJoaXN0b3J5IjpbMTIxNDk3NjkzMywtMTU5NDg1MTI3NiwtMT
+EzNjEyNzY1Nl19
 -->
