@@ -4,8 +4,12 @@ vue
 element-ui
 
 ## 后端
-springmvc
+springboot
 mybatis
+spring security
+restful
+rbac
+
 
 功能需求整理
 数据库设计
@@ -23,6 +27,6 @@ jdk 1.8
 代码实现
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDk3NjkzMywtMTU5NDg1MTI3NiwtMT
+eyJoaXN0b3J5IjpbMjEyNDE0NzcwOSwtMTU5NDg1MTI3NiwtMT
 EzNjEyNzY1Nl19
 -->
