@@ -8,8 +8,9 @@ element-ui
 springmvc
 mybatis
 
-
+功能需求整理
+数据库设计
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzA1MjE0NF19
+eyJoaXN0b3J5IjpbNTM0NjczNzcyXX0=
 -->
