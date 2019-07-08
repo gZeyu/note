@@ -1,4 +1,4 @@
-save不会立刻提交到数据库，flush则立刻提交生效，save可能只是修改在内存中的
+1. `save`不会立刻提交到数据库，flush则立刻提交生效
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYyNTc4ODZdfQ==
+eyJoaXN0b3J5IjpbLTExMjE5NjExNThdfQ==
 -->
