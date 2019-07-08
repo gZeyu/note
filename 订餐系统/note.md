@@ -1,7 +1,7 @@
- - [ ] Spring boot 通用基类
- - [ ] Spring boot 统一异常处理 
- - [ ] aop基于注解实现日志
+ - [ ] `Spring boot` 通用基类
+ - [ ] `Spring boot` 统一异常处理 
+ - [ ] `SpringAOP` + `log4J` + 注解的 日志管理
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQxNDUzNTYsMTc4OTYzMjc2MCwxMT
-Q5MDMyOTgyXX0=
+eyJoaXN0b3J5IjpbODQyOTg1OTI0LDE3ODk2MzI3NjAsMTE0OT
+AzMjk4Ml19
 -->
