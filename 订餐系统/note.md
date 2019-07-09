@@ -11,9 +11,9 @@
 
 
 ## 杂项
-1. `Optional`
+1. `JpaRepository`配合`Optional`比较好用
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ1NzE3MzMsMzMzOTY3ODcsODQyOT
-g1OTI0LDE3ODk2MzI3NjAsMTE0OTAzMjk4Ml19
+eyJoaXN0b3J5IjpbNzM4MjA1MDEzLDMzMzk2Nzg3LDg0Mjk4NT
+kyNCwxNzg5NjMyNzYwLDExNDkwMzI5ODJdfQ==
 -->
