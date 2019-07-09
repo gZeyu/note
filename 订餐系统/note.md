@@ -1,5 +1,5 @@
 ## TODO
- - [ ] `Spring boot` 通用基类
+ - [x] `Spring boot` 通用基类
  - [ ] `Spring boot` 统一异常处理 
  - [ ] `SpringAOP` + `log4J` + 注解的 日志管理
 ## 注意
@@ -11,6 +11,6 @@
 1. `Optional`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQzODUyNTMsMzMzOTY3ODcsODQyOT
-g1OTI0LDE3ODk2MzI3NjAsMTE0OTAzMjk4Ml19
+eyJoaXN0b3J5IjpbMTE0MTE4NTAxMSwzMzM5Njc4Nyw4NDI5OD
+U5MjQsMTc4OTYzMjc2MCwxMTQ5MDMyOTgyXX0=
 -->
