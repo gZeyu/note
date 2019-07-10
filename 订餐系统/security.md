@@ -5,12 +5,12 @@
 1. 因为`Spring Security`只提供表单登录，为了构建接受`JSON`参数的`REST API`登录接口，需要实现`UsernamePasswordAuthenticationFilter`或`AbstractAuthenticationProcessingFilter`的子类，重写它的 `attemptAuthentication`方法
 2. 实现`UserDetailsService`接口并重写`loadUserByUsername`，达到自定义获取用户实体的目的
 
-### `security`使用`Username`+`Password`的默认登录流程
+### 涉及到登录流程
 1. `UsernamePasswordAuthenticationFilter.attemptAuthentication()`负责解析`HttpServletRequest`提取登录参数并生成`UsernamePasswordAuthenticationToken`
 2. `DaoAuthenticationProvider.authenticate()`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTY4MDAzLC04MjgxMDg4NTYsNDQwND
-QyODYwLC0xNjgyMDA1NTAwLDEwMzg3Mzg1NjgsLTE4Mjk4NzE2
-OCwtNjk4OTUyODQ2LDYwNjE1MzEyXX0=
+eyJoaXN0b3J5IjpbMTAyNTEzOTIxMywxNzExNjgwMDMsLTgyOD
+EwODg1Niw0NDA0NDI4NjAsLTE2ODIwMDU1MDAsMTAzODczODU2
+OCwtMTgyOTg3MTY4LC02OTg5NTI4NDYsNjA2MTUzMTJdfQ==
 -->
