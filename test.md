@@ -6,8 +6,8 @@
 
 3. 关于校验发现不正确的参数处理方式:  
     1. 按照划分好的返回代码code自定义对应的exception,最好一个code值对应一个exception,便于阅读  
-    3.2 在校验中发现不合理的参数,抛出相应的exception,设置好其中的message  
-    3.3 注册一个或多个ExceptionHandler,其中接住抛出异常,进行统一的处理,转换为更友好的方式传递给前端
+    2. 在校验中发现不合理的参数,抛出相应的exception,设置好其中的message  
+    3. 注册一个或多个ExceptionHandler,其中接住抛出异常,进行统一的处理,转换为更友好的方式传递给前端
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzExODE2MDJdfQ==
+eyJoaXN0b3J5IjpbMTU3NTIwNDQ5MF19
 -->
