@@ -7,10 +7,10 @@
 
 ### `security`使用`Username`+`Password`的默认登录流程
 1. `UsernamePasswordAuthenticationFilter.attemptAuthentication()`负责解析`HttpServletRequest`提取登录参数并生成`UsernamePasswordAuthenticationToken`
-2. `DaoAuthenticationProvider`
+2. `DaoAuthenticationProvider.authenticate()`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODk1MTIxNSwtODI4MTA4ODU2LDQ0MD
-Q0Mjg2MCwtMTY4MjAwNTUwMCwxMDM4NzM4NTY4LC0xODI5ODcx
-NjgsLTY5ODk1Mjg0Niw2MDYxNTMxMl19
+eyJoaXN0b3J5IjpbMTcxMTY4MDAzLC04MjgxMDg4NTYsNDQwND
+QyODYwLC0xNjgyMDA1NTAwLDEwMzg3Mzg1NjgsLTE4Mjk4NzE2
+OCwtNjk4OTUyODQ2LDYwNjE1MzEyXX0=
 -->
