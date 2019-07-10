@@ -6,10 +6,10 @@
 2. 实现`UserDetailsService`接口并重写`loadUserByUsername`，达到自定义获取用户实体的目的
 
 ### 登录流程
-## 登录流程
+`AbstractAuthenticationProcessingFilter`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU3MDMyODMsLTE2ODIwMDU1MDAsMT
-AzODczODU2OCwtMTgyOTg3MTY4LC02OTg5NTI4NDYsNjA2MTUz
-MTJdfQ==
+eyJoaXN0b3J5IjpbMjA0NDI4MzY1MiwtMTY4MjAwNTUwMCwxMD
+M4NzM4NTY4LC0xODI5ODcxNjgsLTY5ODk1Mjg0Niw2MDYxNTMx
+Ml19
 -->
