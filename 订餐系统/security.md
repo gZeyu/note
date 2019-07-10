@@ -1,6 +1,6 @@
 ## Knowledge
 1. UserDetailsService
-`UserDetailsService接口用于返回用户相关数据。它有loadUserByUsername()方法，根据username查询用户实体，可以实现该接口覆盖该方法，实现自定义获取用户过程。该接口实现类被DaoAuthenticationProvider 类使用，用于认证过程中载入用户信息。
+`UserDetailsService`接口用于返回用户相关数据。它有`loadUserByUsername()`方法，根据`username`查询用户实体，可以实现该接口覆盖该方法，实现自定义获取用户过程。该接口实现类被`DaoAuthenticationProvider `类使用，用于认证过程中载入用户信息。
 --------------------- 
 作者：neweastsun 
 来源：CSDN 
@@ -12,6 +12,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0NTMxMjEyLC0xODI5ODcxNjgsLTY5OD
-k1Mjg0Niw2MDYxNTMxMl19
+eyJoaXN0b3J5IjpbMTMyNjU4MzU0MiwtMTgyOTg3MTY4LC02OT
+g5NTI4NDYsNjA2MTUzMTJdfQ==
 -->
