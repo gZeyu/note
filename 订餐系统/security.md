@@ -1,4 +1,4 @@
-1. 重写`UsernamePasswordAuthenticationFilter`或`AbstractAuthenticationProcessingFilter`
+1. 实现`UsernamePasswordAuthenticationFilter`或`AbstractAuthenticationProcessingFilter`的子类，重写覆写它的 **attemptAuthentication** 方法
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Njg1NDQ4N119
+eyJoaXN0b3J5IjpbMTUzNjgyNTM5XX0=
 -->
