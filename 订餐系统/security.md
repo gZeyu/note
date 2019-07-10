@@ -7,10 +7,11 @@
 
 ### 涉及到登录流程接口、类及函数
 1. `UsernamePasswordAuthenticationFilter.attemptAuthentication()`负责解析`HttpServletRequest`提取登录参数并生成`UsernamePasswordAuthenticationToken`
-2. `DaoAuthenticationProvider.authenticate()`
+2. `UserDetailsService.loadUserByUsername`
+3. `DaoAuthenticationProvider.authenticate()`负责
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDM5NjU2LDE3MTE2ODAwMywtODI4MT
+eyJoaXN0b3J5IjpbOTQyNTgyMDgzLDE3MTE2ODAwMywtODI4MT
 A4ODU2LDQ0MDQ0Mjg2MCwtMTY4MjAwNTUwMCwxMDM4NzM4NTY4
 LC0xODI5ODcxNjgsLTY5ODk1Mjg0Niw2MDYxNTMxMl19
 -->
