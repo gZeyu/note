@@ -6,10 +6,10 @@
 2. 实现`UserDetailsService`接口并重写`loadUserByUsername`，达到自定义获取用户实体的目的
 
 ### `security`使用`Username`+`Password`的默认登录流程
-1. `UsernamePasswordAuthenticationFilter`解析`HttpServletRequest`提取登录参数并生成`UsernamePasswordAuthenticationToken`，然后传给`DaoAuthenticationProvider`
+1. `UsernamePasswordAuthenticationFilter`使用`attemptAuthentication`解析`HttpServletRequest`提取登录参数并生成`UsernamePasswordAuthenticationToken`，然后传给`DaoAuthenticationProvider`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODEwODg1Niw0NDA0NDI4NjAsLTE2OD
-IwMDU1MDAsMTAzODczODU2OCwtMTgyOTg3MTY4LC02OTg5NTI4
-NDYsNjA2MTUzMTJdfQ==
+eyJoaXN0b3J5IjpbMTQ2ODM4MTkyMiwtODI4MTA4ODU2LDQ0MD
+Q0Mjg2MCwtMTY4MjAwNTUwMCwxMDM4NzM4NTY4LC0xODI5ODcx
+NjgsLTY5ODk1Mjg0Niw2MDYxNTMxMl19
 -->
