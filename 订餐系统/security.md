@@ -6,10 +6,10 @@
 2. 实现`UserDetailsService`接口并重写`loadUserByUsername`，达到自定义获取用户实体的目的
 
 ### 登录流程
-`AbstractAuthenticationProcessingFilter`的子类，例如`UsernamePasswordAuthenticationFilter`，解析`HttpServletRequest`
+`AbstractAuthenticationProcessingFilter`的子类，例如`UsernamePasswordAuthenticationFilter`，解析`HttpServletRequest`提取登录参数，生成
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzE0OTI3MiwtMTY4MjAwNTUwMCwxMD
-M4NzM4NTY4LC0xODI5ODcxNjgsLTY5ODk1Mjg0Niw2MDYxNTMx
-Ml19
+eyJoaXN0b3J5IjpbOTM0NzkxMTEzLC0xNjgyMDA1NTAwLDEwMz
+g3Mzg1NjgsLTE4Mjk4NzE2OCwtNjk4OTUyODQ2LDYwNjE1MzEy
+XX0=
 -->
