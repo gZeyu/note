@@ -1,4 +1,4 @@
-需要取消`Spring Boot`的自动注入`Filter`
+1. 需要取消`Spring Boot`的自动注入`Filter`
 ```java
 @Bean  
 public FilterRegistrationBean<CustomFilter> registration(CustomFilter filter) {  
@@ -8,6 +8,7 @@ public FilterRegistrationBean<CustomFilter> registration(CustomFilter filter) {
   return registration;  
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQzNTExMzcsLTk3NTc0OTA0MF19
+eyJoaXN0b3J5IjpbMTA3OTE4ODgwNiwtOTc1NzQ5MDQwXX0=
 -->
