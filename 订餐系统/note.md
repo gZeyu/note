@@ -13,12 +13,10 @@
 ## 杂项
 1. `JpaRepository`配合`Optional`使用以简化代码
 2. `HTTP`参数的表单和`JSON`区别
-3. 使用`bcrypt`作为加密算法，jiemi
-
-
+3. BCrypt算法将salt随机并混入最终加密后的密码，验证时也无需单独提供之前的salt，从而无需单独处理salt问题
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU0ODg3NywtNjYxMDEzNzg5LDc0Nz
-MwNjI4OSwzMzM5Njc4Nyw4NDI5ODU5MjQsMTc4OTYzMjc2MCwx
-MTQ5MDMyOTgyXX0=
+eyJoaXN0b3J5IjpbMzU3NjE3NzksLTY2MTAxMzc4OSw3NDczMD
+YyODksMzMzOTY3ODcsODQyOTg1OTI0LDE3ODk2MzI3NjAsMTE0
+OTAzMjk4Ml19
 -->
