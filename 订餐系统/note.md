@@ -5,8 +5,8 @@
 ## 注意
 1. 不要捕获任何异常
 不要在**业务代码中**进行捕获异常, 即 `dao`、`service`、`controller` 层的所以异常都全部抛出到上层. 这样不会导致业务代码中的一堆  `try-catch`  会混乱业务代码.
-2.  查询不到结果，返回Null还是抛出异常？
-- 如果返回null是一个正常行为，则返回null。但在命名时最好给用户以提示，例如GetUserOrNull(string userName, string password)这样的函数名。
+2.  查询不到结果，返回`null`还是抛出异常？
+- 如果返回`null`是一个正常行为，则返回`null`。但在命名时最好给用户以提示，例如`GetUserOrNull(string userName, string password)这样的函数名。
 - 如果是错误，则抛出Exception。
 
 
@@ -17,7 +17,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk0MTUzNjEsLTY2MTAxMzc4OSw3ND
-czMDYyODksMzMzOTY3ODcsODQyOTg1OTI0LDE3ODk2MzI3NjAs
-MTE0OTAzMjk4Ml19
+eyJoaXN0b3J5IjpbMTM1NTQ0MDM3NSwtNjYxMDEzNzg5LDc0Nz
+MwNjI4OSwzMzM5Njc4Nyw4NDI5ODU5MjQsMTc4OTYzMjc2MCwx
+MTQ5MDMyOTgyXX0=
 -->
