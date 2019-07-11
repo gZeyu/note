@@ -8,8 +8,8 @@ public FilterRegistrationBean<CustomFilter> registration(CustomFilter filter) {
   return registration;  
 }
 ```
-2. 替换security原有的登录过滤器时，需要关掉`formLogin`，否则`UsernamePasswordAuthenticationFilter`还是会被注册到
+2. 替换security原有的登录过滤器时，需要关掉`formLogin`，否则`UsernamePasswordAuthenticationFilter`还是会被注册到`FilterChain`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODM0NjgzMiwtNTIzODk3NTc2LC05Nz
-U3NDkwNDBdfQ==
+eyJoaXN0b3J5IjpbMTgzMzI4NDI5LC01MjM4OTc1NzYsLTk3NT
+c0OTA0MF19
 -->
