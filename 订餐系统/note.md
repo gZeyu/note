@@ -20,10 +20,10 @@
 
 ## 问题
 1. `OncePerRequestFilter`
-`
+在servlet-2.3中，Filter会过滤一切请求，包括服务器内部使用forward转发请求和<%@ include file="/index.jsp"%>的情况；到了servlet-2.4中Filter默认下只拦截外部提交的请求，forward和include这些内部转发都不会被过滤，但是有时候我们需要 forward的时候也用到Filter。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE2NjA2NTAsLTE2Mjk3MjI3NjgsMj
-A0NDU5MTgwNiwtMTIyNDIyMDYxNiwtMTM1MjIwNzQ3OCwtMTU5
-NDI0OTA4MSwtNjYxMDEzNzg5LDc0NzMwNjI4OSwzMzM5Njc4Ny
-w4NDI5ODU5MjQsMTc4OTYzMjc2MCwxMTQ5MDMyOTgyXX0=
+eyJoaXN0b3J5IjpbNjAxMDQxMDg3LC0xNjI5NzIyNzY4LDIwND
+Q1OTE4MDYsLTEyMjQyMjA2MTYsLTEzNTIyMDc0NzgsLTE1OTQy
+NDkwODEsLTY2MTAxMzc4OSw3NDczMDYyODksMzMzOTY3ODcsOD
+QyOTg1OTI0LDE3ODk2MzI3NjAsMTE0OTAzMjk4Ml19
 -->
