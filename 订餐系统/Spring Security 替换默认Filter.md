@@ -1,7 +1,6 @@
 ```java
 @Bean  
-public FilterRegistrationBean<CustomFilter> registration(  
-    CustomFilter filter) {  
+public FilterRegistrationBean<CustomFilter> registration(CustomFilter filter) {  
   FilterRegistrationBean<CustomFilter> registration =  
       new FilterRegistrationBean<>(filter);  
   registration.setEnabled(false);  
@@ -9,5 +8,5 @@ public FilterRegistrationBean<CustomFilter> registration(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE5NjI3ODJdfQ==
+eyJoaXN0b3J5IjpbLTk3NTc0OTA0MF19
 -->
