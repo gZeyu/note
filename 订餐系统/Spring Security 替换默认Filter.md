@@ -8,7 +8,6 @@ public FilterRegistrationBean<CustomFilter> registration(CustomFilter filter) {
   return registration;  
 }
 ```
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTE4ODgwNiwtOTc1NzQ5MDQwXX0=
+eyJoaXN0b3J5IjpbLTUyMzg5NzU3NiwtOTc1NzQ5MDQwXX0=
 -->
