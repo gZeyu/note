@@ -2,6 +2,7 @@
  - [x] `Spring boot` 通用基类
  - [ ] `Spring boot` 统一异常处理 
  - [ ] `SpringAOP` + `log4J` + 注解的 日志管理
+ - [ ] 访问buz
  - [x] 加盐加密
 ## 注意
 1. 不要捕获任何异常
@@ -17,7 +18,7 @@
 3. `bcrypt`算法将`salt`随机并混入最终加密后的密码，验证时也无需单独提供之前的`salt`，从而无需单独处理`salt`问题
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIyMDc0NzgsLTE1OTQyNDkwODEsLT
-Y2MTAxMzc4OSw3NDczMDYyODksMzMzOTY3ODcsODQyOTg1OTI0
-LDE3ODk2MzI3NjAsMTE0OTAzMjk4Ml19
+eyJoaXN0b3J5IjpbOTI4MDY4NzUsLTEzNTIyMDc0NzgsLTE1OT
+QyNDkwODEsLTY2MTAxMzc4OSw3NDczMDYyODksMzMzOTY3ODcs
+ODQyOTg1OTI0LDE3ODk2MzI3NjAsMTE0OTAzMjk4Ml19
 -->
