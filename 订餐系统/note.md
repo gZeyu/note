@@ -13,11 +13,12 @@
 ## 杂项
 1. `JpaRepository`配合`Optional`使用以简化代码
 2. `HTTP`参数的表单和`JSON`区别
+3. 使用`bcrypt`作为加密算法，jiemi
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NzM4MTg5LC02NjEwMTM3ODksNzQ3Mz
-A2Mjg5LDMzMzk2Nzg3LDg0Mjk4NTkyNCwxNzg5NjMyNzYwLDEx
-NDkwMzI5ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2MjU0ODg3NywtNjYxMDEzNzg5LDc0Nz
+MwNjI4OSwzMzM5Njc4Nyw4NDI5ODU5MjQsMTc4OTYzMjc2MCwx
+MTQ5MDMyOTgyXX0=
 -->
