@@ -1,6 +1,6 @@
 ```java
 @Bean  
-public FilterRegistrationBean<CustomIdentityPasswordAuthenticationFilter> registration(  
+public FilterRegistrationBean<CustomFilter> registration(  
     CustomFilter filter) {  
   FilterRegistrationBean<CustomFilter> registration =  
       new FilterRegistrationBean<>(filter);  
@@ -9,5 +9,5 @@ public FilterRegistrationBean<CustomIdentityPasswordAuthenticationFilter> regist
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzMjk0NDE3XX0=
+eyJoaXN0b3J5IjpbLTEzODE5NjI3ODJdfQ==
 -->
