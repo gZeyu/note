@@ -20,12 +20,12 @@
 3. `bcrypt`算法将`salt`随机并混入最终加密后的密码，验证时也无需单独提供之前的`salt`，从而无需单独处理`salt`问题
 
 ## 问题
-1. `token`放`body`还是`header`
+1. `token`放`body`还是`header`？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQxMjIwMSwtNzU4ODU0NDg3LC0xNj
-I5NzIyNzY4LDIwNDQ1OTE4MDYsLTEyMjQyMjA2MTYsLTEzNTIy
-MDc0NzgsLTE1OTQyNDkwODEsLTY2MTAxMzc4OSw3NDczMDYyOD
-ksMzMzOTY3ODcsODQyOTg1OTI0LDE3ODk2MzI3NjAsMTE0OTAz
-Mjk4Ml19
+eyJoaXN0b3J5IjpbLTE2NzYwNzY2NzgsLTE3MDQxMjIwMSwtNz
+U4ODU0NDg3LC0xNjI5NzIyNzY4LDIwNDQ1OTE4MDYsLTEyMjQy
+MjA2MTYsLTEzNTIyMDc0NzgsLTE1OTQyNDkwODEsLTY2MTAxMz
+c4OSw3NDczMDYyODksMzMzOTY3ODcsODQyOTg1OTI0LDE3ODk2
+MzI3NjAsMTE0OTAzMjk4Ml19
 -->
