@@ -19,7 +19,7 @@
 2. `HTTP`参数的表单和`JSON`区别
 3. `bcrypt`算法将`salt`随机并混入最终加密后的密码，验证时也无需单独提供之前的`salt`，从而无需单独处理`salt`问题
 4. `JWT`是自我校验的，所以是无状态的，服务器无需存储，但是是没办法做到主动注销（可以通过将`token`存`redis`里解决）
->jwt实质就是一种TOKEN，那它与普通token有什么区别呢：  
+jwt实质就是一种TOKEN，那它与普通token有什么区别呢：  
 - 普通token: 需要在服务端存储token跟用户的对应关系，每次请求都需要对token查询(对应关系)进行验证。  
 - jwt: 把用户标识信息(如用户ID或其它标识)存储到jwt中(即与用户的对应关系存储在jwt中); 后端不需要存储jwt与用户的对应关系,而是从jwt中直接取得用户标识; 后端只需要对jwt的签名进行验证即可信任。  
 总结为：普通token需要后端存储与用户的对应关系，而jwt自身携带对应关系。在大型的多系统中，普通token每次请求需要向用户资源服务器获取对应用户信息同时验证token，而jwt只需要验证签名有效即可信任且jwt自带用户信息, 无需额外请求。
@@ -28,10 +28,10 @@
 1. `token`放`body`还是`header`？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc3MjE2MDEsLTE4NTUzNDQwMiwtOT
-U1MDg1ODUyLC0xNjc2MDc2Njc4LC0xNzA0MTIyMDEsLTc1ODg1
-NDQ4NywtMTYyOTcyMjc2OCwyMDQ0NTkxODA2LC0xMjI0MjIwNj
-E2LC0xMzUyMjA3NDc4LC0xNTk0MjQ5MDgxLC02NjEwMTM3ODks
-NzQ3MzA2Mjg5LDMzMzk2Nzg3LDg0Mjk4NTkyNCwxNzg5NjMyNz
-YwLDExNDkwMzI5ODJdfQ==
+eyJoaXN0b3J5IjpbMzQzMTc4ODExLC0xNDM3NzIxNjAxLC0xOD
+U1MzQ0MDIsLTk1NTA4NTg1MiwtMTY3NjA3NjY3OCwtMTcwNDEy
+MjAxLC03NTg4NTQ0ODcsLTE2Mjk3MjI3NjgsMjA0NDU5MTgwNi
+wtMTIyNDIyMDYxNiwtMTM1MjIwNzQ3OCwtMTU5NDI0OTA4MSwt
+NjYxMDEzNzg5LDc0NzMwNjI4OSwzMzM5Njc4Nyw4NDI5ODU5Mj
+QsMTc4OTYzMjc2MCwxMTQ5MDMyOTgyXX0=
 -->
