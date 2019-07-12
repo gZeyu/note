@@ -18,14 +18,15 @@
 1. `JpaRepository`配合`Optional`使用以简化代码
 2. `HTTP`参数的表单和`JSON`区别
 3. `bcrypt`算法将`salt`随机并混入最终加密后的密码，验证时也无需单独提供之前的`salt`，从而无需单独处理`salt`问题
+4. 
 
 ## 问题
 1. `token`放`body`还是`header`？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYwNzY2NzgsLTE3MDQxMjIwMSwtNz
-U4ODU0NDg3LC0xNjI5NzIyNzY4LDIwNDQ1OTE4MDYsLTEyMjQy
-MjA2MTYsLTEzNTIyMDc0NzgsLTE1OTQyNDkwODEsLTY2MTAxMz
-c4OSw3NDczMDYyODksMzMzOTY3ODcsODQyOTg1OTI0LDE3ODk2
-MzI3NjAsMTE0OTAzMjk4Ml19
+eyJoaXN0b3J5IjpbLTQ4NTcyMzc3NiwtMTY3NjA3NjY3OCwtMT
+cwNDEyMjAxLC03NTg4NTQ0ODcsLTE2Mjk3MjI3NjgsMjA0NDU5
+MTgwNiwtMTIyNDIyMDYxNiwtMTM1MjIwNzQ3OCwtMTU5NDI0OT
+A4MSwtNjYxMDEzNzg5LDc0NzMwNjI4OSwzMzM5Njc4Nyw4NDI5
+ODU5MjQsMTc4OTYzMjc2MCwxMTQ5MDMyOTgyXX0=
 -->
