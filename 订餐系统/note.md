@@ -18,15 +18,16 @@
 1. `JpaRepository`配合`Optional`使用以简化代码
 2. `HTTP`参数的表单和`JSON`区别
 3. `bcrypt`算法将`salt`随机并混入最终加密后的密码，验证时也无需单独提供之前的`salt`，从而无需单独处理`salt`问题
-4. `JWT`是自我校验的，所以是无状态的，服务器无需存储。缺点是没办法主动注销
+4. `JWT`是自我校验的，所以是无状态的，服务器无需存储。缺点是没办法主动注销，可以和`redis`
 
 ## 问题
 1. `token`放`body`还是`header`？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTA4NTg1MiwtMTY3NjA3NjY3OCwtMT
-cwNDEyMjAxLC03NTg4NTQ0ODcsLTE2Mjk3MjI3NjgsMjA0NDU5
-MTgwNiwtMTIyNDIyMDYxNiwtMTM1MjIwNzQ3OCwtMTU5NDI0OT
-A4MSwtNjYxMDEzNzg5LDc0NzMwNjI4OSwzMzM5Njc4Nyw4NDI5
-ODU5MjQsMTc4OTYzMjc2MCwxMTQ5MDMyOTgyXX0=
+eyJoaXN0b3J5IjpbLTYwMzgwNDg2NywtOTU1MDg1ODUyLC0xNj
+c2MDc2Njc4LC0xNzA0MTIyMDEsLTc1ODg1NDQ4NywtMTYyOTcy
+Mjc2OCwyMDQ0NTkxODA2LC0xMjI0MjIwNjE2LC0xMzUyMjA3ND
+c4LC0xNTk0MjQ5MDgxLC02NjEwMTM3ODksNzQ3MzA2Mjg5LDMz
+Mzk2Nzg3LDg0Mjk4NTkyNCwxNzg5NjMyNzYwLDExNDkwMzI5OD
+JdfQ==
 -->
