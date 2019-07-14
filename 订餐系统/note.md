@@ -23,15 +23,16 @@ jwt实质就是一种TOKEN，那它与普通token有什么区别呢：
 - 普通token: 需要在服务端存储token跟用户的对应关系，每次请求都需要对token查询(对应关系)进行验证。  
 - jwt: 把用户标识信息(如用户ID或其它标识)存储到jwt中(即与用户的对应关系存储在jwt中); 后端不需要存储jwt与用户的对应关系,而是从jwt中直接取得用户标识; 后端只需要对jwt的签名进行验证即可信任。  
 总结为：普通token需要后端存储与用户的对应关系，而jwt自身携带对应关系。在大型的多系统中，普通token每次请求需要向用户资源服务器获取对应用户信息同时验证token，而jwt只需要验证签名有效即可信任且jwt自带用户信息, 无需额外请求。
-
+- 单例模式
 ## 问题
 1. `token`放`body`还是`header`？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMTc4ODExLC0xNDM3NzIxNjAxLC0xOD
-U1MzQ0MDIsLTk1NTA4NTg1MiwtMTY3NjA3NjY3OCwtMTcwNDEy
-MjAxLC03NTg4NTQ0ODcsLTE2Mjk3MjI3NjgsMjA0NDU5MTgwNi
-wtMTIyNDIyMDYxNiwtMTM1MjIwNzQ3OCwtMTU5NDI0OTA4MSwt
-NjYxMDEzNzg5LDc0NzMwNjI4OSwzMzM5Njc4Nyw4NDI5ODU5Mj
-QsMTc4OTYzMjc2MCwxMTQ5MDMyOTgyXX0=
+eyJoaXN0b3J5IjpbLTE2NjMwNzgyMjIsMzQzMTc4ODExLC0xND
+M3NzIxNjAxLC0xODU1MzQ0MDIsLTk1NTA4NTg1MiwtMTY3NjA3
+NjY3OCwtMTcwNDEyMjAxLC03NTg4NTQ0ODcsLTE2Mjk3MjI3Nj
+gsMjA0NDU5MTgwNiwtMTIyNDIyMDYxNiwtMTM1MjIwNzQ3OCwt
+MTU5NDI0OTA4MSwtNjYxMDEzNzg5LDc0NzMwNjI4OSwzMzM5Nj
+c4Nyw4NDI5ODU5MjQsMTc4OTYzMjc2MCwxMTQ5MDMyOTgyXX0=
+
 -->
