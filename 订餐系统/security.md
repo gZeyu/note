@@ -9,9 +9,10 @@
 1. `UsernamePasswordAuthenticationFilter.attemptAuthentication()`负责解析`HttpServletRequest`提取登录参数并生成`UsernamePasswordAuthenticationToken`
 2. `UserDetailsService.loadUserByUsername`负责生成`UserDetails`
 3. `DaoAuthenticationProvider.authenticate()`验证`Authentication`和`UserDetails`是否匹配
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQ0OTk3NSwtMTU2MzI0Mzc3MiwxMz
-M5ODA3NzE3LDE3MTE2ODAwMywtODI4MTA4ODU2LDQ0MDQ0Mjg2
-MCwtMTY4MjAwNTUwMCwxMDM4NzM4NTY4LC0xODI5ODcxNjgsLT
-Y5ODk1Mjg0Niw2MDYxNTMxMl19
+eyJoaXN0b3J5IjpbLTEyNjU4ODY3OTMsLTE0NjQ0OTk3NSwtMT
+U2MzI0Mzc3MiwxMzM5ODA3NzE3LDE3MTE2ODAwMywtODI4MTA4
+ODU2LDQ0MDQ0Mjg2MCwtMTY4MjAwNTUwMCwxMDM4NzM4NTY4LC
+0xODI5ODcxNjgsLTY5ODk1Mjg0Niw2MDYxNTMxMl19
 -->
