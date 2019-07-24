@@ -17,7 +17,7 @@
 	- 每次读取权限数据前先调用`loadResourceDefine()`从`Mysql`刷新权限数据，缺点是效率不高
 	- 使用`redis`做缓存
 	- 数据更新标志位
-	- 
+	- 将权限数据做成线程安全的
 
 
 ## 杂项
@@ -35,7 +35,7 @@ jwt实质就是一种TOKEN，那它与普通token有什么区别呢：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODQ3NzE0MCwxNTcxODAyOTk4LDM0Mz
+eyJoaXN0b3J5IjpbMjAzNzk3OTIzNCwxNTcxODAyOTk4LDM0Mz
 E3ODgxMSwtMTQzNzcyMTYwMSwtMTg1NTM0NDAyLC05NTUwODU4
 NTIsLTE2NzYwNzY2NzgsLTE3MDQxMjIwMSwtNzU4ODU0NDg3LC
 0xNjI5NzIyNzY4LDIwNDQ1OTE4MDYsLTEyMjQyMjA2MTYsLTEz
