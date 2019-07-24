@@ -16,7 +16,7 @@
 4. 要保证`CustomizedAuthFilterInvocationSecurityMetadataSource` 的权限数据的一致性
 	- 每次读取权限数据前先调用`loadResourceDefine()`从`Mysql`刷新权限数据，缺点是效率不高
 	- 使用`redis`做缓存
-	- 
+	- 标志位
 
 
 ## 杂项
@@ -34,11 +34,11 @@ jwt实质就是一种TOKEN，那它与普通token有什么区别呢：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTgwMjk5OCwzNDMxNzg4MTEsLTE0Mz
-c3MjE2MDEsLTE4NTUzNDQwMiwtOTU1MDg1ODUyLC0xNjc2MDc2
-Njc4LC0xNzA0MTIyMDEsLTc1ODg1NDQ4NywtMTYyOTcyMjc2OC
-wyMDQ0NTkxODA2LC0xMjI0MjIwNjE2LC0xMzUyMjA3NDc4LC0x
-NTk0MjQ5MDgxLC02NjEwMTM3ODksNzQ3MzA2Mjg5LDMzMzk2Nz
-g3LDg0Mjk4NTkyNCwxNzg5NjMyNzYwLDExNDkwMzI5ODJdfQ==
-
+eyJoaXN0b3J5IjpbMjYyNTg2Mjk1LDE1NzE4MDI5OTgsMzQzMT
+c4ODExLC0xNDM3NzIxNjAxLC0xODU1MzQ0MDIsLTk1NTA4NTg1
+MiwtMTY3NjA3NjY3OCwtMTcwNDEyMjAxLC03NTg4NTQ0ODcsLT
+E2Mjk3MjI3NjgsMjA0NDU5MTgwNiwtMTIyNDIyMDYxNiwtMTM1
+MjIwNzQ3OCwtMTU5NDI0OTA4MSwtNjYxMDEzNzg5LDc0NzMwNj
+I4OSwzMzM5Njc4Nyw4NDI5ODU5MjQsMTc4OTYzMjc2MCwxMTQ5
+MDMyOTgyXX0=
 -->
