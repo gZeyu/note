@@ -37,13 +37,19 @@ jwt实质就是一种TOKEN，那它与普通token有什么区别呢：
 ## 问题
 1. `token`放`body`还是`header`？
 2. 使用权限管理时，用户访问不存在的`url`是返回404还是403好？
-3. `JPA` 无法自动维护关联表其他字段
+
+## 遇到的问题
+1. 利用`Spring`泛型依赖注入的新特性，来抽取通用的`BaseEntity`、`BaseRepository`、`BaseService`时，`BaseRepository<?,?>`注入失败
+2. 使用的`RBAC0`模型只能做到功能级别的权限控制，数据细粒度的权限控制
+3. `JPA` 的关联表自动维护功能，没办法自动插入`create_by, modified_by, gmt_create, gmt_modified`
+4. 自定义的`Spring Security`的`Filter`，如果声明成`Bean`，会被插入过滤器链两次
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODQ4MTE4OCwyNjIyMjE0NzAsMTExNz
-g3NDI4MywxMzkyNjYxNzcyLDIwMzc5NzkyMzQsMTU3MTgwMjk5
-OCwzNDMxNzg4MTEsLTE0Mzc3MjE2MDEsLTE4NTUzNDQwMiwtOT
-U1MDg1ODUyLC0xNjc2MDc2Njc4LC0xNzA0MTIyMDEsLTc1ODg1
-NDQ4NywtMTYyOTcyMjc2OCwyMDQ0NTkxODA2LC0xMjI0MjIwNj
-E2LC0xMzUyMjA3NDc4LC0xNTk0MjQ5MDgxLC02NjEwMTM3ODks
-NzQ3MzA2Mjg5XX0=
+eyJoaXN0b3J5IjpbLTE0OTM4MzA2MDksMTE4ODQ4MTE4OCwyNj
+IyMjE0NzAsMTExNzg3NDI4MywxMzkyNjYxNzcyLDIwMzc5Nzky
+MzQsMTU3MTgwMjk5OCwzNDMxNzg4MTEsLTE0Mzc3MjE2MDEsLT
+E4NTUzNDQwMiwtOTU1MDg1ODUyLC0xNjc2MDc2Njc4LC0xNzA0
+MTIyMDEsLTc1ODg1NDQ4NywtMTYyOTcyMjc2OCwyMDQ0NTkxOD
+A2LC0xMjI0MjIwNjE2LC0xMzUyMjA3NDc4LC0xNTk0MjQ5MDgx
+LC02NjEwMTM3ODldfQ==
 -->
