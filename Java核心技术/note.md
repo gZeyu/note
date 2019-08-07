@@ -15,8 +15,9 @@ JAR包是由JDK的jar命令生成的。
 #### 可变参数必须作为参数列表的最后一项，而不能放在定长参数的前面
 #### 组件类型相同的可变参数方法与数组参数方法不能重载
 #### LinkedHashMap实现LRU算法
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM0NjEwMzAsMTc2MDkyMzc5MCwtND
-E0NDg2MDY3LC0xNDExNjI3NDY0LDY2NjMwNzcyNiwtOTgxMjk4
-MjIsLTE3MDgzODY5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE2MTU4MDM2NDAsLTExNDM0NjEwMzAsMT
+c2MDkyMzc5MCwtNDE0NDg2MDY3LC0xNDExNjI3NDY0LDY2NjMw
+NzcyNiwtOTgxMjk4MjIsLTE3MDgzODY5OTZdfQ==
 -->
