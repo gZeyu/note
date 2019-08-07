@@ -17,10 +17,10 @@ JAR包是由JDK的jar命令生成的。
 #### LinkedHashMap实现LRU算法
 #### HashMap的afterNodeAccess()、afterNodeInsertion()、afterNodeRemoval()方法都是空实现，留着LinkedHashMap去重写。LinkedHashMap靠重写这3个方法就完成了核心功能的实现。不得不感叹，HashMap和LinkedHashMap设计之妙。
 #### Arrays . asList返回的对象不是 ArrayList 。 它是一个视图对象
-
+归并排序有一个主要的优点 : 稳定 , 即不需要交换相同的元素 。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjE2NDg0OCwxNjkzNTE4NDAyLC0xMT
-QzNDYxMDMwLDE3NjA5MjM3OTAsLTQxNDQ4NjA2NywtMTQxMTYy
-NzQ2NCw2NjYzMDc3MjYsLTk4MTI5ODIyLC0xNzA4Mzg2OTk2XX
-0=
+eyJoaXN0b3J5IjpbLTU0MTM3MzEwLDE2OTM1MTg0MDIsLTExND
+M0NjEwMzAsMTc2MDkyMzc5MCwtNDE0NDg2MDY3LC0xNDExNjI3
+NDY0LDY2NjMwNzcyNiwtOTgxMjk4MjIsLTE3MDgzODY5OTZdfQ
+==
 -->
