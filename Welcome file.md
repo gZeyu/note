@@ -145,10 +145,10 @@ C --> D
 $$
 dp[i] = 
 \begin{cases}
- dp[i-1]&if\; s_{i}s_{i-1}\in[1,26]\\
- dp[i-1]+dp[i-2]&if\; s_{i}s_{i-1}\not\in[1,26]\\
+ dp[i-1]&if\; s_{i}s_{i-1}\not\in[1,26]\\
+ dp[i-1]+dp[i-2]&if\; s_{i}s_{i-1}\in[1,26]\\
  \end{cases}
  $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjE4NDEyN119
+eyJoaXN0b3J5IjpbLTEwMTc2MDU0ODFdfQ==
 -->
