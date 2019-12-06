@@ -42,14 +42,16 @@ jwt实质就是一种TOKEN，那它与普通token有什么区别呢：
 1. 利用`Spring`泛型依赖注入的新特性，来抽取通用的`BaseEntity`、`BaseRepository`、`BaseService`时，`BaseRepository<?,?>`注入失败
 2. 使用的`RBAC0`模型只能做到功能级别的权限控制，数据细粒度的权限控制
 3. `JPA` 的关联表自动维护功能，没办法自动插入`create_by, modified_by, gmt_create, gmt_modified`
-4. 自定义的`Spring Security`的`Filter`，如果声明成`Bean`，会被插入过滤器链两次
+4. 自定义的`Spring Security`的`Filter`，如果声明成`Bean`，会被插入过滤器链两次- 单例模式
+## 问题
+1. `token`放`body`还是`header`？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM4MzA2MDksMTE4ODQ4MTE4OCwyNj
-IyMjE0NzAsMTExNzg3NDI4MywxMzkyNjYxNzcyLDIwMzc5Nzky
-MzQsMTU3MTgwMjk5OCwzNDMxNzg4MTEsLTE0Mzc3MjE2MDEsLT
-E4NTUzNDQwMiwtOTU1MDg1ODUyLC0xNjc2MDc2Njc4LC0xNzA0
-MTIyMDEsLTc1ODg1NDQ4NywtMTYyOTcyMjc2OCwyMDQ0NTkxOD
-A2LC0xMjI0MjIwNjE2LC0xMzUyMjA3NDc4LC0xNTk0MjQ5MDgx
-LC02NjEwMTM3ODldfQ==
+eyJoaXN0b3J5IjpbLTExMzMyMjM5MTksLTE0OTM4MzA2MDksMT
+E4ODQ4MTE4OCwyNjIyMjE0NzAsMTExNzg3NDI4MywxMzkyNjYx
+NzcyLDIwMzc5NzkyMzQsMTU3MTgwMjk5OCwzNDMxNzg4MTEsLT
+E0Mzc3MjE2MDEsLTE4NTUzNDQwMiwtOTU1MDg1ODUyLC0xNjc2
+MDc2Njc4LC0xNzA0MTIyMDEsLTc1ODg1NDQ4NywtMTYyOTcyMj
+c2OCwyMDQ0NTkxODA2LC0xMjI0MjIwNjE2LC0xMzUyMjA3NDc4
+LC0xNTk0MjQ5MDgxXX0=
 -->
